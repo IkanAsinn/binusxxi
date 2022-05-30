@@ -12,17 +12,21 @@ body{
     display: flex;
     justify-content: space-between;
     width: 80%;
-    height: 800px;
+    align-items: center;
+    height: 1000px;
     margin: 100px auto;
     /* border: 1px solid blue; */
     color: white;
     font-family: 'Montserrat', sans-serif;
-    /* font-weight: lighter; */
+    font-weight: 100;
 }
 
 
 
 .left{
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
     width: 30%;
     height: 100%;
     /* border: 1px solid red; */
@@ -46,7 +50,17 @@ body{
     border-radius: 39px;
 }
 
+.left .information h2{
+    color: #fffffff1;
+    margin-bottom: 5%;
+    padding: 2%;
+    border-bottom: 5px solid #F24E1E;
+}
+
 .right{
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
     width: 70%;
     height: 100%;
     padding: 3%;
@@ -64,30 +78,48 @@ body{
 
 .right .up h1{
     font-size: 40px;
-    text-align: center;
     font-weight: 600;
     font-family: 'Montserrat', sans-serif;
+    margin-bottom: 1%;
 }
 
 .up .time span{
-    margin-right: 3%;
+    margin-right: 10%;
     font-size: 30px;
     font-weight: bold;
     color: rgba(255, 255, 255, 0.476);
 }
 
-.up .genre span{
+.up .genre a{
+    text-decoration: none;
     display: inline-block;
     color: #F24E1E;
-    border: 1px solid #F24E1E;
-    margin: 1% 2%;
+    border: 3px solid #F24E1E;
+    border-radius: 100px;
+    margin: 4% 1%;
     padding: 1%;
     border-radius: 4px;
 }
 
+.genre a:hover{
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.853);
+}
+
 .up .score{
+    margin-top: 1%;
     display: flex;
     color: #FFFFFF;
+    align-items: center;
+}
+
+.up .score sub{
+    font-size: 50%;
+}
+
+.up .score img{
+    margin-right: 1%;
+    width: 6%;
 }
 
 .right .bot{
@@ -103,4 +135,5 @@ body{
 
 .bot h2{
     font-weight: bold;
+    margin-bottom: 2%;
 }
