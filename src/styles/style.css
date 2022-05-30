@@ -114,11 +114,86 @@
   color: #F24E1E;
 }
 
-/* 
-#carouselControls {
-  margin-top: -6%;
-} */
-
 .movie-info h1 {
   font-size: 52px;
+}
+
+.film-list {
+  background-color: #000;
+}
+
+.list-title img {
+  height: 35px;
+}
+
+.box {
+  position: relative;
+}
+
+.slide-img {
+  position: relative;
+  width: 18%;
+  /* height: 10%; */
+}
+
+.slide-img img {
+  height: 100%;
+  object-fit: cover;
+}
+
+.overlay {
+  position: absolute;
+  left: 270%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 600%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  visibility: hidden;
+}
+
+.check-review-btn {
+  /* background-color: white; */
+  color: white;
+  text-decoration: none;
+  border: none;
+  letter-spacing: 1px;
+  /* transition: all ease 0.3s; */
+}
+
+.check-review-btn:hover {
+  color: #F24E1E;
+  transition: all ease-in-out 0.3s;
+}
+
+.check-review-btn a {
+  text-decoration: none;
+}
+
+.slide-img:hover .overlay {
+  visibility: visible;
+  animation: fade 0.5s;
+}
+
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+footer {
+  background-color: #232323;
+}
+
+.left p {
+  color: white;
+  opacity: 0.5;
+}
+
+.right a {
+  margin-right: 10%;
 }
