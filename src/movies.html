@@ -1,0 +1,242 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+
+  <title>Movies - BinusXXI</title>
+  <link rel="stylesheet" href="styles/style.css">
+  <link rel="stylesheet" href="styles/movies.css">
+</head>
+
+<body>
+  <div class="sidebar-nav">
+    <nav class="navbar px-3 justify-content-start">
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+        aria-controls="offcanvasNavbar">
+        <span class="navbar-toggler-icon"><i class='bx bx-menu'></i></span>
+      </button>
+      <span class="navbar-brand ms-4 mb-1 fw-bold fs-3">BinusXXI</span>
+
+      <div class="bg-dark offcanvas offcanvas-start shadow" tabindex="-1" id="offcanvasNavbar"
+        aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header">
+          <button type="button" class="btn-close-yellow bg-dark" data-bs-dismiss="offcanvas" aria-label="Close"><i
+              class='bx bx-x'></i></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-center">
+            <li><a href="#"><span class="item-text"><i class='bx bxs-home'></i>Home</span></a></li>
+            <li><a href="#"><span class="item-text"><i class='bx bxs-movie-play'></i>Movies</span></a></li>
+            <li><a href="#"><span class="item-text"><i class='bx bx-play-circle'></i>Series</span></a></li>
+            <li><a href="#"><span class="item-text"><i class='bx bxs-shapes'></i>Categories</span></a></li>
+            <li><a href="#"><span class="item-text"><i class='bx bxs-time-five'></i>Coming Soon</span></a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+
+  <div class="movie-info" id="jumbotron">
+    <h1 class="fw-bold">TOP GUN:<br>MAVERICK</h1>
+    <button class="btn btn-yellow fw-bold">Check Review</button>
+  </div>
+
+  <div class="content p-xxl-5">
+    <div class="container">
+      <div class="filters pt-4 d-flex align-items-center">
+        <button class="btn btn-light d-flex align-items-center justify-content-around fw-bold rounded-3"
+          id="filter-btn"><i class='bx bx-filter-alt'></i>
+          Filter</button>
+        <div class="dropdown ms-4 pb-sm-1">
+          <button class="btn btn-yellow dropdown-toggle fw-bold" type="button" id="dropdownMenuButton1"
+            data-bs-toggle="dropdown" aria-expanded="false">
+            Genres
+          </button>
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+            <li class="dropdown-item" id="all">All</li>
+            <li class="dropdown-item" id="romance">Romance</li>
+            <li class="dropdown-item" id="horror">Horror</li>
+            <li class="dropdown-item" id="anime">Anime</li>
+            <li class="dropdown-item" id="action">Action</li>
+            <li class="dropdown-item" id="classic">Classic</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="movies-list container me-5 mt-5 pt-3">
+      <div class="posts-main-container">
+        <div class="all action horror wrapper">
+          <div class="post-img">
+            <img src="../assets/image 6.png" alt="">
+          </div>
+          <div class="post-content">
+            <h2 class="fw-bold">Doctor Strange in the Multiverse of Madness</h2>
+            <div class="rating"><i class='bx bxs-star me-1'></i>7.3</div>
+          </div>
+        </div>
+        <div class="all romance wrapper">
+          <div class="post-img">
+            <img src="../assets/movie2.png" alt="">
+          </div>
+          <div class="post-content">
+            <h2 class="fw-bold">Red Notice</h2>
+            <div class="rating"><i class='bx bxs-star me-1'></i>7.3</div>
+          </div>
+        </div>
+        <div class="all horror wrapper">
+          <div class="post-img">
+            <img src="../assets/image 2.png" alt="">
+          </div>
+          <div class="post-content">
+            <h2 class="fw-bold">Morbius</h2>
+            <div class="rating"><i class='bx bxs-star me-1'></i>7.3</div>
+          </div>
+        </div>
+        <div class="all action wrapper">
+          <div class="post-img">
+            <img src="../assets/movie4.png" alt="">
+          </div>
+          <div class="post-content">
+            <h2 class="fw-bold">The Contractor</h2>
+            <div class="rating"><i class='bx bxs-star me-1'></i>7.3</div>
+          </div>
+        </div>
+        <div class="all action wrapper">
+          <div class="post-img">
+            <img src="../assets/movie5.png" alt="">
+          </div>
+          <div class="post-content">
+            <h2 class="fw-bold">Uncharted</h2>
+            <div class="rating"><i class='bx bxs-star me-1'></i>7.3</div>
+          </div>
+        </div>
+        <div class="all action wrapper">
+          <div class="post-img">
+            <img src="../assets/movie6.png" alt="">
+          </div>
+          <div class="post-content">
+            <h2 class="fw-bold">No Time To Die</h2>
+            <div class="rating"><i class='bx bxs-star me-1'></i>7.3</div>
+          </div>
+        </div>
+        <div class="all horror wrapper">
+          <div class="post-img">
+            <img src="../assets/movie7 1.png" alt="">
+          </div>
+          <div class="post-content">
+            <h2 class="fw-bold">Scream</h2>
+            <div class="rating"><i class='bx bxs-star me-1'></i>7.3</div>
+          </div>
+        </div>
+        <div class="all action wrapper">
+          <div class="post-img">
+            <img src="../assets/movie8 1.png" alt="">
+          </div>
+          <div class="post-content">
+            <h2 class="fw-bold">Eternals</h2>
+            <div class="rating"><i class='bx bxs-star me-1'></i>7.3</div>
+          </div>
+        </div>
+        <div class="all action wrapper">
+          <div class="post-img">
+            <img src="../assets/movie9.png" alt="">
+          </div>
+          <div class="post-content">
+            <h2 class="fw-bold">Spider-Man: No Way Home</h2>
+            <div class="rating"><i class='bx bxs-star me-1'></i>7.3</div>
+          </div>
+        </div>
+        <div class="all action wrapper">
+          <div class="post-img">
+            <img src="../assets/movie10.png" alt="">
+          </div>
+          <div class="post-content">
+            <h2 class="fw-bold">Venom: Let there Be Carnage</h2>
+            <div class="rating"><i class='bx bxs-star me-1'></i>7.3</div>
+          </div>
+        </div>
+        <div class="all action wrapper">
+          <div class="post-img">
+            <img src="../assets/movie11 1.png" alt="">
+          </div>
+          <div class="post-content">
+            <h2 class="fw-bold">Shang-Chi and The Legend of The Ten Rings</h2>
+            <div class="rating"><i class='bx bxs-star me-1'></i>7.3</div>
+          </div>
+        </div>
+        <div class="all romance wrapper">
+          <div class="post-img">
+            <img src="../assets/movie12 1.png" alt="">
+          </div>
+          <div class="post-content">
+            <h2 class="fw-bold">Yowis Ben: Finale</h2>
+            <div class="rating"><i class='bx bxs-star me-1'></i>7.3</div>
+          </div>
+        </div>
+        <div class="all classic wrapper">
+          <div class="post-img">
+            <img src="../assets/movie13.png" alt="">
+          </div>
+          <div class="post-content">
+            <h2 class="fw-bold">Kambodja</h2>
+            <div class="rating"><i class='bx bxs-star me-1'></i>7.3</div>
+          </div>
+        </div>
+        <div class="all anime wrapper">
+          <div class="post-img">
+            <img src="../assets/movie14 1.png" alt="">
+          </div>
+          <div class="post-content">
+            <h2 class="fw-bold">Jujutsu Kaisen 0: The Movie</h2>
+            <div class="rating"><i class='bx bxs-star me-1'></i>7.3</div>
+          </div>
+        </div>
+        <div class="all action wrapper">
+          <div class="post-img">
+            <img src="../assets/movie15 1.png" alt="">
+          </div>
+          <div class="post-content">
+            <h2 class="fw-bold">Fantastic Beasts: The Secrets of Dumbledore</h2>
+            <div class="rating"><i class='bx bxs-star me-1'></i>7.3</div>
+          </div>
+        </div>
+        <div class="all romance wrapper">
+          <div class="post-img">
+            <img src="../assets/movie16 1.png" alt="">
+          </div>
+          <div class="post-content">
+            <h2 class="fw-bold">Ella and the Little Sorcerer</h2>
+            <div class="rating"><i class='bx bxs-star me-1'></i>7.3</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+  <script src="js/movies.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+  </script>
+</body>
+
+</html>
