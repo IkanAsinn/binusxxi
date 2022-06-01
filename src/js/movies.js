@@ -22,3 +22,8 @@ function filterPosts(item){
 //     }
 //     activeItem.classList.add('active');
 // };
+
+const filterBtn = document.querySelector('#filter-btn');
+filterBtn.addEventListener('click', () => {
+    alert('Implemented Soon...');
+});
