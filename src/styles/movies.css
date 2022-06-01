@@ -65,6 +65,7 @@ a {
   padding-top: 20px;
   /* max-height: 450px; */
   height: 100%;
+  position: relative;
 }
 .post-img{
   position: relative;
@@ -76,13 +77,36 @@ a {
   font-weight: bold;
 }
 
+.overlay {
+  position: absolute;
+  left: 50%;
+  /* top: 50%; */
+  transform: translate(-50%, -50%);
+  width: 100% !important;
+  height: 101% !important;
+  background-color: rgba(0, 0, 0, 0.5);
+  visibility: hidden;
+  /* color: black !important; */
+  border-radius: 10px;
+}
+
+.wrapper:hover .overlay {
+  visibility: visible;
+  animation: fade 0.5s;
+}
+
+.overlay p {
+  color: black;
+}
+
 .bxs-star {
   color: #FFB800;
 }
 
-.posts-main-container a {
+.posts-main-container div {
   width: 90%;
-  margin-top: 20px;
+  /* margin-top: 20px; */
+  /* position: relative; */
 }
 
 .post-content{

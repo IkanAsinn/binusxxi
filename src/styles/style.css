@@ -10,10 +10,19 @@
 
 .navbar-nav {
   height: 100%;
+  /* overflow-x: hidden; */
 }
 
-.navbar-nav li {
-  margin: 10% 0;
+.navbar-nav a li {
+  margin: 2% 0;
+  padding: 8% 0 8% 8%;
+  width: 110%;
+  transition: all 0.3s ease-in-out;
+  margin-left: -5.5%;
+}
+
+.navbar-nav li:hover {
+  background: #8c3116;
 }
 
 .navbar-toggler, .btn {
@@ -29,11 +38,7 @@
   margin-top: -1.3%;
 }
 
-.navbar-nav {
-  margin-top: -7%;
-}
-
-.navbar-nav li a {
+.navbar-nav a {
   color: #fff;
   text-decoration: none;
   font-size: 1.2em;
@@ -41,7 +46,7 @@
   text-transform: uppercase;
 }
 
-.navbar-nav li a span {
+.navbar-nav a li span {
   display: flex;
   align-items: center;
 }
