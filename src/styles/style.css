@@ -369,7 +369,7 @@ table tr td.first {
   color: #FFC700;
 }
 
-.genre-btn button {
+.genreBtn {
   margin-right: 5px;
   padding: 5px 10px;
   font-size: 15px;
@@ -377,10 +377,12 @@ table tr td.first {
   border: 2px solid #F24E1E;
   border-radius: 10px;
   background-color: transparent;
+  text-decoration: none;
 }
 
-.genre-btn button:hover {
+.genreBtn:hover {
   background-color: var(--hover-bg);
+  color: #F24E1E;
 }
 
 .synopsis {

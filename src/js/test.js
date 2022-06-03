@@ -57,8 +57,10 @@ const showDetails = (title, obj, type) => {
     for (let i = 0; i < obj.length; i++) {
         if (obj[i].title === title) {
             for (let j = 0; j < obj[i].genre.length; j++) {
-                const createButton = document.createElement('button');
+                const createButton = document.createElement('a');
                 createButton.innerHTML = obj[i].genre[j];
+                createButton.setAttribute('href', 'movies.html?category=' + obj[i].genre[j].toLowerCase());
+                createButton.setAttribute('class', 'genreBtn')
                 genreButton.appendChild(createButton);
             }
             header.innerHTML = `${obj[i].title}`;
@@ -210,7 +212,7 @@ const closeModal = (modal) => {
 }
 
 const removeGenreButton = () => {
-    const allGenreButton = genreButton.querySelectorAll('button');
+    const allGenreButton = genreButton.querySelectorAll('a');
     for (let i = 0; i < allGenreButton.length; i++) {
         genreButton.removeChild(allGenreButton[i]);
     }
