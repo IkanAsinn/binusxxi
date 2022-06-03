@@ -16,13 +16,16 @@ html::-webkit-scrollbar-thumb{
   background: #F24E1E;
 }
 
+html {
+  scrollbar-color: #F24E1E #333;
+}
+
 .navbar {
   z-index: 1;
 }
 
 .navbar-nav {
   height: 100%;
-  /* overflow-x: hidden; */
 }
 
 .navbar-nav a li {
