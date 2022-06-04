@@ -33,6 +33,11 @@ body{
     font-weight: bold;
 }
 
+#error{
+    color: red;
+    font-weight: bold;
+}
+
 .input{
     width: 85%;
     margin: 7% auto;

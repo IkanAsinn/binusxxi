@@ -14,26 +14,31 @@
     <div class="flex-container">
         <div class="signUp">
             <h1>Login</h1>
+            <div id="error"></div>
             <div class="input">
-                <div class="data">
-                    <input class="form-control" type="text" placeholder="Username or Email">
-                    <input class="form-control" type="text" placeholder="Password">
-                </div>
-           
-                <div class="form-check font-weight">
-                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                    <div class="flex-center">
-                        <label class="form-check-label" for="flexCheckDefault">
-                            Remember me ?</label>
-                        <a href="">Forgot my Password</a>
+                <form id="login">
+                    <div class="data">
+                        <input class="form-control" type="text" placeholder="Username or Email" id="usr-email">
+                        <input class="form-control" type="text" placeholder="Password" id="password">
                     </div>
-                </div>
-                <a href="./index.html"><button class="btn-signUp"><h4>LOGIN</h4></button></a>
+            
+                    <div class="form-check font-weight">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <div class="flex-center">
+                            <label class="form-check-label" for="flexCheckDefault">
+                                Remember me ?</label>
+                            <a href="">Forgot my Password</a>
+                        </div>
+                    </div>
+                    <button class="btn-signUp" id="button-signUp" type="submit"><h4>LOGIN</h4></button>
+                </form>
             </div>
             <div class="signIn font-weight">
                 <p>Dont have an account? <a href="./SIgnUp.html">SIGN UP</a></p>
             </div>
         </div>
     </div>
+
+    <script src="./js/login.js"></script>
 </body>
 </html>

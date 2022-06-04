@@ -21,7 +21,7 @@ body{
     border: 1px solid black;
     border-radius: 10px;
     width: 634px;
-    height: 718px;
+    height: 600px;
     background-color: #232323;
     margin: 20px 20px;
     padding: 4%;
@@ -30,6 +30,11 @@ body{
 .flex-container .signUp h1{
     color: white;
     font-size: 50px;
+    font-weight: bold;
+}
+
+#error{
+    color: red;
     font-weight: bold;
 }
 
