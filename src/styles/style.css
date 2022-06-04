@@ -236,7 +236,7 @@ footer {
   padding: 30px 40px;
   background-color: #000000;
   color: var(--all-text);
-  z-index: 10;
+  z-index: 100;
   overflow-y: scroll;
 }
 
@@ -246,9 +246,13 @@ footer {
   scrollbar-width: none;
 }
 
-.pop-up.active {
+.pop-up.active, .pop-up.show {
   transform: translate(-50%, -50%) scale(1);
-  z-index: 100;
+  z-index: 101;
+}
+
+.pop-up.overlap {
+  z-index: 102;
 }
 
 .pop-up-content {
@@ -345,6 +349,7 @@ table tr td.first {
   margin-top: 25px;
   margin-bottom: 20px;
   width: fit-content;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .rating h2 {
@@ -416,9 +421,14 @@ table tr td.first {
   border: none;
 }
 
-.nav-btn .close-btn {
+.nav-btn .close-btn, .back-btn {
   background-color: transparent;
   color: red;
+}
+
+.nav-btn .submit-btn {
+  color: green;
+  background-color: transparent;
 }
 
 .nav-btn .book {
@@ -437,7 +447,7 @@ table tr td.first {
   color: #F24E1E;
 }
 
-#overlay {
+/* #overlay {
   position: fixed;
   top: 0;
   left: 0;
@@ -452,4 +462,73 @@ table tr td.first {
 #overlay.active {
   pointer-events: all;
   opacity: 1;
+} */
+
+.overlay2 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.85);
+  transition: 200ms ease-in-out;
+  pointer-events: none;
+  opacity: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+.overlay2.show {
+  pointer-events: all;
+  opacity: 1;
+}
+.overlay2.overlap {
+  z-index: 101;
+}
+#score {
+  padding: 30px;
+  height: fit-content;
+  width: 600px;
+  background-color: #333333;
+  border-radius: 10px;
+}
+.star {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+}
+.star input {
+  display: none;
+}
+.star label.fa-star {
+  color: #D9D9D9;
+  transition: all 200ms ease;
+  font-size: 40px;
+}
+.star input:not(:checked) ~ label:hover,
+.star input:not(:checked) ~ label:hover ~ label {
+  color: #FFC700;
+  transform: scale(1.1);
+}
+.star input:checked ~ label {
+  color: #FFC700;
+  transform: scale(1.1);
+}
+#msg {
+  background-color: #333333;
+  height: fit-content;
+  width: fit-content;
+  border-radius: 10px;
+}
+#msg h1 {
+  text-align: center;
+}
+.rating input {
+  font-size: 40px;
+  background-color: transparent;
+  width: 4ch;
+  text-align: center;
+  color: var(--header);
+  border: none;
+}
+.rating input:focus {
+  outline: none;
 }
