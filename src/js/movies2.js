@@ -30,16 +30,16 @@ const movies = [
         released: '(2021)',
         duration: '148 Min.',
         producers: 'Kevin Feige, Amy Pascal',
-        aired: 'December 17, 2021',
+        aired: 'December 15, 2021',
         distributor: 'Sony Pictures Releasing',
-        rate: '0.00',
-        scores: [],
+        rate: '8.30',
+        scores: [8.30],
         genre: ['Action', 'Adventure', 'Fantasy', 'Sci-Fi'],
         country: 'United States',
         language: 'English',
         rating: 'PG-13',
-        p1: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis aliquid, voluptatum consectetur natus exercitationem harum aut ad labore ipsam maiores laboriosam, dolore sapiente tempora laborum vero itaque maxime accusantium at.',
-        p2: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum veritatis, dignissimos beatae, voluptatum sint fuga inventore, ipsam accusantium nam illum possimus impedit debitis. Perferendis enim libero illum blanditiis accusantium asperiores.'
+        p1: 'Spider-Man No Way Home mengisahkan tentang kegelisahan Peter Parker yang diperankan Tom Holland karena difitnah.Siapa pemfitnahnya? ialah Mysterio (Jake Gyllenhaal) yang malah mati duluan sebelum masalah bisa diluruskan.Mysterio memang sudah meninggal, akan tetapi fitnah yang dilempar ke publik berkembang menjadi banyak spekulasi yang tudingan kepada Peter Parker.Berita tentang tudingan demi tudingan tentang Parker yang identitasnya telah terbongkar tersebut kian memanas karena adanya campur tangan koran The Daily Bugle yang dipimpin J Jonah Jameson (JK Simmons).Dalam sebuah berita yang diterbitkan, Spider-Man alias Peter Parker ini difitnah menjadi dalang pembunuhan Mysterio.Karena hal ini, Parker tak lagi punya privasi. Rumahnya selalu menjadi objek amatan masyarakat dan media. Kondisi tersebut membuat Peter Parker tersudutkan. Secara tidak langsung, rumor tersebut pun mempengaruhi hubungan Peter dengan MJ (Zendaya) yang baru berusia seumur jagung.',
+        p2: 'Peter Parker gamang dan membuka pintu lintas semesta Karena tidak kuat menahan cemoohan-cemoohan sendirian, Parker pun mulai mencari ide untuk bisa meluruskan rumor tak sedap yang berkembang. Ia mendatangi Doctor Strange yang pernah sama-sama berjuang melawan Thanos. Ia meminta kepada Doctor Strange agar membuat masyarakat lupa jika dirinya adalah Spider-Man. Strange (Benedict Cumberbatch) sebenarnya sempat diberi peringatan oleh Wong (Benedict Wong), tapi ia tetap memilih membantu Peter Parker. Ketika Strange mulai merapal mantra, Parker malah berulah. Ia berubah pikiran. Hal tersebut membuat Strange marah dan malah salah dalam merapal mantra. Kesalahan ini membuat batas lintas-semesta menjadi terbuka dan menarik sejumlah pihak dari semesta lain masuk dalam semesta yang saat ini dihuni Peter dan Strange. Dan benar saja, mahluk-mahluk tersebut memburu Peter Parker. Padahal, Peter Parker yang ada di dunia ini bukanlah yang mereka kenal. Doctor Strange memerintahkan Parker mengumpulkan mahluk-mahluk tersebut untuk nantinya dikembalikan ke alam asli mereka. Namun ada saja tantangan yang harus dihadapi.'
     }
 ];
 

@@ -279,6 +279,7 @@ const showDetails = (title, obj, type) => {
 const openModal = (modal) => {
     if (!modal) return
     modal.classList.add('active');
+    document.body.style.overflowY = 'hidden';
 }
 
 const testOpen = modal => {
@@ -291,6 +292,7 @@ const testOpen = modal => {
 const closeModal = (modal) => {
     if (!modal) return
     modal.classList.remove('active');
+    document.body.style.overflowY = 'auto';
     offBtn();
 }
 
