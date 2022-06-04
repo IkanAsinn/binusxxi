@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,29 +8,30 @@
     <title>Testing</title>
 
     <link rel="stylesheet" href="test.css">
-    <script type="module" src="test.js" defer></script>
+    <script type="module" src="./test.js" defer></script>
 
     <script src="https://kit.fontawesome.com/48b0c0f27e.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
 </head>
+
 <body>
     <div class="content">
         <button class="open anime spy-x-family" data-modal-target="#review">
-            <img src="./assets/image 37.png">
+            <img src="../assets/image 37.png">
         </button>
         <button class="open anime jujutsu-kaisen" data-modal-target="#review">
-            <img src="./assets/movie14 1.png">
+            <img src="../assets/movie14 1.png">
         </button>
         <button class="open anime attack-on-titan" data-modal-target="#review">
-            <img src="./assets/image 36.png">
+            <img src="../assets/image 36.png">
         </button>
         <button class="open movie red-notice" data-modal-target="#review">
-            <img src="./assets/movie2.png">
+            <img src="../assets/movie2.png">
         </button>
         <button class="open movie spiderman" data-modal-target="#review">
-            <img src="./assets/movie9.png">
+            <img src="../assets/movie9.png">
         </button>
 
         <div class="pop-up main" id="review">
@@ -56,7 +58,7 @@
                 </div>
             </div>
             <div class="nav-btn">
-                <button class="book-btn"></button>
+                <button class="btn book"></button>
                 <button class="close-btn"><i class="fa-solid fa-circle-xmark fa-2x"></i></button>
             </div>
         </div>
@@ -86,7 +88,8 @@
             </div>
             <form action="#">
                 <div class="nav-btn">
-                    <button data-modal-target="#msg" type="submit" class="submit-btn fa-solid fa-circle-check fa-2x"></button>
+                    <button data-modal-target="#msg" type="submit"
+                        class="submit-btn fa-solid fa-circle-check fa-2x me-2"></button>
                     <button data-modal-target="#review" class="back-btn fa-solid fa-circle-xmark fa-2x"></button>
                 </div>
             </form>
@@ -95,8 +98,9 @@
         <div class="pop-up" id="msg">
             <h1>Thanks for the rating!</h1>
         </div>
-        
+
         <div class="overlay"></div>
     </div>
 </body>
+
 </html>

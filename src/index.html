@@ -26,40 +26,54 @@
 
 <body>
   <div class="sidebar-nav">
-    <nav class="navbar px-3 justify-content-start">
-      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
-        aria-controls="offcanvasNavbar">
-        <span class="navbar-toggler-icon"><i class='bx bx-menu'></i></span>
-      </button>
-      <span class="navbar-brand ms-4 mb-1 fw-bolder fs-1">BinusXXI</span>
-
-      <div class="bg-dark offcanvas offcanvas-start shadow" tabindex="-1" id="offcanvasNavbar"
-        aria-labelledby="offcanvasNavbarLabel">
-        <div class="offcanvas-header">
-          <button type="button" class="btn-close-yellow bg-dark" data-bs-dismiss="offcanvas" aria-label="Close"><i
-              class='bx bx-x'></i></button>
+    <nav class="navbar justify-content-between">
+      <div class="left">
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar">
+          <span class="navbar-toggler-icon"><i class='bx bx-menu'></i></span>
+        </button>
+        <span class="navbar-brand ms-4 mb-1 fw-bolder fs-1">BinusXXI</span>
+        <div class="bg-dark offcanvas offcanvas-start shadow" tabindex="-1" id="offcanvasNavbar"
+          aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+            <button type="button" class="btn-close-yellow bg-dark" data-bs-dismiss="offcanvas" aria-label="Close"><i
+                class='bx bx-x'></i></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-center">
+              <a href="#">
+                <li><span class="item-text"><i class='bx bxs-home'></i>Home</span></li>
+              </a>
+              <a href="movies.html">
+                <li><span class="item-text"><i class='bx bxs-movie-play'></i>Movies</span></li>
+              </a>
+              <a href="#">
+                <li><span class="item-text"><i class='bx bx-play-circle'></i>Series</span></li>
+              </a>
+              <a href="#">
+                <li><span class="item-text"><i class='bx bxs-shapes'></i>Categories</span></li>
+              </a>
+              <a href="#">
+                <li><span class="item-text"><i class='bx bxs-time-five'></i>Coming Soon</span></li>
+              </a>
+            </ul>
+          </div>
         </div>
-        <div class="offcanvas-body">
-          <ul class="navbar-nav justify-content-center">
-            <a href="#">
-              <li><span class="item-text"><i class='bx bxs-home'></i>Home</span></li>
-            </a>
-            <a href="movies.html">
-              <li><span class="item-text"><i class='bx bxs-movie-play'></i>Movies</span></li>
-            </a>
-            <a href="#">
-              <li><span class="item-text"><i class='bx bx-play-circle'></i>Series</span></li>
-            </a>
-            <a href="#">
-              <li><span class="item-text"><i class='bx bxs-shapes'></i>Categories</span></li>
-            </a>
-            <a href="#">
-              <li><span class="item-text"><i class='bx bxs-time-five'></i>Coming Soon</span></li>
-            </a>
+      </div>
+      <div class="right me-5">
+        <div class="dropdown">
+          <button class="btn fw-bolder fs-5 dropdown-toggle pp-dropdown justify-content-end align-items-center"
+            type="button" id="profile-dropdown" data-bs-toggle="dropdown" aria-expanded="false">
+            <i class='bx bxs-user-circle'></i><span class="me-4 mb-1" id="username"></span>
+          </button>
+          <ul class="dropdown-menu" id="profile-dropdown-menu" aria-labelledby="profile-dropdown">
+            <li><a class="dropdown-item" href="#">Account</a></li>
+            <li><a class="dropdown-item" href="#">Profile</a></li>
+            <li><a class="dropdown-item" href="#">Settings</a></li>
+            <li><a class="dropdown-item" id="logout" href="#">Log out </a></li>
           </ul>
         </div>
       </div>
-
     </nav>
   </div>
 

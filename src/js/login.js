@@ -8,6 +8,7 @@ const pass = document.getElementById('password');
 const button = document.getElementById('button-signUp');
 const errorMessage = document.getElementById('error');
 
+let LoggedAccount;
 
 login.addEventListener('submit', function(e){
     e.preventDefault()
@@ -19,7 +20,10 @@ login.addEventListener('submit', function(e){
         }
         else{
             if(dataPassword.findIndex(data => data === pass.value) === dataEmail.findIndex(data => data === usr_email.value)){
-                location.replace("index.html")
+                location.replace("index.html");
+                loggedAccount = dataEmail.find(data => data === usr_email.value);
+                localStorage.setItem('current-user', loggedAccount);
+                localStorage.setItem('login-method', 'email');
             }
         }
     }
@@ -30,7 +34,10 @@ login.addEventListener('submit', function(e){
         }
         else{
             if(dataPassword.findIndex(data => data === pass.value) === dataUsername.findIndex(data => data === usr_email.value)){
-                location.replace("index.html")
+                location.replace("index.html");
+                loggedAccount = dataUsername.find(data => data === usr_email.value);
+                localStorage.setItem('current-user', loggedAccount);
+                localStorage.setItem('login-method', 'username');
             }
         }
     }
@@ -38,5 +45,4 @@ login.addEventListener('submit', function(e){
         errorMessage.innerHTML = 'Email or Username is not registered';
     }
 })
-
 
