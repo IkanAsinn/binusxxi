@@ -8,6 +8,10 @@
 ### [Documentation](https://docs.google.com/document/d/1SEzAyay2b7vJae9TVyUNdAt_f3BKNTa-SVnhc_jbXzY/edit)
 ----------
 
+<p align='center'>
+<img src='./assets/logo.png' width=50% height=50%>
+</p><br>
+
 
 ## Team Members:
 - Adrian Citro Cunaidy - 2440060856
