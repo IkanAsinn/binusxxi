@@ -1,6 +1,6 @@
 const movies = [
     {
-        poster: '../assets/movie2.png',
+        poster: './assets/movie2.png',
         title: 'Red Notice',
         director: 'Rawson Marshall Thurber',
         writter: 'Rawson Marshall Thurber',
@@ -21,7 +21,7 @@ const movies = [
         p2: 'When an Interpol-issued Red Notice the highest level warrant to hunt and capture the world\'s most wanted goes out, the FBI\'s top profiler John Hartley (Dwayne Johnson) is on the case. His global pursuit finds him smack dab in the middle of a daring heist where he\'s forced to partner with the world\'s greatest art thief Nolan Booth (Ryan Reynolds) in order to catch the world\'s most wanted art thief, "The Bishop" (Gal Gadot). The high-flying adventure that ensues takes the trio around the world, across the dance floor, trapped in a secluded prison, into the jungle and, worst of all for them, constantly into each other\'s company.'
     },
     {
-        poster: '../assets/movie9.png',
+        poster: './assets/movie9.png',
         title: 'Spiderman: No Way Home',
         director: 'Jon Watts',
         writter: 'Chris McKenna, Erik Sommers',
@@ -42,7 +42,7 @@ const movies = [
         p2: 'Peter Parker gamang dan membuka pintu lintas semesta Karena tidak kuat menahan cemoohan-cemoohan sendirian, Parker pun mulai mencari ide untuk bisa meluruskan rumor tak sedap yang berkembang. Ia mendatangi Doctor Strange yang pernah sama-sama berjuang melawan Thanos. Ia meminta kepada Doctor Strange agar membuat masyarakat lupa jika dirinya adalah Spider-Man. Strange (Benedict Cumberbatch) sebenarnya sempat diberi peringatan oleh Wong (Benedict Wong), tapi ia tetap memilih membantu Peter Parker. Ketika Strange mulai merapal mantra, Parker malah berulah. Ia berubah pikiran. Hal tersebut membuat Strange marah dan malah salah dalam merapal mantra. Kesalahan ini membuat batas lintas-semesta menjadi terbuka dan menarik sejumlah pihak dari semesta lain masuk dalam semesta yang saat ini dihuni Peter dan Strange. Dan benar saja, mahluk-mahluk tersebut memburu Peter Parker. Padahal, Peter Parker yang ada di dunia ini bukanlah yang mereka kenal. Doctor Strange memerintahkan Parker mengumpulkan mahluk-mahluk tersebut untuk nantinya dikembalikan ke alam asli mereka. Namun ada saja tantangan yang harus dihadapi.'
     },
     {
-        poster: '../assets/image 2.png',
+        poster: './assets/image 2.png',
         title: 'Morbius',
         director: '',
         writter: '',
@@ -63,7 +63,7 @@ const movies = [
         p2: 'Alih-alih sembuh, Morbius malah menderita penyakit yang jauh lebih buruk, membuatnya haus darah seperti vampir. Namun dia juga mendapatkan kemampuan persis makhluk supernatural tersebut.'
     },
     {
-        poster: '../assets/image 4.png',
+        poster: './assets/image 4.png',
         title: 'Venom',
         director: '',
         writter: '',
@@ -84,7 +84,7 @@ const movies = [
         p2: 'Alih-alih sembuh, Morbius malah menderita penyakit yang jauh lebih buruk, membuatnya haus darah seperti vampir. Namun dia juga mendapatkan kemampuan persis makhluk supernatural tersebut.'
     },
     {
-        poster: '../assets/image 5.png',
+        poster: './assets/image 5.png',
         title: 'Uncharted',
         director: '',
         writter: '',
