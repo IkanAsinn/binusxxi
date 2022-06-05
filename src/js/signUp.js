@@ -7,10 +7,15 @@ const checkBox = document.querySelector('#flexCheckDefault');
 const dataEmail = JSON.parse(localStorage.getItem('email'));
 const errorMessage = document.getElementById('error');
 
-
-let emailArray = [];
-let usernameArray = [];
-let passArray = [];
+let emailArray = localStorage.getItem('email')
+? JSON.parse(localStorage.getItem('email'))
+: []
+let usernameArray = localStorage.getItem('username')
+? JSON.parse(localStorage.getItem('username'))
+: []
+let passArray = localStorage.getItem('password')
+? JSON.parse(localStorage.getItem('password'))
+: []
 
 signUp.addEventListener('submit', function(e){
     e.preventDefault();
