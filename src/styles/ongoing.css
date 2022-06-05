@@ -1,12 +1,27 @@
 .list-button{
-    width: 30%;
+    width: 35%;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    align-items: center;
     margin-bottom: 50px;
 }
 
 .location{
-    color: white;
+    display: flex;
+    width: 130px;
+    justify-content: space-around;
+    background-color: white;
+    color: black;
+    padding: 10px;
+    border-radius: 7px;
+    align-items: center;
+}
+
+.location h4{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    margin: 0;
 }
 
 .list-button .button a{
