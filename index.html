@@ -1,0 +1,665 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+  <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="styles/style.css">
+  <link type="text/css" rel="stylesheet" href="styles/lightslider.css" />
+  <script src="js/jquery.js"></script>
+  <script src="js/lightslider.js"></script>
+  <script type="module" src="js/test.js" defer></script>
+  <title>Home - BinusXXI</title>
+
+  <script src="https://kit.fontawesome.com/48b0c0f27e.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="sidebar-nav ps-2 fixed-top">
+    <nav class="navbar justify-content-between">
+      <div class="left">
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar">
+          <span class="navbar-toggler-icon"><i class='bx bx-menu'></i></span>
+        </button>
+        <span class="navbar-brand ms-4 mb-1 fw-bolder fs-1">BinusXXI</span>
+        <div class="bg-dark offcanvas offcanvas-start shadow" tabindex="-1" id="offcanvasNavbar"
+          aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+            <button type="button" class="btn-close-yellow bg-dark" data-bs-dismiss="offcanvas" aria-label="Close"><i
+                class='bx bx-x'></i></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-center">
+              <a href="index.html">
+                <li><span class="item-text"><i class='bx bxs-home'></i>Home</span></li>
+              </a>
+              <a href="movies.html">
+                <li><span class="item-text"><i class='bx bxs-movie-play'></i>Movies</span></li>
+              </a>
+              <a href="#">
+                <li><span class="item-text"><i class='bx bx-play-circle'></i>Series</span></li>
+              </a>
+              <a href="ongoing.html">
+                <li><span class="item-text"><i class='bx bxs-shapes'></i>Ongoing</span></li>
+              </a>
+              <a href="#">
+                <li><span class="item-text"><i class='bx bxs-time-five'></i>Coming Soon</span></li>
+              </a>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="right me-5">
+        <div class="dropdown profile-dropdown">
+          <button class="btn fw-bolder fs-5 dropdown-toggle pp-dropdown justify-content-end align-items-center"
+            type="button" id="profile-dropdown" data-bs-toggle="dropdown" aria-expanded="false">
+            <i class='bx bxs-user-circle'></i><span class="me-3 mb-1" id="username">Guest</span>
+          </button>
+          <ul class="dropdown-menu" id="profile-dropdown-menu" aria-labelledby="profile-dropdown">
+            <li><a class="dropdown-item" href="#">Account</a></li>
+            <li><a class="dropdown-item" href="#">Profile</a></li>
+            <li><a class="dropdown-item" href="#">Settings</a></li>
+            <li><a class="dropdown-item" id="logout" href="#">Log out </a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+
+  <div id="carouselControls" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselControls" data-bs-slide-to="0" class="active" aria-current="true"
+        aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselControls" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselControls" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active" id="movie1">
+        <div class="movie-info">
+          <h1 class="fw-bold">Spider-Man:<br>Far From Home</h1>
+          <button class="btn btn-yellow fw-bold">Check Review</button>
+        </div>
+      </div>
+      <div class="carousel-item" id="movie2">
+        <div class="movie-info">
+          <h1 class="fw-bold">Spider-Man:<br>Far From Home</h1>
+          <button class="btn btn-yellow fw-bold">Check Review</button>
+        </div>
+      </div>
+      <div class="carousel-item" id="movie3">
+        <div class="movie-info">
+          <h1 class="fw-bold">Spider-Man:<br>Far From Home</h1>
+          <button class="btn btn-yellow fw-bold">Check Review</button>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselControls" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselControls" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <div class="film-list pt-lg-5">
+    <div class="container">
+      <div class="new-release">
+        <div class="list-title d-flex align-items-center">
+          <img src="../assets/Rectangle 6.png" class="mb-2 me-3">
+          <p class="fs-2 fw-bold text-white">NEW RELEASE</p>
+        </div>
+        <ul class="autoWidth cs-hidden">
+          <li class="item-a">
+            <div class="box mt-3">
+              <div class="slide-img">
+                <img src="../assets/image 2.png" alt="">
+                <div class="overlay d-flex justify-content-center align-items-center">
+                  <button
+                    class="check-review-btn justify-content-center align-items-center fw-bold fs-5 open anime spy-x-family"
+                    data-modal-target="#review">Check
+                    Review</button>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="item-b">
+            <div class="box mt-3">
+              <div class="slide-img">
+                <img src="../assets/image 3.png" alt="">
+                <div class="overlay d-flex justify-content-center align-items-center">
+                  <button
+                    class="check-review-btn justify-content-center align-items-center fw-bold fs-5 open movie spiderman"
+                    data-modal-target="#review">Check
+                    Review</button>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="item-c">
+            <div class="box mt-3">
+              <div class="slide-img">
+                <img src="../assets/image 4.png" alt="">
+                <div class="overlay d-flex justify-content-center align-items-center">
+                  <button
+                    class="check-review-btn justify-content-center align-items-center fw-bold fs-5 open anime spy-x-family"
+                    data-modal-target="#review">Check
+                    Review</button>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="item-d">
+            <div class="box mt-3">
+              <div class="slide-img">
+                <img src="../assets/image 5.png" alt="">
+                <div class="overlay d-flex justify-content-center align-items-center">
+                  <button
+                    class="check-review-btn justify-content-center align-items-center fw-bold fs-5 open anime spy-x-family"
+                    data-modal-target="#review">Check
+                    Review</button>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="item-e">
+            <div class="box mt-3">
+              <div class="slide-img">
+                <img src="../assets/image 6.png" alt="">
+                <div class="overlay d-flex justify-content-center align-items-center">
+                  <button
+                    class="check-review-btn justify-content-center align-items-center fw-bold fs-5 open anime spy-x-family"
+                    data-modal-target="#review">Check
+                    Review</button>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="item-f">
+            <div class="box mt-3">
+              <div class="slide-img">
+                <img src="../assets/image 15.png" alt="">
+                <div class="overlay d-flex justify-content-center align-items-center">
+                  <button
+                    class="check-review-btn justify-content-center align-items-center fw-bold fs-5 open anime spy-x-family"
+                    data-modal-target="#review">Check
+                    Review</button>
+                </div>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+
+      <div class="popular mt-lg-5">
+        <div class="list-title d-flex align-items-center">
+          <img src="../assets/Rectangle 6.png" class="mb-2 me-3">
+          <p class="fs-2 fw-bold text-white">POPULAR</p>
+        </div>
+        <ul class="autoWidth cs-hidden">
+          <li class="item-a">
+            <div class="box mt-3">
+              <div class="slide-img">
+                <img src="../assets/image 6.png" alt="">
+                <div class="overlay d-flex justify-content-center align-items-center">
+                  <button
+                    class="check-review-btn justify-content-center align-items-center fw-bold fs-5 open anime spy-x-family"
+                    data-modal-target="#review">Check
+                    Review</button>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="item-b">
+            <div class="box mt-3">
+              <div class="slide-img">
+                <img src="../assets/image 15.png" alt="">
+                <div class="overlay d-flex justify-content-center align-items-center">
+                  <button
+                    class="check-review-btn justify-content-center align-items-center fw-bold fs-5 open anime spy-x-family"
+                    data-modal-target="#review">Check
+                    Review</button>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="item-c">
+            <div class="box mt-3">
+              <div class="slide-img">
+                <img src="../assets/image 18.png" alt="">
+                <div class="overlay d-flex justify-content-center align-items-center">
+                  <button
+                    class="check-review-btn justify-content-center align-items-center fw-bold fs-5 open anime spy-x-family"
+                    data-modal-target="#review">Check
+                    Review</button>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="item-d">
+            <div class="box mt-3">
+              <div class="slide-img">
+                <img src="../assets/image 19.png" alt="">
+                <div class="overlay d-flex justify-content-center align-items-center">
+                  <button
+                    class="check-review-btn justify-content-center align-items-center fw-bold fs-5 open anime spy-x-family"
+                    data-modal-target="#review">Check
+                    Review</button>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="item-e">
+            <div class="box mt-3">
+              <div class="slide-img">
+                <img src="../assets/image 20.png" alt="">
+                <div class="overlay d-flex justify-content-center align-items-center">
+                  <button
+                    class="check-review-btn justify-content-center align-items-center fw-bold fs-5 open anime spy-x-family"
+                    data-modal-target="#review">Check
+                    Review</button>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="item-f">
+            <div class="box mt-3">
+              <div class="slide-img">
+                <img src="../assets/image 15.png" alt="">
+                <div class="overlay d-flex justify-content-center align-items-center">
+                  <button
+                    class="check-review-btn justify-content-center align-items-center fw-bold fs-5 open anime spy-x-family"
+                    data-modal-target="#review">Check
+                    Review</button>
+                </div>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+
+      <div class="marvel mt-lg-5">
+        <div class="list-title d-flex align-items-center">
+          <img src="../assets/Rectangle 6.png" class="mb-2 me-3">
+          <p class="fs-2 fw-bold text-white">MARVEL</p>
+        </div>
+        <ul class="autoWidth cs-hidden">
+          <li class="item-a">
+            <div class="box mt-3">
+              <div class="slide-img">
+                <img src="../assets/image 15.png" alt="">
+                <div class="overlay d-flex justify-content-center align-items-center">
+                  <button
+                    class="check-review-btn justify-content-center align-items-center fw-bold fs-5 open anime spy-x-family"
+                    data-modal-target="#review">Check
+                    Review</button>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="item-b">
+            <div class="box mt-3">
+              <div class="slide-img">
+                <img src="../assets/image 12.png" alt="">
+                <div class="overlay d-flex justify-content-center align-items-center">
+                  <button
+                    class="check-review-btn justify-content-center align-items-center fw-bold fs-5 open anime spy-x-family"
+                    data-modal-target="#review">Check
+                    Review</button>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="item-c">
+            <div class="box mt-3">
+              <div class="slide-img">
+                <img src="../assets/image 4.png" alt="">
+                <div class="overlay d-flex justify-content-center align-items-center">
+                  <button
+                    class="check-review-btn justify-content-center align-items-center fw-bold fs-5 open anime spy-x-family"
+                    data-modal-target="#review">Check
+                    Review</button>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="item-d">
+            <div class="box mt-3">
+              <div class="slide-img">
+                <img src="../assets/image 13.png" alt="">
+                <div class="overlay d-flex justify-content-center align-items-center">
+                  <button
+                    class="check-review-btn justify-content-center align-items-center fw-bold fs-5 open anime spy-x-family"
+                    data-modal-target="#review">Check
+                    Review</button>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="item-e">
+            <div class="box mt-3">
+              <div class="slide-img">
+                <img src="../assets/image 6.png" alt="">
+                <div class="overlay d-flex justify-content-center align-items-center">
+                  <button
+                    class="check-review-btn justify-content-center align-items-center fw-bold fs-5 open anime spy-x-family"
+                    data-modal-target="#review">Check
+                    Review</button>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="item-f">
+            <div class="box mt-3">
+              <div class="slide-img">
+                <img src="../assets/image 17.png" alt="">
+                <div class="overlay d-flex justify-content-center align-items-center">
+                  <button
+                    class="check-review-btn justify-content-center align-items-center fw-bold fs-5 open anime spy-x-family"
+                    data-modal-target="#review">Check
+                    Review</button>
+                </div>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+
+      <div class="k-drama mt-lg-5">
+        <div class="list-title d-flex align-items-center">
+          <img src="../assets/Rectangle 6.png" class="mb-2 me-3">
+          <p class="fs-2 fw-bold text-white">K-DRAMA</p>
+        </div>
+        <ul class="autoWidth cs-hidden">
+          <li class="item-a">
+            <div class="box mt-3">
+              <div class="slide-img">
+                <img src="../assets/image 24.png" alt="">
+                <div class="overlay d-flex justify-content-center align-items-center">
+                  <button
+                    class="check-review-btn justify-content-center align-items-center fw-bold fs-5 open anime spy-x-family"
+                    data-modal-target="#review">Check
+                    Review</button>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="item-b">
+            <div class="box mt-3">
+              <div class="slide-img">
+                <img src="../assets/image 25.png" alt="">
+                <div class="overlay d-flex justify-content-center align-items-center">
+                  <button
+                    class="check-review-btn justify-content-center align-items-center fw-bold fs-5 open anime spy-x-family"
+                    data-modal-target="#review">Check
+                    Review</button>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="item-c">
+            <div class="box mt-3">
+              <div class="slide-img">
+                <img src="../assets/image 26.png" alt="">
+                <div class="overlay d-flex justify-content-center align-items-center">
+                  <button
+                    class="check-review-btn justify-content-center align-items-center fw-bold fs-5 open anime spy-x-family"
+                    data-modal-target="#review">Check
+                    Review</button>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="item-d">
+            <div class="box mt-3">
+              <div class="slide-img">
+                <img src="../assets/image 27.png" alt="">
+                <div class="overlay d-flex justify-content-center align-items-center">
+                  <button
+                    class="check-review-btn justify-content-center align-items-center fw-bold fs-5 open anime spy-x-family"
+                    data-modal-target="#review">Check
+                    Review</button>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="item-e">
+            <div class="box mt-3">
+              <div class="slide-img">
+                <img src="../assets/image 28.png" alt="">
+                <div class="overlay d-flex justify-content-center align-items-center">
+                  <button
+                    class="check-review-btn justify-content-center align-items-center fw-bold fs-5 open anime spy-x-family"
+                    data-modal-target="#review">Check
+                    Review</button>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="item-f">
+            <div class="box mt-3">
+              <div class="slide-img">
+                <img src="../assets/image 29.png" alt="">
+                <div class="overlay d-flex justify-content-center align-items-center">
+                  <button
+                    class="check-review-btn justify-content-center align-items-center fw-bold fs-5 open anime spy-x-family"
+                    data-modal-target="#review">Check
+                    Review</button>
+                </div>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+
+      <div class="anime mt-lg-5 pb-5">
+        <div class="list-title d-flex align-items-center">
+          <img src="../assets/Rectangle 6.png" class="mb-2 me-3">
+          <p class="fs-2 fw-bold text-white">ANIME</p>
+        </div>
+        <ul class="autoWidth cs-hidden">
+          <li class="item-a">
+            <div class="box mt-3">
+              <div class="slide-img">
+                <img src="../assets/image 33.png" alt="">
+                <div class="overlay d-flex justify-content-center align-items-center">
+                  <button
+                    class="check-review-btn justify-content-center align-items-center fw-bold fs-5 open anime jujutsu-kaisen"
+                    data-modal-target="#review">Check
+                    Review</button>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="item-b">
+            <div class="box mt-3">
+              <div class="slide-img">
+                <img src="../assets/image 34.png" alt="">
+                <div class="overlay d-flex justify-content-center align-items-center">
+                  <button
+                    class="check-review-btn justify-content-center align-items-center fw-bold fs-5 open anime spy-x-family"
+                    data-modal-target="#review">Check
+                    Review</button>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="item-c">
+            <div class="box mt-3">
+              <div class="slide-img">
+                <img src="../assets/image 35.png" alt="">
+                <div class="overlay d-flex justify-content-center align-items-center">
+                  <button
+                    class="check-review-btn justify-content-center align-items-center fw-bold fs-5 open anime spy-x-family"
+                    data-modal-target="#review">Check
+                    Review</button>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="item-d">
+            <div class="box mt-3">
+              <div class="slide-img">
+                <img src="../assets/image 36.png" alt="">
+                <div class="overlay d-flex justify-content-center align-items-center">
+                  <button
+                    class="check-review-btn justify-content-center align-items-center fw-bold fs-5 open anime attack-on-titan"
+                    data-modal-target="#review">Check
+                    Review</button>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="item-e">
+            <div class="box mt-3">
+              <div class="slide-img">
+                <img src="../assets/image 37.png" alt="">
+                <div class="overlay d-flex justify-content-center align-items-center">
+                  <button
+                    class="check-review-btn justify-content-center align-items-center fw-bold fs-5 open anime spy-x-family"
+                    data-modal-target="#review">Check
+                    Review</button>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="item-f">
+            <div class="box mt-3">
+              <div class="slide-img">
+                <img src="../assets/image 38.png" alt="">
+                <div class="overlay d-flex justify-content-center align-items-center">
+                  <button
+                    class="check-review-btn justify-content-center align-items-center fw-bold fs-5 open anime spy-x-family"
+                    data-modal-target="#review">Check
+                    Review</button>
+                </div>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!-- <div class="pop-up" id="review">
+      <div class="pop-up-content">
+        <div class="container-1"></div>
+        <div class="container-2">
+          <div class="header">
+            <h1></h1>
+            <div class="mid"></div>
+            <div class="rating"></div>
+            <div class="genre-btn"></div>
+          </div>
+          <div class="synopsis"></div>
+        </div>
+      </div>
+      <div class="nav-btn">
+        <button class="btn book">Book</button>
+        <button class="close-btn"><i class="fa-solid fa-circle-xmark fa-2x"></i></button>
+      </div>
+    </div>
+    <div class="" id="overlay"></div> -->
+    <div class="pop-up main" id="review">
+      <div class="pop-up-content">
+        <div class="container-1"></div>
+        <div class="container-2">
+          <div class="header">
+            <h1></h1>
+            <div class="mid">
+              <span id="released"></span>
+              <span id="duration"></span>
+              <button data-modal-target="#score"><i class="fa-regular fa-star"></i>Score</button>
+            </div>
+            <div class="rating">
+              <h2>Score</h2>
+              <i class="fa-solid fa-star fa-2x"></i>
+              <input class="rate" type="text" value="0.00" readonly>
+              <span>/10</span>
+            </div>
+            <div class="genre-btn">
+            </div>
+          </div>
+          <div class="synopsis"></div>
+        </div>
+      </div>
+      <div class="nav-btn">
+        <button class="btn book"></button>
+        <button class="close-btn"><i class="fa-solid fa-circle-xmark fa-2x"></i></button>
+      </div>
+    </div>
+
+    <div class="pop-up" id="score">
+      <div class="star">
+        <input type="radio" name="score-rate" id="rate-10" value="10">
+        <label for="rate-10" class="fa-solid fa-star"></label>
+        <input type="radio" name="score-rate" id="rate-9" value="9">
+        <label for="rate-9" class="fa-solid fa-star"></label>
+        <input type="radio" name="score-rate" id="rate-8" value="8">
+        <label for="rate-8" class="fa-solid fa-star"></label>
+        <input type="radio" name="score-rate" id="rate-7" value="7">
+        <label for="rate-7" class="fa-solid fa-star"></label>
+        <input type="radio" name="score-rate" id="rate-6" value="6">
+        <label for="rate-6" class="fa-solid fa-star"></label>
+        <input type="radio" name="score-rate" id="rate-5" value="5">
+        <label for="rate-5" class="fa-solid fa-star"></label>
+        <input type="radio" name="score-rate" id="rate-4" value="4">
+        <label for="rate-4" class="fa-solid fa-star"></label>
+        <input type="radio" name="score-rate" id="rate-3" value="3">
+        <label for="rate-3" class="fa-solid fa-star"></label>
+        <input type="radio" name="score-rate" id="rate-2" value="2">
+        <label for="rate-2" class="fa-solid fa-star"></label>
+        <input type="radio" name="score-rate" id="rate-1" value="1">
+        <label for="rate-1" class="fa-solid fa-star"></label>
+      </div>
+      <form action="#">
+        <div class="nav-btn">
+          <button data-modal-target="#msg" type="submit"
+            class="submit-btn fa-solid fa-circle-check fa-2x me-2"></button>
+          <button data-modal-target="#review" class="back-btn fa-solid fa-circle-xmark fa-2x"></button>
+        </div>
+      </form>
+    </div>
+
+    <div class="pop-up" id="msg">
+      <h1>Thanks for the rating!</h1>
+    </div>
+
+    <div class="overlay2"></div>
+  </div>
+
+  <footer>
+    <div class="container d-flex justify-content-between align-items-center p-lg-3">
+      <div class="left pt-3">
+        <p>&copy; Web Development Project</p>
+      </div>
+      <div class="right d-flex align-items-center me-4">
+        <a href="#"><img src="../assets/brandico_facebook-rect.png" alt=""></a>
+        <a href="#"><img src="../assets/brandico_instagram-filled.png" alt=""></a>
+        <a href="#"><img src="../assets/akar-icons_youtube-fill.png" alt=""></a>
+        <a href="#"><img src="../assets/akar-icons_twitter-fill.png" alt=""></a>
+        <a href="#"><img src="../assets/akar-icons_discord-fill.png" alt=""></a>
+      </div>
+    </div>
+  </footer>
+
+
+  <script src="js/script.js"></script>
+  <script src="js/profileName.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+  </script>
+</body>
+
+</html>
