@@ -33,6 +33,7 @@ html {
   z-index: 999;
   background: #fff;
   animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
 }
 
 
@@ -72,8 +73,21 @@ html {
     box-shadow: none;
 }
 
+.navbar-toggler {
+  line-height: 0;
+}
+
 .navbar-brand {
-  margin-top: -1.3%;
+  position: absolute;
+  top: -5px;
+}
+
+.navbar-toggler-icon {
+  height: 40px;
+  width: 40px;
+  vertical-align: none;
+  display: flex;
+  align-items: center;
 }
 
 .navbar-nav a {
