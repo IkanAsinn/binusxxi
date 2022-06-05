@@ -103,6 +103,27 @@ const movies = [
         rating: 'PG-13',
         p1: 'Uncharted menceritakan dua saudara kandung, Nathan dan Sam Drake yang ditangkap karena mencuri peta pertama yang dibuat setelah ekspedisi Magellan.Sam berhasil melarikan diri, tetapi Nathan dikembalikan ke panti asuhan mereka. Sebelum berpisah, Sam memberikan cincin milik leluhur mereka kepada Nathan. Ia juga berjanji akan kembali.Lima belas tahun kemudian, Nathan (Tom Holland) bekerja sebagai bartender sekaligus pencopet.Ia lalu bertemu Victor \'Sully\' Sullivan (Mark Wahlberg) yang sempat bekerja sama dengan Sam dalam mencari harta karun yang disembunyikan kru Magellan.Sully menjelaskan kepada Nathan bahwa Sam menghilang saat membantunya mencuri buku harian Juan Sebastian Elcano. Nathan lalu setuju bergabung dengan Sully untuk mencari harta karun sekaligus menemukan saudaranya. Nathan dan Sully memulai perjalanan dengan mencuri salib emas yang terkait dengan kru Magellan.',
         p2: 'Namun mereka harus berhadapan dengan Santiago Moncada keturunan terakhir keluarga Moncada dan Jo Braddock, tentara yang disewa keluarga Moncada Nathan dan Sully lalu melanjutkan perjalanan Barcelona, tempat harta karun itu seharusnya disembunyikan. Namun Nathan menemukan peta yang menunjukkan bahwa harta karun itu berada di Filipina. Nathan dan Sully kembali melanjutkan perjalanan untuk mencari harta karun, tetapi mereka kembali diganggu oleh Braddock.'
+    },
+    {
+        poster: '../assets/image 6.png',
+        title: 'Doctor Strange in the Multiverse of Madness',
+        director: '',
+        writter: '',
+        cinematography: '',
+        production: '',
+        released: '(2022)',
+        duration: '126 Min.',
+        producers: 'Kevin Feige',
+        aired: 'May 5, 2022',
+        distributor: '',
+        rate: '7.30',
+        scores: [7.30],
+        genre: ['Action', 'Horror'],
+        country: '',
+        language: 'English',
+        rating: 'PG-13',
+        p1: 'Doctor Strange 2 mengisahkan perjuangan Stephen Strange (Benedict Cumberbatch) menghadapi berbagai kejadian aneh akibat pintu lintas semesta yang terbuka pasca kejadian di Spider-Man No Way Home. Hal itu dimulai ketika Strange mengalami serangkaian penglihatan saat dirinya tidur. Dalam penglihatan tersebut, sosok yang mirip dirinya tengah berusaha kabur dan melawan monster di sebuah semesta yang aneh. Ia tak sendiri. Sosok serupa Strange itu bersama dengan seorang gadis dan mereka berusaha melewati berbagai pijakan yang berpindah-pindah untuk menghindari monster tersebut. Ketika di penghujung jalan, mereka menemukan sebuah altar dengan tiang pendek di tengahnya yang bersinar. Di sana, terdapat benda mirip The Book of Vishanti.',
+        p2: 'Strange berusaha untuk menggapai buku itu demi bisa mengalahkan monster dan keluar dari semesta itu. Namun di sisi lain, Strange juga harus melindungi gadis yang bersamanya agar si monster tidak memiliki kekuatan perempuan itu. Ia pun terlibat dalam pertarungan sengit, hingga akhirnya ketika mereka semua terpojok, gadis tersebut mengeluarkan kekuatan besar dan cahaya putih yang menyilaukan. Stephen Strange pun terbangun dari tidurnya.'
     }
 ];
 
