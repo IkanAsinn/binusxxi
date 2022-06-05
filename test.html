@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testing</title>
+
+    <link rel="stylesheet" href="test.css">
+    <script type="module" src="./test.js" defer></script>
+
+    <script src="https://kit.fontawesome.com/48b0c0f27e.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="content">
+        <button class="open anime spy-x-family" data-modal-target="#review">
+            <img src="../assets/image 37.png">
+        </button>
+        <button class="open anime jujutsu-kaisen" data-modal-target="#review">
+            <img src="../assets/movie14 1.png">
+        </button>
+        <button class="open anime attack-on-titan" data-modal-target="#review">
+            <img src="../assets/image 36.png">
+        </button>
+        <button class="open movie red-notice" data-modal-target="#review">
+            <img src="../assets/movie2.png">
+        </button>
+        <button class="open movie spiderman" data-modal-target="#review">
+            <img src="../assets/movie9.png">
+        </button>
+
+        <div class="pop-up main" id="review">
+            <div class="pop-up-content">
+                <div class="container-1"></div>
+                <div class="container-2">
+                    <div class="header">
+                        <h1></h1>
+                        <div class="mid">
+                            <span id="released"></span>
+                            <span id="duration"></span>
+                            <button data-modal-target="#score"><i class="fa-regular fa-star"></i>Score</button>
+                        </div>
+                        <div class="rating">
+                            <h2>Score</h2>
+                            <i class="fa-solid fa-star fa-2x"></i>
+                            <input class="rate" type="text" value="0.00" readonly>
+                            <span>/10</span>
+                        </div>
+                        <div class="genre-btn">
+                        </div>
+                    </div>
+                    <div class="synopsis"></div>
+                </div>
+            </div>
+            <div class="nav-btn">
+                <button class="btn book"></button>
+                <button class="close-btn"><i class="fa-solid fa-circle-xmark fa-2x"></i></button>
+            </div>
+        </div>
+
+        <div class="pop-up" id="score">
+            <div class="star">
+                <input type="radio" name="score-rate" id="rate-10" value="10">
+                <label for="rate-10" class="fa-solid fa-star"></label>
+                <input type="radio" name="score-rate" id="rate-9" value="9">
+                <label for="rate-9" class="fa-solid fa-star"></label>
+                <input type="radio" name="score-rate" id="rate-8" value="8">
+                <label for="rate-8" class="fa-solid fa-star"></label>
+                <input type="radio" name="score-rate" id="rate-7" value="7">
+                <label for="rate-7" class="fa-solid fa-star"></label>
+                <input type="radio" name="score-rate" id="rate-6" value="6">
+                <label for="rate-6" class="fa-solid fa-star"></label>
+                <input type="radio" name="score-rate" id="rate-5" value="5">
+                <label for="rate-5" class="fa-solid fa-star"></label>
+                <input type="radio" name="score-rate" id="rate-4" value="4">
+                <label for="rate-4" class="fa-solid fa-star"></label>
+                <input type="radio" name="score-rate" id="rate-3" value="3">
+                <label for="rate-3" class="fa-solid fa-star"></label>
+                <input type="radio" name="score-rate" id="rate-2" value="2">
+                <label for="rate-2" class="fa-solid fa-star"></label>
+                <input type="radio" name="score-rate" id="rate-1" value="1">
+                <label for="rate-1" class="fa-solid fa-star"></label>
+            </div>
+            <form action="#">
+                <div class="nav-btn">
+                    <button data-modal-target="#msg" type="submit"
+                        class="submit-btn fa-solid fa-circle-check fa-2x me-2"></button>
+                    <button data-modal-target="#review" class="back-btn fa-solid fa-circle-xmark fa-2x"></button>
+                </div>
+            </form>
+        </div>
+
+        <div class="pop-up" id="msg">
+            <h1>Thanks for the rating!</h1>
+        </div>
+
+        <div class="overlay"></div>
+    </div>
+</body>
+
+</html>
