@@ -115,7 +115,7 @@ html {
 }
 
 #movie1 {
-  background-image: url('../../assets/sapidermen.png');
+  background-image: url('../assets/sapidermen.png');
   height: 921px;
   padding: 15% 8%;
   background-repeat: no-repeat;
@@ -123,7 +123,7 @@ html {
 }
 
 #movie2 {
-  background-image: url('../../assets/sapidermen.png');
+  background-image: url('../assets/sapidermen.png');
   height: 921px;
   padding: 15% 8%;
   background-repeat: no-repeat;
@@ -131,7 +131,7 @@ html {
 }
 
 #movie3 {
-  background-image: url('../../assets/sapidermen.png');
+  background-image: url('../assets/sapidermen.png');
   height: 921px;
   padding: 15% 8%;
   background-repeat: no-repeat;
