@@ -1,4 +1,4 @@
-const categoryTitle = document.querySelectorAll('.dropdown-item');
+const categoryTitle = document.querySelectorAll('.genre-list');
 const allCategoryPosts = document.querySelectorAll('.all');
 
 
@@ -38,6 +38,7 @@ $(document).ready(() => {
 
 function checkUrl() {
     const params = new URLSearchParams(window.location.search);
+    console.log(params)
     const category = params.get('category');
     for(let i = 0; i < categoryTitle.length; i++){
         if(categoryTitle[i].attributes.id.value === category) {

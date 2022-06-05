@@ -61,7 +61,7 @@
         <div class="dropdown">
           <button class="btn fw-bolder fs-5 dropdown-toggle pp-dropdown justify-content-end align-items-center"
             type="button" id="profile-dropdown" data-bs-toggle="dropdown" aria-expanded="false">
-            <i class='bx bxs-user-circle'></i><span class="me-3 mb-1" id="username"></span>
+            <i class='bx bxs-user-circle'></i><span class="me-3 mb-1" id="username">Guest</span>
           </button>
           <ul class="dropdown-menu" id="profile-dropdown-menu" aria-labelledby="profile-dropdown">
             <li><a class="dropdown-item" href="#">Account</a></li>
@@ -113,8 +113,10 @@
             <div class="rating"><i class='bx bxs-star me-1'></i>7.3</div>
           </div>
           <div class="overlay d-flex justify-content-center align-items-center">
-            <a href="#" class="check-review-btn justify-content-center align-items-center fw-bold fs-5">Check
-              Review</a>
+            <button
+              class="check-review-btn justify-content-center align-items-center fw-bold fs-5 open movie red-notice"
+              data-modal-target="#review">Check
+              Review</button>
           </div>
         </div>
         <div class="all action comedy wrapper">
