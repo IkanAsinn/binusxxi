@@ -44,6 +44,7 @@ openPopUp.forEach(btn => {
         }
 
         if (modal.classList.contains('main')) {
+            modal.scrollTop = 0;
             openModal(modal);
             testClose(curr);
             testOpen(modal);

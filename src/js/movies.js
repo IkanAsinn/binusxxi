@@ -27,13 +27,6 @@ function filterPosts(item){
     }
 }
 
-// function changeActivePosition(activeItem){
-//     for(let i = 0; i < categoryTitle.length; i++){
-//         categoryTitle[i].classList.remove('active');
-//     }
-//     activeItem.classList.add('active');
-// };
-
 const filterBtn = document.querySelector('#filter-btn');
 filterBtn.addEventListener('click', () => {
     alert('Implemented Soon...');
