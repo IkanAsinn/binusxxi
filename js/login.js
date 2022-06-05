@@ -20,7 +20,7 @@ login.addEventListener('submit', function(e){
         }
         else{
             if(dataPassword.findIndex(data => data === pass.value) === dataEmail.findIndex(data => data === usr_email.value)){
-                location.replace("/");
+                location.replace("/binusxxi");
                 loggedAccount = dataEmail.find(data => data === usr_email.value);
                 localStorage.setItem('current-user', loggedAccount);
                 localStorage.setItem('login-method', 'email');
@@ -34,7 +34,7 @@ login.addEventListener('submit', function(e){
         }
         else{
             if(dataPassword.findIndex(data => data === pass.value) === dataUsername.findIndex(data => data === usr_email.value)){
-                location.replace("/");
+                location.replace("/binusxxi");
                 loggedAccount = dataUsername.find(data => data === usr_email.value);
                 localStorage.setItem('current-user', loggedAccount);
                 localStorage.setItem('login-method', 'username');
