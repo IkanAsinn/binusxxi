@@ -1,7 +1,7 @@
 const loginMethod = localStorage.getItem('login-method');
+const name = document.getElementById('username');
 
 if (loginMethod === 'username') {
-  const name = document.getElementById('username');
   const loggedAccount = localStorage.getItem('current-user');
   name.innerHTML = loggedAccount;
 } else if (loginMethod === 'email') {
@@ -18,3 +18,9 @@ const logoutBtn = document.getElementById('logout').addEventListener('click', ()
   localStorage.removeItem('login-method');
   location.replace('login.html');
 })
+
+
+const dropdownMenu = document.querySelector('.dropdown-menu');
+if (name.innerHTML === 'Guest') {
+  dropdownMenu.innerHTML = '<li><a class="dropdown-item" href="./login.html">Login</a></li>'
+}
