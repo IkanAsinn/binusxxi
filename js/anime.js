@@ -1,6 +1,6 @@
 const anime = [
     {
-        poster: '../../assets/image 37.png',
+        poster: '/../../assets/image 37.png',
         title: 'Spy x Family',
         released: '2022',
         duration: '23 Min.',
@@ -21,7 +21,7 @@ const anime = [
         p2: 'In the bustling Ostanian city of Berlint, Twilight dons the alias of "Loid Forger," an esteemed psychiatrist. However, his true intention is to gather intelligence on prominent politician Donovan Desmond, who only appears rarely in public at his sons school: the prestigious Eden Academy. Enlisting the help of unmarried city hall clerk Yor Briar to act as his wife and adopting the curious six-year-old orphan Anya as his daughter, Loid enacts his master plan. He will enroll Anya in Eden Academy, where Loid hopes she will excel and give him the opportunity to meet Donovan without arousing suspicion.'
     },
     {
-        poster: '../assets/image 36.png',
+        poster: '../../assets/image 36.png',
         title: 'Attack on Titan',
         released: '(2013)',
         duration: '24 Min.',
@@ -42,7 +42,7 @@ const anime = [
         p2: 'After witnessing a horrific personal loss at the hands of the invading creatures, Eren Yeager dedicates his life to their eradication by enlisting into the Survey Corps, an elite military unit that combats the merciless humanoids outside the protection of the walls. Eren, his adopted sister Mikasa Ackerman, and his childhood friend Armin Arlert join the brutal war against the Titans and race to discover a way of defeating them before the last walls are breached.'
     },
     {
-        poster: '../assets/movie14 1.png',
+        poster: '../../assets/movie14 1.png',
         title: 'Jujutsu Kaisen',
         released: '2020',
         duration: '24 Min.',
