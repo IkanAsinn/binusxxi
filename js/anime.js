@@ -1,6 +1,6 @@
 const anime = [
     {
-        poster: '../assets/image 37.png',
+        poster: './assets/image 37.png',
         title: 'Spy x Family',
         released: '2022',
         duration: '23 Min.',
