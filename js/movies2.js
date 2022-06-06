@@ -189,7 +189,7 @@ const movies = [
         p2: 'Sementara Thor diselamatkan anggota Guardians of the Galaxy. Thor percaya hanya bisa menyelamatkan Thanos dengan bantuan palu sakti miliknya. Bersama Rocket (pengisi suara Bradley Cooper) dan Groot (pengisi suara Vin Diesel), Thor pergi ke planet lain untuk mendapatkan palu sakti baru.Saat Thor dan Hulk menyusun rencana, anak buah Thanos mengincar Vision (Paul Bettany). Salah satu batu abadi berada dalam tubuh Vision. Sadar nyawa pacarnya terancam, Wanda Maximoff/Scarlet Witch (Elizabeth Olsen) meminta bantuan Steve Rogers/Captain America (Chris Evans), Natasha Romanoff/Black Widow (Scarlett Johansson), dan Sam Wilson/Falcon (Anthony Mackie). Captain America kemudian membawa mereka ke Wakanda dan bertemu TChalla/Black Panther (Chadwick Boseman) serta Bucky Barnes/Winter Soldier (Sebastian Stan). Captain America merasa Wakanda merupakan tempat yang aman. Wakanda juga memiliki pasukan memadai sehingga mampu menghadapi perang. Lantas dimana Thanos? Sang penjahat tengah memaksa putri tirinya, Gamora (Zoe Saldana) untuk menunjukan letak salah satu batu abadi. Ini membuat Peter Quill/Star-Lord (Chris Pratt), Drax (Dave Bautista), dan Mantis (Pom Klementieff) bertekad menyelamatkannya.'
     },
     {
-        poster: '../assets/image 13.png',
+        poster: '../assets/image 26.png',
         title: 'Black Panther',
         director: '',
         writter: '',

@@ -59,10 +59,13 @@ openPopUp.forEach(btn => {
             } else if (onBtn.classList.contains('vincenzo')) {
                 show = 'Vincenzo';
             } else if (onBtn.classList.contains('ylag')) {
-                show = 'Young Lady and gentleman';
+                show = 'Young Lady and Gentleman';
             } else if (onBtn.classList.contains('haikyuu')) {
                 show = 'Haikyuu!!';
+            }else if (onBtn.classList.contains('st4')) {
+                show = 'Stranger Things 4';
             }
+          
         } else if (onBtn.classList.contains('movie')) {
             obj = movies
             type = 'movies'

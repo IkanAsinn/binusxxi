@@ -273,7 +273,7 @@ const series = [
         p2: 'Dikenal sebagai ahli teknik biomekanik, Winry menciptakan kaki palsu untuk Edward dengan memanfaatkan “automail”, logam tangguh dan serbaguna yang digunakan dalam robot dan baju perang.Setelah bertahun-tahun pelatihan, Elric bersaudara memulai pencarian untuk memulihkan tubuh mereka dengan menemukan Batu Bertuah — permata kuat yang memungkinkan seorang alkemis menentang hukum tradisional Pertukaran Setara. Saat Edward menjadi alkemis terkenal dan mendapat julukan “Fullmetal,” perjalanan kedua anak laki-laki itu melibatkan mereka dalam konspirasi yang berkembang yang mengancam nasib dunia.'
     },
     {
-        poster: '../assets/movie14 1.png',
+        poster: '../assets/image 47.png',
         title: 'The Liberation Notes',
         released: '2022',
         duration: '40 Min.',
@@ -294,7 +294,7 @@ const series = [
         p2: 'Namun, dia tidak memiliki tujuan dan hanya menghabiskan hidupnya tanpa arti. Dia pun dipandang rendah oleh anggota keluarganya.Yeom Mi-jeong (Kim Ji-won) adalah anak bungsu dari tiga bersaudara. Dia ingin dibebaskan dari kehidupan anak kampung yang membosankan dengan bekerja di Seoul.Namun, dia tertutup dan pemalu di antara rekan kerja yang lain. Dia juga selalu merasa kesepian dan kekurangan dalam menjalani kehidupannya.Kisah tiga bersaudara itu semakin rumit dengan kehadiran Tuan Gu (Son Seok-koo), seorang pria yang tiba-tiba muncul di Desa Sanpo. Ia selalu mabuk dan membuat ketiga kakak beradik itu penasaran dengan sosoknya yang misterius.'
     },
     {
-        poster: '../assets/movie14 1.png',
+        poster: '../assets/image 39.png',
         title: 'One Piece',
         released: '1999',
         duration: '24 Min.',
@@ -315,7 +315,7 @@ const series = [
         p2: 'Mereka bergabung dalam perjalanan bajak laut sampai suatu saat mereka menemukan sebuah kapal bernama Going Merry dan terlibat dalam konfrontasi dengan bajak laut terkenal.Di sinilah petualang mereka benar-benar dimulai, Kapal lautnya Merry juga mengalami kerusakan berat. Sehingga Luffy terus berjuang dengan para krunya untuk mengejar impian mereka.'
     },
     {
-        poster: '../assets/movie14 1.png',
+        poster: '../assets/image 49.png',
         title: 'Vincenzo',
         released: '2021',
         duration: '60 Min.',
@@ -336,8 +336,8 @@ const series = [
         p2: 'Paolo sosok kakak yang ingin menjadi bos untuk VIncenzo. Tentu, Vincenzo tidak mau karena baginya Paolo memiliki permainan yang licik. Tanpa ragu Vincenzo menampar Paolo dengan omongan pedasnya.Namun, Paolo tak terima dengan perlakuan Vincenzo, hingga pada malam hari Paolo menyuruh para anak buahnya untuk membunuh Vincenzo.Kecerdasan Vincenzo membuat nasib Paolo semakin terancam.Hingga akhirnya Vincenzo memutuskan untuk pergi ke Korea Selatan menjalani misi lainnya.'
     },
     {
-        poster: '../assets/movie14 1.png',
-        title: 'Young lady and gentleman',
+        poster: '../assets/image 50.png',
+        title: 'Young Lady and Gentleman',
         released: '2021',
         duration: '80 Min.',
         type: 'TV', 
@@ -357,7 +357,7 @@ const series = [
         p2: 'Chemistry yang dibangun oleh Ji Hyun Woo dan Lee Se Hee akan membuat para penonton baper dengan kedekatan mereka. Terlebih dengan posisi Lee Young Guk (Ji Hyun Woo) sebagai duda anak tiga sementara Park Dan Dan (Lee Se Hee) sebagai wanita muda yang sangat ceria.Young Lady and Gentleman ini menggabungkan kisah romansa dengan kisah keluarga yang begitu hangat dan masih relatable dengan kehidupan nyata. Alur cerita dengan konflik ringan juga akan menghibur para penonton.Lantas, seperti apa kelanjutan kisah mereka?'
     },
     {
-        poster: '../assets/movie14 1.png',
+        poster: '../assets/image 41.png',
         title: 'Haikyuu!!',
         released: '2014',
         duration: '23 Min.',
@@ -376,6 +376,27 @@ const series = [
         genre: ['Anime', 'Comedy'],
         p1: 'Anime Haikyuu!! Season 1 mengisahkan Shouyou Hinata (diisi suara oleh Ayumu Murase) yang bertubuh kecil menghidupkan kembali klub bola voli di sekolah menengahnya karena terinspirasi setelah menonton pemain bola voli yang dijuluki “Raksasa Kecil” beraksi. Tim yang baru terbentuk bahkan berhasil mencapai turnamen; namun, pertandingan pertama mereka ternyata menjadi yang terakhir ketika mereka secara brutal dihancurkan oleh “Raja Pengadilan”, Tobio Kageyama (diisi suara oleh Kaito Ishikawa).Hinata bersumpah untuk melampaui Kageyama, dan setelah lulus dari sekolah menengah, ia bergabung dengan tim voli SMA Karasuno—hanya untuk menemukan bahwa saingannya, Kageyama, sekarang menjadi rekan satu timnya.',
         p2: 'Berkat tinggi badannya yang pendek, Hinata berjuang untuk menemukan perannya dalam tim, bahkan dengan kekuatan lompatannya yang superior. Anehnya, Kageyama memiliki masalahnya sendiri yang hanya bisa dibantu oleh Hinata, dan belajar bekerja sama tampaknya menjadi satu-satunya cara agar tim bisa sukses.Berdasarkan manga shounen populer Haruichi Furudate dengan nama yang sama, Haikyuu!! adalah komedi olahraga yang menggembirakan dan emosional mengikuti dua atlet yang gigih ketika mereka berusaha untuk menoreh persaingan yang memanas untuk menjadikan tim voli SMA mereka yang terbaik di Jepang.'
+    },
+    {
+        poster: '../assets/image 55.png',
+        title: 'Stranger Things 4',
+        released: '2022',
+        duration: '75 Min.',
+        type: 'TV', 
+        episodes: '7', 
+        status: 'Currently Airing', 
+        aired: '27 May 2022 to present', 
+        premiered: '',
+        producers: 'the Duffer Brothers, along with Shawn Levy, Dan Cohen, Iain Paterson, and Curtis Gwinn.',
+        studios: '',
+        source: '',
+        licensors: 'None found',
+        rating: 'R-17+',
+        rate: '8.70',
+        scores: [],
+        genre: ['Action', 'Horror'],
+        p1: 'Sinopsis Kisah dalam Stranger Things menggambarkan situasi pasca pertempuran Star Court yang telah memporak porandakan Hawkins. Monster dari The Upside Down itu telah menghancurkan kota dan masyarakat harus menata ulang situasi dan menyembuhkan trauma.Geng Hawkin juga sedang berusaha untuk memulihkan keadaan. Mereka kini hidup terpisah dan menghadapi permasalahan sendiri-sendiri di sekolah menengah. Eleven pindah ke California bersama dengan keluarga Byers, termasuk Will (Noah Schnapp). Jim Hopper (David Harbour) memang selamat dari pertempuran Star Court, tapi dia berhasil ditangkap oleh tentara Rusia.Mike Wheelers (Finn Wolfhard), Dustin (Gaten Matarazzo) dan Lucas (Caleb mclaughlin) masih tinggal di Hawkins bersama dengan Mac Mayfield (Sadie Sink).',
+        p2: 'Di masa-masa sulit ini mereka harus memikirkan cara untuk mengatasi serangan monster ganas yang masih terus berusaha menguasai kota. Selain itu, misteri dari The Upside Down pun masih belum terpecahkan. Ini berarti PR mereka masih belum tuntas.Perjuangan mereka semakin berat sebab Eleven kini kehilangan kekuatan telekinetiknya, kekuatan yang selama ini menjadi andalan dalam menghadapi monster dari dimensi The Upside Down. Ancaman bagi penduduk Hawkins semakin besar sebab tentara Rusia masih bersikukuh untuk membuka pintu dimensi menuju The Upside Down.'
     },
 ];
 
