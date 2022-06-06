@@ -52,5 +52,5 @@ signUp.addEventListener('submit', function(e){
 
     console.log(localStorage);
 
-    location.replace("login.html")
+    location.replace("/binusxxi/login")
 })

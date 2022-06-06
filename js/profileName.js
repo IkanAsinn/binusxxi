@@ -22,5 +22,5 @@ const logoutBtn = document.getElementById('logout').addEventListener('click', ()
 
 const dropdownMenu = document.querySelector('.dropdown-menu');
 if (name.innerHTML === 'Guest') {
-  dropdownMenu.innerHTML = '<li><a class="dropdown-item" href="./login.html">Login</a></li>'
+  dropdownMenu.innerHTML = '<li><a class="dropdown-item" href="/binusxxi/login">Login</a></li>'
 }
