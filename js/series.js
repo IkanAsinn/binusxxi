@@ -1,6 +1,6 @@
 const series = [
     {
-        poster: '../assets/image 37.png',
+        poster: './assets/image 37.png',
         title: 'Spy x Family',
         released: '2022',
         duration: '23 Min.',
@@ -21,7 +21,7 @@ const series = [
         p2: 'In the bustling Ostanian city of Berlint, Twilight dons the alias of "Loid Forger," an esteemed psychiatrist. However, his true intention is to gather intelligence on prominent politician Donovan Desmond, who only appears rarely in public at his sons school: the prestigious Eden Academy. Enlisting the help of unmarried city hall clerk Yor Briar to act as his wife and adopting the curious six-year-old orphan Anya as his daughter, Loid enacts his master plan. He will enroll Anya in Eden Academy, where Loid hopes she will excel and give him the opportunity to meet Donovan without arousing suspicion.'
     },
     {
-        poster: '../assets/image 36.png',
+        poster: './assets/image 36.png',
         title: 'Attack on Titan',
         released: '(2013)',
         duration: '24 Min.',
@@ -42,7 +42,7 @@ const series = [
         p2: 'After witnessing a horrific personal loss at the hands of the invading creatures, Eren Yeager dedicates his life to their eradication by enlisting into the Survey Corps, an elite military unit that combats the merciless humanoids outside the protection of the walls. Eren, his adopted sister Mikasa Ackerman, and his childhood friend Armin Arlert join the brutal war against the Titans and race to discover a way of defeating them before the last walls are breached.'
     },
     {
-        poster: '../assets/image 33.png',
+        poster: './assets/image 33.png',
         title: 'Jujutsu Kaisen',
         released: '2020',
         duration: '24 Min.',
@@ -63,7 +63,7 @@ const series = [
         p2: 'Yuuji experiences first-hand the threat these Curses pose to society as he discovers his own newfound powers. Introduced to the Tokyo Metropolitan Jujutsu Technical High School, he begins to walk down a path from which he cannot return—the path of a Jujutsu sorcerer.'
     },
     {
-        poster: '../assets/image 19.png',
+        poster: './assets/image 19.png',
         title: 'My Hero Academia',
         released: '2018',
         duration: '23 Min.',
@@ -84,7 +84,7 @@ const series = [
         p2: 'Keduanya sama-sama ingin menjadi pahlawan nomor satu dan mengincar salah satu sekolah di sana, U.A.  Demi bisa menggapai impiannya menjadi seorang pahlawan, Deku pun berniat untuk menemui All Might. Sesaat setelah bertemu, All Might melihat bahwa Deku dapat menjadi sosok pahlawan yang baik. Meskipun ia tidak memiliki kekuatan apa pun, Deku memiliki hati untuk menjadi seorang pahlawan.  All Might yang memiliki keyakinan penuh akan Deku lantas memberikan kekuatannya kepada pemuda gigih tersebut. Kini Deku telah memiliki kekuatan super dan dengan penuh antusias ia mulai melatih fisik serta kekuatan barunya sampai ia berhasil masuk ke sekolah sasarannya.'
     },
     {
-        poster: '../assets/image 24.png',
+        poster: './assets/image 24.png',
         title: 'Twenty Five Twenty One',
         released: '2022',
         duration: '45 Min.',
@@ -105,7 +105,7 @@ const series = [
         p2: 'Ia meminta ibunya untuk memindahkannya ke sekolah yang tim anggaran tidak dibubarkan. Drama ini kemudian mengikuti perjuangan keduanya bangkit dari krisis dan kisah cinta mereka yang berkembang seiring berjalannya waktu.Dalam membawakan karakter Yi-jin yang berkeinginan menjadi reporter, Nam Joo-hyuk mengungkapkan banyak berkomunikasi dengan jurnalis.Sementara itu, Kim Tae-ri menjalani latihan anggar lima hingga enam bulan demi mendalami karakter Na Hee-do. Kim Tae-ri juga berlatih anggar bersama Bona WJSN yang berperan sebagai Go Yoo-rim, atlet anggar tim nasional dan menjadi saingan Na Hee-do.'
     },
     {
-        poster: '../assets/image 25.png',
+        poster: './assets/image 25.png',
         title: 'Itaewon Class',
         released: '2020',
         duration: '70 Min.',
@@ -126,7 +126,7 @@ const series = [
         p2: 'Lagi-lagi Park Sae-roy merasa diperlakukan tak adil. Dia ditangkap dan menerima hukuman penjara atas serangan kekerasan itu kepada Jang Geun-won.Sejak itu, Park Sae-roy memutuskan untuk menghancurkan perusahaan Jagga dan membalas dendam kepada CEO Jang Dae-hee dan putranya, Jang Geun-won.Setelah dilepaskan dari penjara, ia membuka sebuah restoran di Itaewon, Seoul. Jo Yi-seo (Kim Da-mi) yang populer di media sosial kemudian bergabung dengan restoran Park Sae-roy dan bekerja di sana sebagai manajer.Berpegang teguh pada keyakinan dan amarah atas kejadian yang menimpa sang ayah, Park Sae-roy kemudian berteman dengan pemuda lainnya yang sama-sama keras kepala dan tak kenal takut.Mereka kemudian bersama-sama mengejar mimpi di antara jalan-jalan Itaewon yang sempit.'
     },
     {
-        poster: '../assets/image 26.png',
+        poster: './assets/image 26.png',
         title: 'Start-Up',
         released: '2020',
         duration: '43 Min.',
@@ -147,7 +147,7 @@ const series = [
         p2: 'Meskipun karakternya terbilang tegas bagi kebanyakan orang. Akan tetapi dia lebih lembut dari siapa pun kepada satu orang istimewa yang memberinya bantuan besar di masa lalu. Awalnya Dal Mi hidup bahagia bersama ayah, ibu dan kakaknya. Namun orang tua mereka memutuskan untuk bercerai. Hingga membuat Dal Mi dan Won In Jae (Kang Han Na) harus hidup terpisah. Karena ia memilih tinggal bersama ayah dan neneknya. Sementara In Jae memilih hidup bersama ibunya. Meskipun begitu, mereka masih sering bertemu. Suatu hari ibu Dal Mi memutuskan untuk menikah dengan seorang pria kaya raya. Kehidupan mewah In Jae, lambat laut merubah sifatnya. Membuatnya bersikap angkuh dan melupakan Dal Mi sebagai adiknya. Dal Mi pun sedih dan juga membenci kakaknya. Mengetahui Dal Mi terpuruk karena kehilangan sosok kakak membuat neneknya juga ikut sedih. Akhirnya nenek Dal Mi menemukan ide untuk membuat cucunya itu tidak sedih lagi. Neneknya meminta Ji Pyeong yang secara kebetulan saat kecil juga dirawat untuk menjadi sahabat pena Dal Mi. Dari sinilah kisah cinta pertama Dal Mi dimulai.'
     },
     {
-        poster: '../assets/image 27.png',
+        poster: './assets/image 27.png',
         title: 'Taxi-Driver',
         released: '2021',
         duration: '70 Min.',
@@ -168,7 +168,7 @@ const series = [
         p2: 'Ketika seorang klien menghubungi mereka, Kim Do Ki dan rekan-rekannya di Rainbow Taxi akan beraksi. Sinopsis Taxi Driver, setiap episodenya drama Korea ini menghadirkan kisah balas dendam yang berbeda-beda. Pada episode awal misalnya menghadirkan kisah balas dendam seorang wanita difabel pekerja pabrik Jeotgal yang disiksa bosnya dan dilecehkan rekan kerjanya.'
     },
     {
-        poster: '../assets/image 28.png',
+        poster: './assets/image 28.png',
         title: 'Goblin',
         released: '2016',
         duration: '90 Min.',
@@ -189,7 +189,7 @@ const series = [
         p2: 'Eun Tak yang mendengar desas-desus tentang Goblin meyakinkan Kim Shin bahwa dialah sang pengantin yang dicarinya selama ini. Apalagi Kim Shin selalu muncul di hadapannya setiap kali Eun Tak meniup lilin.Awalnya Eun Tak tak mengetahui bahwa usai mencabut pedang dari dada Goblin, pria yang disukainya itu akan musnah selamanya. Baik Eun Tak maupun Kim Shin harus menghadapi keputusan sulit lantaran keduanya saling jatuh cinta.Kisah cinta tak biasa dengan elemen supranatural yang diusung dalam drama Korea Goblin membuatnya berhasil merebut perhatian penonton.Selain itu, chemistry yang terbangun antara pemain dan kisah romantis yang dibalut dengan nuansa komedi ringan membuat jalan cerita menjadi tak membosankan hingga akhir episode.'
     },
     {
-        poster: '../assets/image 29.png',
+        poster: './assets/image 29.png',
         title: 'Descendants of The Sun',
         released: '2016',
         duration: '60 Min.',
@@ -210,7 +210,7 @@ const series = [
         p2: 'Mo-yeon tidak terlalu banyak mengetahui latar belakang Si-Jin. Bahkan Mo-Yeon juga curiga kalau Si-Jin memiliki pekerjaan misterius, dan pekerjaannya sebagai tentara memiliki peluang untuk membunuh orang.Mo-yeon berniat untuk mengakhiri hubungannya dengan Si-Jin. Tetapi pertemuan mereka berdua bagaikan sebuah takdir. Si-Jin ditugaskan untuk menjaga perdamaian di Urk. Mo-yeon juga ditugaskan di Urk, sebagai dokter relawan yang merawat korban bencana gempa bumi, perang, penyakit berbahaya, hingga penculikan.Perjalanan kisah cinta Si-Jin dan Mo-yeon penuh dengan rintangan. Bahkan sempat Si-Jin dikabarkan hilang karena sebuah ledakan. Tetapi drama Korea ini memiliki kisah yang happy ending.'
     },
     {
-        poster: '../assets/image 34.png',
+        poster: './assets/image 34.png',
         title: 'Kimetsu no Yaiba: Yuukaku Hen',
         released: '2021',
         duration: '24 Min.',
@@ -231,7 +231,7 @@ const series = [
         p2: 'Beberapa wanita misterius berjubah menyaksikan para Pembasmi Iblis mulai bekerja, tetapi berdasarkan senyum jahat seorang wanita, beberapa dari mereka mungkin adalah Iblis. Tanjiro, Zenitsu, Inosuke, dan Nezuko tidak boleh lengah. Terlebih lagi, Tanjiro tidak bisa lagi mengandalkan Kyojuro Rengoku untuk mengawasinya, karena sang Hashira Api menemui akhir yang mengerikan di kisah sebelumnya.'
     },
     {
-        poster: '../assets/image 35.png',
+        poster: './assets/image 35.png',
         title: 'Naruto Shippuden',
         released: '2007',
         duration: '24 Min.',
@@ -252,7 +252,7 @@ const series = [
         p2: 'Namun, dengan semangat pantang menyerahnya, sedikit demi sedikit Naruto mampu membuat warga desa mengakui keberadaannya.Meski harus beberapa kali kehilangan orang-orang yang dicintainya, namun dia terus berlatih dan melangkah maju hingga menjadi pahlawan bagi desa Konoha.Dan kini dia harus kembali menghadapi musuh berbahaya yang mengincar roh siluman rubah ekor 9 di dalam dirinya untuk memusnahkan umat manusia dan dunia shinobi.'
     },
     {
-        poster: '../assets/image 38.png',
+        poster: './assets/image 38.png',
         title: 'Fullmetal Alchemist: Brotherhood',
         released: '2009',
         duration: '18 Min.',
@@ -273,7 +273,7 @@ const series = [
         p2: 'Dikenal sebagai ahli teknik biomekanik, Winry menciptakan kaki palsu untuk Edward dengan memanfaatkan “automail”, logam tangguh dan serbaguna yang digunakan dalam robot dan baju perang.Setelah bertahun-tahun pelatihan, Elric bersaudara memulai pencarian untuk memulihkan tubuh mereka dengan menemukan Batu Bertuah — permata kuat yang memungkinkan seorang alkemis menentang hukum tradisional Pertukaran Setara. Saat Edward menjadi alkemis terkenal dan mendapat julukan “Fullmetal,” perjalanan kedua anak laki-laki itu melibatkan mereka dalam konspirasi yang berkembang yang mengancam nasib dunia.'
     },
     {
-        poster: '../assets/image 47.png',
+        poster: './assets/image 47.png',
         title: 'The Liberation Notes',
         released: '2022',
         duration: '40 Min.',
@@ -294,7 +294,7 @@ const series = [
         p2: 'Namun, dia tidak memiliki tujuan dan hanya menghabiskan hidupnya tanpa arti. Dia pun dipandang rendah oleh anggota keluarganya.Yeom Mi-jeong (Kim Ji-won) adalah anak bungsu dari tiga bersaudara. Dia ingin dibebaskan dari kehidupan anak kampung yang membosankan dengan bekerja di Seoul.Namun, dia tertutup dan pemalu di antara rekan kerja yang lain. Dia juga selalu merasa kesepian dan kekurangan dalam menjalani kehidupannya.Kisah tiga bersaudara itu semakin rumit dengan kehadiran Tuan Gu (Son Seok-koo), seorang pria yang tiba-tiba muncul di Desa Sanpo. Ia selalu mabuk dan membuat ketiga kakak beradik itu penasaran dengan sosoknya yang misterius.'
     },
     {
-        poster: '../assets/image 39.png',
+        poster: './assets/image 39.png',
         title: 'One Piece',
         released: '1999',
         duration: '24 Min.',
@@ -315,7 +315,7 @@ const series = [
         p2: 'Mereka bergabung dalam perjalanan bajak laut sampai suatu saat mereka menemukan sebuah kapal bernama Going Merry dan terlibat dalam konfrontasi dengan bajak laut terkenal.Di sinilah petualang mereka benar-benar dimulai, Kapal lautnya Merry juga mengalami kerusakan berat. Sehingga Luffy terus berjuang dengan para krunya untuk mengejar impian mereka.'
     },
     {
-        poster: '../assets/image 49.png',
+        poster: './assets/image 49.png',
         title: 'Vincenzo',
         released: '2021',
         duration: '60 Min.',
@@ -336,7 +336,7 @@ const series = [
         p2: 'Paolo sosok kakak yang ingin menjadi bos untuk VIncenzo. Tentu, Vincenzo tidak mau karena baginya Paolo memiliki permainan yang licik. Tanpa ragu Vincenzo menampar Paolo dengan omongan pedasnya.Namun, Paolo tak terima dengan perlakuan Vincenzo, hingga pada malam hari Paolo menyuruh para anak buahnya untuk membunuh Vincenzo.Kecerdasan Vincenzo membuat nasib Paolo semakin terancam.Hingga akhirnya Vincenzo memutuskan untuk pergi ke Korea Selatan menjalani misi lainnya.'
     },
     {
-        poster: '../assets/image 50.png',
+        poster: './assets/image 50.png',
         title: 'Young Lady and Gentleman',
         released: '2021',
         duration: '80 Min.',
@@ -357,7 +357,7 @@ const series = [
         p2: 'Chemistry yang dibangun oleh Ji Hyun Woo dan Lee Se Hee akan membuat para penonton baper dengan kedekatan mereka. Terlebih dengan posisi Lee Young Guk (Ji Hyun Woo) sebagai duda anak tiga sementara Park Dan Dan (Lee Se Hee) sebagai wanita muda yang sangat ceria.Young Lady and Gentleman ini menggabungkan kisah romansa dengan kisah keluarga yang begitu hangat dan masih relatable dengan kehidupan nyata. Alur cerita dengan konflik ringan juga akan menghibur para penonton.Lantas, seperti apa kelanjutan kisah mereka?'
     },
     {
-        poster: '../assets/image 41.png',
+        poster: './assets/image 41.png',
         title: 'Haikyuu!!',
         released: '2014',
         duration: '23 Min.',
@@ -378,7 +378,7 @@ const series = [
         p2: 'Berkat tinggi badannya yang pendek, Hinata berjuang untuk menemukan perannya dalam tim, bahkan dengan kekuatan lompatannya yang superior. Anehnya, Kageyama memiliki masalahnya sendiri yang hanya bisa dibantu oleh Hinata, dan belajar bekerja sama tampaknya menjadi satu-satunya cara agar tim bisa sukses.Berdasarkan manga shounen populer Haruichi Furudate dengan nama yang sama, Haikyuu!! adalah komedi olahraga yang menggembirakan dan emosional mengikuti dua atlet yang gigih ketika mereka berusaha untuk menoreh persaingan yang memanas untuk menjadikan tim voli SMA mereka yang terbaik di Jepang.'
     },
     {
-        poster: '../assets/image 55.png',
+        poster: './assets/image 55.png',
         title: 'Stranger Things 4',
         released: '2022',
         duration: '75 Min.',
