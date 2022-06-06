@@ -10,7 +10,7 @@ const synopsis = document.querySelector('.synopsis');
 const allInput = document.querySelectorAll('#score input');
 const bookBtn = document.querySelector('.nav-btn .book');
 
-import {anime as anime} from './anime.js';
+import {series as series} from './series.js';
 import {movies as movies} from './movies2.js';
 
 openPopUp.forEach(btn => {
@@ -23,15 +23,45 @@ openPopUp.forEach(btn => {
         }
 
         const onBtn = document.querySelector('.open.on');
-        if (onBtn.classList.contains('anime')) {
-            obj = anime;
-            type = 'anime';
+        if (onBtn.classList.contains('series')) {
+            obj = series;
+            type = 'series';
             if (onBtn.classList.contains('attack-on-titan')) {
                 show = 'Attack on Titan';
             } else if (onBtn.classList.contains('spy-x-family')) {
                 show = 'Spy x Family';
             } else if (onBtn.classList.contains('jujutsu-kaisen')) {
                 show = 'Jujutsu Kaisen';
+            } else if (onBtn.classList.contains('mha')) {
+                show = 'My Hero Academia';
+            } else if (onBtn.classList.contains('tfto')) {
+                show = 'Twenty Five Twenty One';
+            } else if (onBtn.classList.contains('itaewon')) {
+                show = 'Itaewon Class';
+            } else if (onBtn.classList.contains('start-up')) {
+                show = 'Start-Up';
+            } else if (onBtn.classList.contains('taxi')) {
+                show = 'Taxi-Driver';
+            } else if (onBtn.classList.contains('goblin')) {
+                show = 'Goblin';
+            } else if (onBtn.classList.contains('dots')) {
+                show = 'Descendants of The Sun';
+            } else if (onBtn.classList.contains('kny')) {
+                show = 'Kimetsu no Yaiba: Yuukaku Hen';
+            } else if (onBtn.classList.contains('naruto')) {
+                show = 'Naruto Shippuden';
+            } else if (onBtn.classList.contains('fma')) {
+                show = 'Fullmetal Alchemist: Brotherhood';
+            } else if (onBtn.classList.contains('tln')) {
+                show = 'The Liberation Notes';
+            } else if (onBtn.classList.contains('onepiece')) {
+                show = 'One Piece';
+            } else if (onBtn.classList.contains('vincenzo')) {
+                show = 'Vincenzo';
+            } else if (onBtn.classList.contains('ylag')) {
+                show = 'Young Lady and gentleman';
+            } else if (onBtn.classList.contains('haikyuu')) {
+                show = 'Haikyuu!!';
             }
         } else if (onBtn.classList.contains('movie')) {
             obj = movies
@@ -40,6 +70,58 @@ openPopUp.forEach(btn => {
                 show = 'Red Notice';
             } else if (onBtn.classList.contains('spiderman')) {
                 show = 'Spiderman: No Way Home';
+            } else if (onBtn.classList.contains('morbius')) {
+                show = 'Morbius';
+            } else if (onBtn.classList.contains('Venom')) {
+                show = 'Venom';
+            } else if (onBtn.classList.contains('uncharted')) {
+                show = 'Uncharted';
+            } else if (onBtn.classList.contains('doctor-strange')) {
+                show = 'Doctor Strange in the Multiverse of Madness';
+            } else if (onBtn.classList.contains('endgame')) {
+                show = 'Avengers: Endgame';
+            } else if (onBtn.classList.contains('KKN')) {
+                show = 'KKN Di Desa Penari';
+            } else if (onBtn.classList.contains('infinity')) {
+                show = 'Avengers: Infinity War';
+            } else if (onBtn.classList.contains('black-panther')) {
+                show = 'Black Panther';
+            } else if (onBtn.classList.contains('ironman-3')) {
+                show = 'Iron Man 3';
+            } else if (onBtn.classList.contains('contractor')) {
+                show = 'The Contractor'
+            } else if (onBtn.classList.contains('no-time-to-die')) {
+                show = 'No Time To Die';
+            } else if (onBtn.classList.contains('scream')) {
+                show = 'Scream';
+            } else if (onBtn.classList.contains('eternals')) {
+                show = 'Eternals';
+            } else if (onBtn.classList.contains('venom-carnage')) {
+                show = 'Venom: Let There Be Carnage';
+            } else if (onBtn.classList.contains('shang-chi')) {
+                show = 'Shang-Chi and the Legend of the Ten Rings';
+            } else if (onBtn.classList.contains('yowis')) {
+                show = 'Yowis ben finale';
+            } else if (onBtn.classList.contains('kambodja')) {
+                show = 'Kambodja';
+            } else if (onBtn.classList.contains('jujutsu-0')) {
+                show = 'Jujutsu Kaisen 0';
+            } else if (onBtn.classList.contains('fantastic-beast')) {
+                show = 'Fantastic Beast: The Secrets of Dumbledore';
+            } else if (onBtn.classList.contains('cinderella')) {
+                show = 'Cinderella and the Little Sorcerer';
+            } else if (onBtn.classList.contains('maverick')) {
+                show = 'Top Gun Maverick';
+            } else if (onBtn.classList.contains('doll-3')) {
+                show = 'The Doll 3';
+            } else if (onBtn.classList.contains('round-up')) {
+                show = 'The Round Up';
+            } else if (onBtn.classList.contains('srimulat')) {
+                show = 'Srimulat: Hil yang Mustahal';
+            } else if (onBtn.classList.contains('doraemon')) {
+                show = 'Doraemon: Nobita Little Star Wars';
+            } else if (onBtn.classList.contains('Anek')) {
+                show = 'Anek';
             }
         }
 
@@ -152,7 +234,7 @@ const showDetails = (title, obj, type) => {
             <p>${obj[i].p1}</p>
             <p>${obj[i].p2}</p>`;
             
-            if (type === 'anime') {
+            if (type === 'series') {
                 information.innerHTML = 
                 `<img src="${obj[i].poster}">
                 <div class="information">
