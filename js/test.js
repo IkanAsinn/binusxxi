@@ -13,9 +13,15 @@ const bookBtn = document.querySelector('.nav-btn .book');
 import {series as series} from './series.js';
 import {movies as movies} from './movies2.js';
 
+console.log(openPopUp);
+
 openPopUp.forEach(btn => {
     btn.addEventListener('click', () => {
+        // const popUp = document.querySelectorAll('[data-modal-target]');
         const modal = document.querySelector(btn.dataset.modalTarget);
+        console.log(btn);
+        console.log(modal);
+
         const curr = document.querySelector('.pop-up.show');
         let obj = 0, show = '', type = '';
         if (btn.classList.contains('open')) {
@@ -125,11 +131,14 @@ openPopUp.forEach(btn => {
                 show = 'Doraemon: Nobita Little Star Wars';
             } else if (onBtn.classList.contains('Anek')) {
                 show = 'Anek';
+            }else if (onBtn.classList.contains('ancestral')) {
+                show = 'The Ancestral';
             }
         }
 
         if (modal.classList.contains('main')) {
             modal.scrollTop = 0;
+            // console.log(modal);
             openModal(modal);
             testClose(curr);
             testOpen(modal);

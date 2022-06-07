@@ -586,6 +586,27 @@ const movies = [
         rating: 'PG-13',
         p1: 'Anek adalah film thriller aksi politik, di mana Joshua (AK), seorang agen mata-mata yang ganas menjalankan misi untuk menyatukan negara. Film ini menampilkan perjalanan Joshua di wilayah yang dilanda konflik di timur laut di mana ia mencoba untuk mendapatkan kesepakatan damai yang ditandatangani dengan kepala kelompok militan terbesar - Tiger Sangha. Joshua mencoba menyusup ke kelompok separatis dengan berteman dengan salah satu putri anggotanya - Aido.',
         p2: 'Aido adalah seorang petinju yang ganas, yang telah menjadi sasaran rasisme berulang kali tetapi masih bertujuan untuk membawa medali emas untuk India sehingga berharap untuk diterima sepenuhnya sebagai orang India. Akankah Joshua menang dalam misinya untuk menyatukan negara? Ini adalah kisah menyayat hati yang mempertanyakan apa yang diperlukan untuk menjadi orang India di atas semua perbedaan yang dihadapi negara ini.'
+    },
+    {
+        poster: '../assets/image 103.png',
+        title: 'The Ancestral',
+        director: '',
+        writter: '',
+        cinematography: '',
+        production: '',
+        released: '(2022)',
+        duration: '100 Min.',
+        producers: 'Le-Van Kiet',
+        aired: '1 06, 2022',
+        distributor: '',
+        rate: '4.90',
+        scores: [4.90],
+        genre: ['Horror'],
+        country: 'USA',
+        language: 'English',
+        rating: 'PG-13',
+        p1: 'Film The Ancestral mengisahkan tentang keluarga Vietnam yang pindah ke sebuah rumah berusia ratusan tahun hanya untuk menemukan rahasia mengerikan di bawah tanah.Keluarga tersebut terdiri dari Thanh, seorang duda, dan dua putrinya yang masih remaja. Mereka terpaksa pindah ke rumah yang cukup menyeramkan tersebut karena ada sebuah tragedi keluarga di rumah lamanya. Sesampainya di rumah baru, mereka kemudian memilih kamar masing-masing.Salah satu dari mereka memilih menempati kamar tidur besar yang terlihat indah dan nyaman. Namun, nyatanya semua tidak berjalan dengan lancar.',
+        p2: 'Anak terakhir Thanh sering melihat sesuatu yang mengganggu tidurnya. Di rumah baru tersebut, kedua putri Thanh mengalami teror mengerikan setiap malam.Thanh kemudian meminta bantuan dari psikolog lokal untuk mengatasi masalah yang menurutnya hanya masalah psikis saja. Namun, rahasia dan penglihatan yang sangat mengerikan menyadarkan Thanh bahwa masalah di rumah tua itu tidak sesederhana yang ia kira. Kejadian tersebut sangat berbeda dari tragedi yang terjadi di rumah keluarga lama.Thanh menemukan sebuah rahasia besar di ruang bawah tanah rumah tersebut. Lantas, rahasia besar apa yang ditemukan Thanh dan keluarganya?'
     }
 ];
 

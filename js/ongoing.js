@@ -28,10 +28,10 @@ function filterPosts(item){
     }
 }
 
-const filterBtn = document.querySelector('#filter-btn');
-filterBtn.addEventListener('click', () => {
-    alert('Implemented Soon...');
-});
+// const filterBtn = document.querySelector('#filter-btn');
+// filterBtn.addEventListener('click', () => {
+//     alert('Implemented Soon...');
+// });
 
 $(document).ready(() => {
     checkUrl();
