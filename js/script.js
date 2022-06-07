@@ -1,9 +1,19 @@
 $(document).ready(function () {
-  $('.autoWidth').lightSlider({
-    autoWidth: true,
+  $('.owl-carousel').owlCarousel({
     loop: true,
-    onSliderLoad: function () {
-      $('#autoWidth').removeClass('cS-hidden');
+    margin: 10,
+    nav: true,
+    dots: false,
+    responsive: {
+      0: {
+        items: 1
+      },
+      600: {
+        items: 3
+      },
+      1000: {
+        items: 5
+      }
     }
-  });
+  })
 });

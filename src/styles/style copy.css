@@ -30,7 +30,7 @@ html {
 }
 
 .sidebar-nav.is-fixed {
-  z-index: 103;
+  z-index: 999;
   background: #fff;
   animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
@@ -151,10 +151,6 @@ html {
   margin-left: -1.5%;
 }
 
-.movie-info h1 {
-  letter-spacing: 0.2rem;
-}
-
 #movie1 {
   background-image: url('../assets/sapidermen.png');
   height: 921px;
@@ -164,7 +160,7 @@ html {
 }
 
 #movie2 {
-  background-image: url("../assets/movie0.png");
+  background-image: url('../assets/sapidermen.png');
   height: 921px;
   padding: 15% 8%;
   background-repeat: no-repeat;
@@ -172,7 +168,7 @@ html {
 }
 
 #movie3 {
-  background-image: url('../assets/image\ 111.png');
+  background-image: url('../assets/sapidermen.png');
   height: 921px;
   padding: 15% 8%;
   background-repeat: no-repeat;
@@ -297,18 +293,17 @@ footer {
 
 .pop-up {
   position: fixed;
-  top: 43%;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%) scale(0);
   transition: 200ms ease-in-out;
   width: 850px;
-  height: 95%;
+  height: 100%;
   padding: 30px 40px;
   background-color: #000000;
   color: var(--all-text);
-  z-index: 105;
+  z-index: 100000;
   overflow-y: scroll;
-  border-radius: 10px;
 }
 
 .pop-up::-webkit-scrollbar {
@@ -319,12 +314,12 @@ footer {
 
 .pop-up.active, .pop-up.show {
   transform: translate(-50%, -50%) scale(1);
-  z-index: 104;
+  z-index: 101;
   margin-top: 3%;
 }
 
 .pop-up.overlap {
-  z-index: 106;
+  z-index: 102;
 }
 
 .pop-up-content {
@@ -553,7 +548,7 @@ table tr td.first {
   opacity: 1;
 }
 .overlay2.overlap {
-  z-index: 103;
+  z-index: 101;
 }
 #score {
   padding: 30px;
@@ -603,45 +598,4 @@ table tr td.first {
 }
 .rating input:focus {
   outline: none;
-}
-
-.owl-carousel{
-  position: relative;
-}
-
-.owl-prev{
-  position: absolute;
-  left: 0%;
-  top: 0%;
-  width: 30px;
-  height: 100%;
-  background-color: rgba(29, 28, 28, 0.368) !important;
-  margin: 10px;
-  transform: translate(0%, 0%);
-  margin: 0% !important;
-}
-
-.owl-next{
-  position: absolute;
-  right: 1%;
-  top: 0%;
-  width: 30px;
-  height: 100%;
-  background-color: rgba(29, 28, 28, 0.368) !important;
-  margin: 10px;
-  transform: translate(0%, 0%);
-  margin: 0% !important;
-}
-
-.owl-next span, .owl-prev span{
-  font-size: 50px;
-  color:rgba(255, 255, 255, 0.3) !important;
-}
-
-.owl-next:hover span, .owl-prev:hover span {
-  color:rgba(255, 255, 255, 0.8) !important;
-}
-
-.owl-item img{
-  width: fit-content !important;
 }

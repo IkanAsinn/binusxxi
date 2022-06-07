@@ -74,9 +74,41 @@
     </nav>
   </div>
 
-  <div class="movie-info" id="jumbotron">
-    <h1 class="fw-bold">TOP GUN:<br>MAVERICK</h1>
-    <button class="btn btn-yellow fw-bold">Check Review</button>
+  <div id="carouselControls" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselControls" data-bs-slide-to="0" class="active" aria-current="true"
+        aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselControls" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselControls" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active" id="movie1">
+        <div class="movie-info">
+          <h1 class="fw-bold">Spider-Man:<br>Far From Home</h1>
+          <button class="btn btn-yellow fw-bold">Check Review</button>
+        </div>
+      </div>
+      <div class="carousel-item" id="movie2">
+        <div class="movie-info">
+          <h1 class="fw-bold text-white">TOP GUN:<br>MAVERICK</h1>
+          <button class="btn btn-yellow fw-bold">Check Review</button>
+        </div>
+      </div>
+      <div class="carousel-item" id="movie3">
+        <div class="movie-info">
+          <h1 class="fw-bold text-white">Doctor-Strange:<br>In the Multiverse<br>of Madness</h1>
+          <button class="btn btn-yellow fw-bold">Check Review</button>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselControls" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselControls" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
   </div>
 
   <div class="content p-xxl-5">
