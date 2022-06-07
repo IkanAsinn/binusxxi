@@ -358,7 +358,7 @@ const movies = [
     },
     {
         poster: './assets/movie12 1.png',
-        title: 'yowis ben finale',
+        title: 'Yowis ben finale',
         director: '',
         writter: '',
         cinematography: '',

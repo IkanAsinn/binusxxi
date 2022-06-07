@@ -116,7 +116,7 @@ openPopUp.forEach(btn => {
             } else if (onBtn.classList.contains('jujutsu-0')) {
                 show = 'Jujutsu Kaisen 0';
             } else if (onBtn.classList.contains('fantastic-beast')) {
-                show = 'Fantastic Beast: The Secrets of Dumbledore';
+                show = 'Fantastic Beasts: The Secrets of Dumbledore';
             } else if (onBtn.classList.contains('cinderella')) {
                 show = 'Cinderella and the Little Sorcerer';
             } else if (onBtn.classList.contains('maverick')) {
