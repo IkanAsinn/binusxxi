@@ -8,7 +8,6 @@ const information = document.querySelector('.container-1');
 const genreButton = document.querySelector('.genre-btn');
 const synopsis = document.querySelector('.synopsis');
 const allInput = document.querySelectorAll('#score input');
-const bookBtn = document.querySelector('.nav-btn .book');
 
 import {series as series} from './series.js';
 import {movies as movies} from './movies2.js';
@@ -305,7 +304,6 @@ const showDetails = (title, obj, type) => {
                         </tr>
                     </table>
                 </div>`;
-                bookBtn.innerHTML = 'Watch';
             } else {
                 information.innerHTML = 
                 `<img src="${obj[i].poster}">
@@ -365,7 +363,6 @@ const showDetails = (title, obj, type) => {
                         </tr>
                     </table>
                 </div>`;
-                bookBtn.innerHTML = 'Book';
             }
         }
     }
