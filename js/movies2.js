@@ -799,7 +799,7 @@ const movies = [
     },
     {
         poster: '../assets/movie29 1.png',
-        title: 'Mr.Malcolm’s List',
+        title: 'Mr.Malcolm\'s List',
         director: '',
         writter: '',
         cinematography: '',
@@ -946,7 +946,7 @@ const movies = [
     },
     {
         poster: '../assets/movie38 1.png',
-        title: 'After Ever happy',
+        title: 'After Ever Happy',
         director: '',
         writter: '',
         cinematography: '',
@@ -988,7 +988,7 @@ const movies = [
     },
     {
         poster: '../assets/movie41 1.png',
-        title: 'dont worry darling',
+        title: 'Dont Worry Darling',
         director: '',
         writter: '',
         cinematography: '',
@@ -1092,7 +1092,7 @@ const movies = [
         p2: ' '
     },
     {
-        poster: '../assets/movie47 1.png',
+        poster: '../assets/movie46 1.png',
         title: 'Devils Light',
         director: '',
         writter: '',

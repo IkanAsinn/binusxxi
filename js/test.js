@@ -130,8 +130,58 @@ openPopUp.forEach(btn => {
                 show = 'Doraemon: Nobita Little Star Wars';
             } else if (onBtn.classList.contains('Anek')) {
                 show = 'Anek';
-            }else if (onBtn.classList.contains('ancestral')) {
+            } else if (onBtn.classList.contains('ancestral')) {
                 show = 'The Ancestral';
+            } else if (onBtn.classList.contains('jurassic')) {
+                show = 'Jurassic World Dominion';
+            } else if (onBtn.classList.contains('lightyear')) {
+                show = 'Lightyear';
+            } else if (onBtn.classList.contains('spiderhead')) { 
+                show = 'Spiderhead'
+            } else if (onBtn.classList.contains('watcher')) {
+                show = 'Watcher';
+            } else if (onBtn.classList.contains('ngeri')) {
+                show = 'Ngeri Ngeri Sedap';
+            } else if (onBtn.classList.contains('summer-ghost')) {
+                show = 'Summer Ghost';
+            } else if (onBtn.classList.contains('thor')) {
+                show = 'Thor: Love and Thunder';
+            } else if (onBtn.classList.contains('minions')) {
+                show = 'Minions Rise of the Gru';
+            } else if (onBtn.classList.contains('osomatsu')) {
+                show = 'Mr. Osomatsu: Hipipo-Zoku to Kagayaku Kajitsu';
+            } else if (onBtn.classList.contains('malcom')) {
+                show = 'Mr.Malcolm\'s List';
+            } else if (onBtn.classList.contains('all-the-world')) {
+                show = 'All the world is sleeping';
+            } else if (onBtn.classList.contains('bodies')) {
+                show = 'Bodies Bodies Bodies';
+            } else if (onBtn.classList.contains('three-minutes')) {
+                show = 'Three Minutes a Lengthening';
+            } else if (onBtn.classList.contains('bride')) {
+                show = 'The Bride';
+            } else if (onBtn.classList.contains('three-thousand')) {
+                show = 'Three thousand year longing';
+            } else if (onBtn.classList.contains('moon-66')) {
+                show = 'Moon 66 questions';
+            } else if (onBtn.classList.contains('after-ever-happy')) {
+                show = 'After Ever Happy';
+            } else if (onBtn.classList.contains('the-woman-king')) {
+                show = 'The Woman King';
+            } else if (onBtn.classList.contains('dont-worry')) {
+                show = 'Dont Worry Darling'
+            } else if (onBtn.classList.contains('bros')) {
+                show = 'BROS';
+            } else if (onBtn.classList.contains('halloween')) {
+                show = 'Halloween Ends';
+            } else if (onBtn.classList.contains('black-adam')) {
+                show = 'Black Adam';
+            } else if (onBtn.classList.contains('devotion')) {
+                show = 'Devotion';
+            } else if (onBtn.classList.contains('devils-light')) {
+                show = 'Devils Light';
+            } else if (onBtn.classList.contains('call-jane')) {
+                show = 'Call Jane';
             }
         }
 
