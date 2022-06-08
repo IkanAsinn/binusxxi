@@ -37,6 +37,11 @@
     height: 250px;
     border-radius: 10px;
     box-shadow: rgb(0, 0, 0) 0px 20px 30px -10px;
+    transition: transform 0.3s;
+}
+
+.flex-container div img:hover {
+    transform: scale(1.1);
 }
 
 .flex-container h4{

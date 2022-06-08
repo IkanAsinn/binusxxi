@@ -16,7 +16,7 @@ if (loginMethod === 'username') {
 const logoutBtn = document.getElementById('logout').addEventListener('click', () => {
   localStorage.removeItem('current-user');
   localStorage.removeItem('login-method');
-  location.replace('login.html');
+  location.replace('/binusxxi/login');
 })
 
 
