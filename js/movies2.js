@@ -588,7 +588,7 @@ const movies = [
         p2: 'Aido adalah seorang petinju yang ganas, yang telah menjadi sasaran rasisme berulang kali tetapi masih bertujuan untuk membawa medali emas untuk India sehingga berharap untuk diterima sepenuhnya sebagai orang India. Akankah Joshua menang dalam misinya untuk menyatukan negara? Ini adalah kisah menyayat hati yang mempertanyakan apa yang diperlukan untuk menjadi orang India di atas semua perbedaan yang dihadapi negara ini.'
     },
     {
-        poster: '../assets/image 103.png',
+        poster: './assets/image 103.png',
         title: 'The Ancestral',
         director: '',
         writter: '',
@@ -609,7 +609,7 @@ const movies = [
         p2: 'Anak terakhir Thanh sering melihat sesuatu yang mengganggu tidurnya. Di rumah baru tersebut, kedua putri Thanh mengalami teror mengerikan setiap malam.Thanh kemudian meminta bantuan dari psikolog lokal untuk mengatasi masalah yang menurutnya hanya masalah psikis saja. Namun, rahasia dan penglihatan yang sangat mengerikan menyadarkan Thanh bahwa masalah di rumah tua itu tidak sesederhana yang ia kira. Kejadian tersebut sangat berbeda dari tragedi yang terjadi di rumah keluarga lama.Thanh menemukan sebuah rahasia besar di ruang bawah tanah rumah tersebut. Lantas, rahasia besar apa yang ditemukan Thanh dan keluarganya?'
     },
     {
-        poster: '../assets/movie18 1.png',
+        poster: './assets/movie18 1.png',
         title: 'Jurassic World Dominion',
         director: '',
         writter: '',
@@ -630,7 +630,7 @@ const movies = [
         p2: 'Umat manusia akhirnya dihadapkan pada pilihan tentang peran apa yang akan mereka ambil.Apakah mereka akan membiarkan dinosaurus terus ada yang bisa menyebabkan kepunahan bagi manusia. Ataukah manusia harus kembali mengambil alih kekuasaan di atas bumi dengan memusnahkan dinosaurus.Dalam film ini diceritakan bahwa manusia bukanlah menjadi sosok yang dominan dalam menguasai bumi. Posisi manusia terancam dengan kehadiran dinosaurus yang sejatinya sudah punah namun kembali dihidupkan oleh manusia.Film menunjukkan bahwa masalah hingga bencana yang mengancam kehidupan manusia sebenarnya berasal dari ulah manusia itu sendiri. Ketamakan untuk bisa meraih keuntungan secara komersial justru membawa manusia pada ancaman kepunahan.'
     },
     {
-        poster: '../assets/movie17 3 1.png',
+        poster: './assets/movie17 3 1.png',
         title: 'Lightyear',
         director: '',
         writter: '',
@@ -651,7 +651,7 @@ const movies = [
         p2: 'Misi mereka juga akan berusaha digagalkan oleh sekelompok robot jahat. Petualangan Buzz Lightyear di luar angkasa juga akan didampingi seekor kucing bernama Sox.'
     },
     {
-        poster: '../assets/movie20 1.png',
+        poster: './assets/movie20 1.png',
         title: 'Spiderhead',
         director: '',
         writter: '',
@@ -672,7 +672,7 @@ const movies = [
         p2: 'Alih-alih dikurung di sel, seperti halnya penjara biasa, para narapidana bebas berkeliaran di dalam sel. Namun mereka sering diisolasi dan dipompa dengan obat-obatan sebagai bagian dari eksperimen.'
     },
     {
-        poster: '../assets/movie19 1.png',
+        poster: './assets/movie19 1.png',
         title: 'Watcher',
         director: '',
         writter: '',
@@ -693,7 +693,7 @@ const movies = [
         p2: 'Sementara Young Goon adalah polisi yang bertugas berpatroli di jalanan. Meski kerap bersikap dingin, ia sebenarnya mempunyai kepribadian yang lembut. Tae Joo menjadi satu-satunya wanita dan anggota terakhir yang bergabung dalam tim.Sebelum menjadi pengacara terkenal, ia berprofesi sebagai jaksa. Tae Joo rela meninggalkan pekerjaan lamanya usai sebuah insiden tak terduga membuat hidupnya terancam. Chi Kwang, Young Goon, dan Tae Joo bekerja sama untuk mengungkap pelaku pembunuhan yang terjadi 15 tahun lalu. Namun, setelah penyelidikan berjalan, mereka mulai menemukan fakta-fakta mengejutkan.Ternyata, kasus tersebut tak sesederhana yang mereka pikirkan. Banyak orang berpengaruh di pemerintahan yang turut terlibat. Mampukah Chi Kwang, Young Goon, dan Tae Joo menyelesaikan kasus yang menghantui hidup mereka?'
     },
     {
-        poster: '../assets/movie21 1.png',
+        poster: './assets/movie21 1.png',
         title: 'Ngeri Ngeri Sedap',
         director: '',
         writter: '',
@@ -714,7 +714,7 @@ const movies = [
         p2: 'Ketika tiba di Medan, mereka terkejut karena mengetahui bahwa pertengkaran yang dimaksud hanyalah kebohongan belaka.Meskipun begitu, rasa rindunya terbayarkan, setelah melihat anak-anaknya berkumpul kembali. Di balik itu semua, ternyata Marlina ingin melihat anak-anaknya menikah terlebih dahulu, sebelum hal yang ia tutupi rapat-rapat diketahui oleh anaknya dan menjadi sia-sia.'
     },
     {
-        poster: '../assets/movie28 1.png',
+        poster: './assets/movie28 1.png',
         title: 'Summer Ghost',
         director: '',
         writter: '',
@@ -735,7 +735,7 @@ const movies = [
         p2: 'Ketiga remaja itu kembali ke rumah, tetapi Tomoya segera mulai mengunjungi lapangan terbang sendirian, karena ia menjadi terobsesi dengan misteri seputar Ayane dan tujuan sebenarnya dari kunjungannya.Terinspirasi oleh salah satu gambarnya sendiri, debut penyutradaraan yang luar biasa dari ilustrator terkenal loundraw ini membawa kepekaan visualnya yang subur ke sebuah drama supernatural yang menyentuh tentang perjuangan tumbuh dewasa, dan pentingnya menjalani hidup sepenuhnya.'
     },
     {
-        poster: '../assets/movie30 1.png',
+        poster: './assets/movie30 1.png',
         title: 'Thor: Love and Thunder',
         director: '',
         writter: '',
@@ -756,7 +756,7 @@ const movies = [
         p2: 'Yang mengejutkan, penampakan Jane Foster ini dalam sosok Mighty Thor menggunakan palu ajaib Mjolnir. Bersama-sama, mereka akan memulai petualangan kosmik yang mengerikan untuk mengungkap misteri pembalasan God Butcher dan menghentikannya sebelum itu terlambat.'
     },
     {
-        poster: '../assets/movie27 1.png',
+        poster: './assets/movie27 1.png',
         title: 'Minions Rise of the Gru',
         director: '',
         writter: '',
@@ -777,7 +777,7 @@ const movies = [
         p2: 'Itu tidak berjalan dengan baik, dan keadaan hanya menjadi lebih buruk setelah Gru mencuri dari mereka dengan bantuan Kevin, Stuart, Bob, Otto, dan Minion lainnya dan tiba-tiba menemukan dirinya musuh bebuyutan puncak kejahatan. Dalam pelarian, Gru dan Minion akan beralih ke sumber yang tidak terduga untuk bimbingan, Wild Knuckles sendiri, dan menemukan bahwa orang jahat pun membutuhkan sedikit bantuan dari teman-teman mereka.'
     },
     {
-        poster: '../assets/movie29 1.png',
+        poster: './assets/movie29 1.png',
         title: 'Mr. Osomatsu: Hipipo-Zoku to Kagayaku Kajitsu',
         director: '',
         writter: '',
@@ -798,7 +798,7 @@ const movies = [
         p2: ' '
     },
     {
-        poster: '../assets/movie29 1.png',
+        poster: './assets/movie29 1.png',
         title: 'Mr.Malcolm\'s List',
         director: '',
         writter: '',
@@ -819,7 +819,7 @@ const movies = [
         p2: ' '
     },
     {
-        poster: '../assets/movie33 1.png',
+        poster: './assets/movie33 1.png',
         title: 'All the world is sleeping',
         director: '',
         writter: '',
@@ -840,7 +840,7 @@ const movies = [
         p2: ' '
     },
     {
-        poster: '../assets/movie34 1.png',
+        poster: './assets/movie34 1.png',
         title: 'Bodies Bodies Bodies',
         director: '',
         writter: '',
@@ -861,7 +861,7 @@ const movies = [
         p2: 'Pesta itu digelar oleh Sophie dan David yang sangat kaya, sementara itu Bee adalah pacar Sophie yang bergabung di antara mereka. Bee merasa sedikit naif terhadap jenis pesta yang mereka adakan.Salah satu teman mereka, Jordan memperingatkan Bee bahwa Sophie tidak seperti yang terlihat. Sophie telah berada di tempat rehabilitasi dan tidak berbicara dengan mereka untuk beberapa waktu sehingga menyebabkan hubungan yang canggung di antara mereka.Pesta hari itu begitu menyenangkan sebelum akhirnya mereka memutuskan untuk bermain sebuah permainan misteri pembunuhan yang disebut Bodies Bodies Bodies'
     },
     {
-        poster: '../assets/movie35 1.png',
+        poster: './assets/movie35 1.png',
         title: 'Three Minutes a Lengthening',
         director: '',
         writter: '',
@@ -882,7 +882,7 @@ const movies = [
         p2: ' '
     },
     {
-        poster: '../assets/movie36 1.png',
+        poster: './assets/movie36 1.png',
         title: 'The Bride',
         director: '',
         writter: '',
@@ -903,7 +903,7 @@ const movies = [
         p2: ' '
     },
     {
-        poster: '../assets/movie37 1.png',
+        poster: './assets/movie37 1.png',
         title: 'Three thousand year longing',
         director: '',
         writter: '',
@@ -924,7 +924,7 @@ const movies = [
         p2: ' '
     },
     {
-        poster: '../assets/movie31 1.png',
+        poster: './assets/movie31 1.png',
         title: 'Moon 66 questions',
         director: '',
         writter: '',
@@ -945,7 +945,7 @@ const movies = [
         p2: ' '
     },
     {
-        poster: '../assets/movie38 1.png',
+        poster: './assets/movie38 1.png',
         title: 'After Ever Happy',
         director: '',
         writter: '',
@@ -966,7 +966,7 @@ const movies = [
         p2: 'Tessa memahami semua emosi mengganggu yang muncul di balik penampilan luar Hardin, dan Tessa tahu dialah satu-satunya orang yang bisa menenangkannya saat Hardin meledak. Hardin membutuhkannya.Tapi semakin banyak lapisan masa lalu yang terungkap, semakin gelap Hardin menjadi, dan semakin keras dia mendorong Tessa—dan semua orang dalam hidupnya—menjauh. Tessa tidak yakin apakah dia benar-benar bisa menyelamatkan Hardin—tanpa mengorbankan dirinya sendiri. Tessa menolak menyerah tanpa perlawanan. Tapi dengan siapa dia sebenarnya bertarung—Hardin atau dirinya sendiri?'
     },
     {
-        poster: '../assets/movie40 1.png',
+        poster: './assets/movie40 1.png',
         title: 'The Woman King',
         director: '',
         writter: '',
@@ -987,7 +987,7 @@ const movies = [
         p2: ' '
     },
     {
-        poster: '../assets/movie41 1.png',
+        poster: './assets/movie41 1.png',
         title: 'Dont Worry Darling',
         director: '',
         writter: '',
@@ -1008,7 +1008,7 @@ const movies = [
         p2: 'Sorotan yang hadir kemudian akan fokus pada seberapa besarkah Alice siap untuk kehilangan segalanya untuk mengungkap apa yang sebenarnya terjadi di surga.Wilde mengatakan bahwa dia terinspirasi oleh film thriller psikoseksual seperti “Fatal Attraction” dan “Indecent Proposal”. Sebelumnya, perempuan berusia 38 tahun itu pernah menggarap film komedi remaja “Booksmart” yang dirilis pada tahun 2019. Wilde juga bekerjasama dengan penulis Katie Silberman, yang sebelumnya menjadi rekannya di “Booksmart”, untuk menulis naskah “Don’t Worry Darling.”Selain itu, Wilde juga mengutip “Inception,” “The Matrix” dan “The Truman Show” sebagai sumber inspirasi saat berbicara di CinemaCon dengan menyebut bahwa film – film itu merupakan “surat cinta untuk film – film  yang mendorong batas imajinasi kita”, sebagaimana dilansir melalui Variety.“Saya ingin Anda membayangkan kehidupan di mana Anda memiliki semua yang Anda inginkan,” kata Wilde. “Bukan hanya materi, hal-hal nyata … seperti rumah yang indah, cuaca yang sempurna, dan mobil yang keren. Tetapi juga hal-hal yang benar-benar penting, seperti cinta sejati atau pasangan yang sempurna atau persahabatan sejati yang dapat dipercaya dan tujuan yang terasa bermakna.'
     },
     {
-        poster: '../assets/movie42 1.png',
+        poster: './assets/movie42 1.png',
         title: 'BROS',
         director: '',
         writter: '',
@@ -1029,7 +1029,7 @@ const movies = [
         p2: ' '
     },
     {
-        poster: '../assets/movie43 1.png',
+        poster: './assets/movie43 1.png',
         title: 'Halloween Ends',
         director: '',
         writter: '',
@@ -1050,7 +1050,7 @@ const movies = [
         p2: ' '
     },
     {
-        poster: '../assets/movie44 1.png',
+        poster: './assets/movie44 1.png',
         title: 'Black Adam',
         director: '',
         writter: '',
@@ -1071,7 +1071,7 @@ const movies = [
         p2: ' '
     },
     {
-        poster: '../assets/movie45 1.png',
+        poster: './assets/movie45 1.png',
         title: 'Devotion',
         director: '',
         writter: '',
@@ -1092,7 +1092,7 @@ const movies = [
         p2: ' '
     },
     {
-        poster: '../assets/movie46 1.png',
+        poster: './assets/movie46 1.png',
         title: 'Devils Light',
         director: '',
         writter: '',
@@ -1113,7 +1113,7 @@ const movies = [
         p2: ' '
     },
     {
-        poster: '../assets/movie47 1.png',
+        poster: './assets/movie47 1.png',
         title: 'Call Jane',
         director: '',
         writter: '',
