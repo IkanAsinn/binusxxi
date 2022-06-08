@@ -182,6 +182,8 @@ openPopUp.forEach(btn => {
                 show = 'Devils Light';
             } else if (onBtn.classList.contains('call-jane')) {
                 show = 'Call Jane';
+            } else if (onBtn.classList.contains('brahmastra')) {
+                show = 'Brahmastra Part One: Shiva';
             }
         }
 

@@ -1133,6 +1133,27 @@ const movies = [
         p1: 'Seorang biarawati bersiap untuk melakukan eksorsisme dan berhadapan dengan kekuatan iblis dengan ikatan misterius dengan masa lalunya.',
         p2: ' '
     },
+    {
+        poster: './assets/movie39 1.png',
+        title: 'Brahmastra Part One: Shiva',
+        director: '',
+        writter: '',
+        cinematography: '',
+        production: '',
+        released: '(2022)',
+        duration: '147 Min.',
+        producers: 'Ranbir Kapoor, Ayan Mukerji, Karan Johar, Apoorva Mehta, Hiroo Johar, Namit Malhotra',
+        aired: 'September 9, 2022',
+        distributor: '',
+        rate: '0.0',
+        scores: [0.0],
+        genre: ['Fantasy', 'Action'],
+        country: 'India',
+        language: 'Hindi',
+        rating: 'PG-13',
+        p1: 'Brahmastra Part One: Shiva (2022) adalah franchise film 3 bagian dan awal dari alam semesta asli pertama India - Astraverse. Ini adalah alam semesta sinematik original baru yang terinspirasi oleh konsep dan kisah yang mengakar dalam mitologi India tetapi berlatar di dunia modern, dengan penceritaan epik tentang fantasi, petualangan, kebaikan vs kejahatan, cinta dan harapan; semua diceritakan menggunakan teknologi mutakhir dan kacamata visual yang belum pernah dilihat sebelumnya. Film ini rupanya diatur dalam dua kerangka waktu. Cerita utamanya berlatar masa sekarang di mana Shiva, seorang pemuda dengan kekuatan super yang melakukan perjalanan 3000 tahun ke masa lalu ke era pra- Mahabharatha untuk belajar tentang senjata seperti Brahmastra untuk memenuhi misi di masa sekarang.',
+        p2: '',
+    }
 ];
 
 export {movies};
