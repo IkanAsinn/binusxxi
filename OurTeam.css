@@ -1,0 +1,40 @@
+.containerOT{
+    background-color: black;
+    margin-top: 80px;
+    height: 1000px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.containerOT h1{
+    color: white;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    font-weight: bold;
+    border-bottom: 2px solid white;
+    margin-bottom: 150px;
+}
+
+.flex-container{
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin-bottom: 100px;
+}
+
+.flex-container div{
+    width: 15%;
+    margin: 0% 15px;
+    text-align: center;
+}
+
+.flex-container div img{
+    width: 200px;
+    height: 250px;
+}
+
+.flex-container h4{
+    margin: 10px 0px;
+    font-weight: 600;
+}
+
