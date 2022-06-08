@@ -12,10 +12,7 @@
 
   <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
   <link rel="stylesheet" href="styles/style.css">
-  <link type="text/css" rel="stylesheet" href="styles/lightslider.css" />
   <link rel="stylesheet" href="./styles/ongoing.css">
-  <script src="js/jquery.js"></script>
-  <script src="js/lightslider.js"></script>
   <script type="module" src="js/test.js" defer></script>
   <title>Home - BinusXXI</title>
 
@@ -23,6 +20,15 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+    integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 </head>
 
@@ -125,6 +131,7 @@
           <h4>Location</h4>
         </div>
         <div class="button">
+          <a id="all">All</a>
           <a id="xxi">XXI</a>
           <a id="cgv">CGV</a>
           <a id="cinepolis">CINEPOLIS</a>
@@ -135,138 +142,116 @@
           <img src="./assets/Rectangle 6.png" class="mb-2 me-3">
           <p class="fs-2 fw-bold text-white">CINEPOLIS MANGGA DUA SQUARE</p>
         </div>
-        <ul class="autoWidth cs-hidden">
-          <li class="item-a action ">
-            <div class="box mt-3">
-              <div class="slide-img">
-                <img src="./assets/image 6.png" alt="">
-                <div class="overlay d-flex justify-content-center align-items-center">
-                  <button
-                    class="check-review-btn justify-content-center align-items-center fw-bold fs-5 open movie doctor-strange"
-                    data-modal-target="#review">Check
-                    Review</button>
-                </div>
+        <div class="owl-carousel owl-theme">
+          <div class="box mt-3 item">
+            <div class="slide-img">
+              <img src="./assets/image 6.png" alt="">
+              <div class="overlay d-flex justify-content-center align-items-center">
+                <button
+                  class="check-review-btn justify-content-center align-items-center fw-bold fs-5 open movie doctor-strange"
+                  data-modal-target="#review">Check
+                  Review</button>
               </div>
             </div>
-          </li>
-          <li class="item-b">
-            <div class="box mt-3">
-              <div class="slide-img">
-                <img src="./assets/image 20.png" alt="">
-                <div class="overlay d-flex justify-content-center align-items-center">
-                  <button
-                    class="check-review-btn justify-content-center align-items-center fw-bold fs-5 open movie KKN"
-                    data-modal-target="#review">Check
-                    Review</button>
-                </div>
+          </div>
+          <div class="box mt-3 item">
+            <div class="slide-img">
+              <img src="./assets/image 20.png" alt="">
+              <div class="overlay d-flex justify-content-center align-items-center">
+                <button class="check-review-btn justify-content-center align-items-center fw-bold fs-5 open movie KKN"
+                  data-modal-target="#review">Check
+                  Review</button>
               </div>
             </div>
-          </li>
-          <li class="item-c">
-            <div class="box mt-3">
-              <div class="slide-img">
-                <img src="./assets/image 104.png" alt="">
-                <div class="overlay d-flex justify-content-center align-items-center">
-                  <button
-                    class="check-review-btn justify-content-center align-items-center fw-bold fs-5 open movie maverick"
-                    data-modal-target="#review">Check
-                    Review</button>
-                </div>
+          </div>
+          <div class="box mt-3 item">
+            <div class="slide-img">
+              <img src="./assets/image 104.png" alt="">
+              <div class="overlay d-flex justify-content-center align-items-center">
+                <button
+                  class="check-review-btn justify-content-center align-items-center fw-bold fs-5 open movie maverick"
+                  data-modal-target="#review">Check
+                  Review</button>
               </div>
             </div>
-          </li>
-          <li class="item-e">
-            <div class="box mt-3">
-              <div class="slide-img">
-                <img src="./assets/image 105.png" alt="">
-                <div class="overlay d-flex justify-content-center align-items-center">
-                  <button
-                    class="check-review-btn justify-content-center align-items-center fw-bold fs-5 open movie doll-3"
-                    data-modal-target="#review">Check
-                    Review</button>
-                </div>
+          </div>
+          <div class="box mt-3 item">
+            <div class="slide-img">
+              <img src="./assets/image 105.png" alt="">
+              <div class="overlay d-flex justify-content-center align-items-center">
+                <button
+                  class="check-review-btn justify-content-center align-items-center fw-bold fs-5 open movie doll-3"
+                  data-modal-target="#review">Check
+                  Review</button>
               </div>
             </div>
-          </li>
-          <li class="item-f">
-            <div class="box mt-3">
-              <div class="slide-img">
-                <img src="./assets/TheRoundUp.png" alt="">
-                <div class="overlay d-flex justify-content-center align-items-center">
-                  <button
-                    class="check-review-btn justify-content-center align-items-center fw-bold fs-5 open movie round-up"
-                    data-modal-target="#review">Check
-                    Review</button>
-                </div>
+          </div>
+          <div class="box mt-3 item">
+            <div class="slide-img">
+              <img src="./assets/TheRoundUp.png" alt="">
+              <div class="overlay d-flex justify-content-center align-items-center">
+                <button
+                  class="check-review-btn justify-content-center align-items-center fw-bold fs-5 open movie round-up"
+                  data-modal-target="#review">Check
+                  Review</button>
               </div>
             </div>
-          </li>
-          <li class="item-a action ">
-            <div class="box mt-3">
-              <div class="slide-img">
-                <img src="./assets/image 6.png" alt="">
-                <div class="overlay d-flex justify-content-center align-items-center">
-                  <button
-                    class="check-review-btn justify-content-center align-items-center fw-bold fs-5 open movie doctor-strange"
-                    data-modal-target="#review">Check
-                    Review</button>
-                </div>
+          </div>
+          <div class="box mt-3 item">
+            <div class="slide-img">
+              <img src="./assets/image 6.png" alt="">
+              <div class="overlay d-flex justify-content-center align-items-center">
+                <button
+                  class="check-review-btn justify-content-center align-items-center fw-bold fs-5 open movie doctor-strange"
+                  data-modal-target="#review">Check
+                  Review</button>
               </div>
             </div>
-          </li>
-          <li class="item-b">
-            <div class="box mt-3">
-              <div class="slide-img">
-                <img src="./assets/image 20.png" alt="">
-                <div class="overlay d-flex justify-content-center align-items-center">
-                  <button
-                    class="check-review-btn justify-content-center align-items-center fw-bold fs-5 open movie KKN"
-                    data-modal-target="#review">Check
-                    Review</button>
-                </div>
+          </div>
+          <div class="box mt-3 item">
+            <div class="slide-img">
+              <img src="./assets/image 20.png" alt="">
+              <div class="overlay d-flex justify-content-center align-items-center">
+                <button class="check-review-btn justify-content-center align-items-center fw-bold fs-5 open movie KKN"
+                  data-modal-target="#review">Check
+                  Review</button>
               </div>
             </div>
-          </li>
-          <li class="item-c">
-            <div class="box mt-3">
-              <div class="slide-img">
-                <img src="./assets/image 104.png" alt="">
-                <div class="overlay d-flex justify-content-center align-items-center">
-                  <button
-                    class="check-review-btn justify-content-center align-items-center fw-bold fs-5 open movie maverick"
-                    data-modal-target="#review">Check
-                    Review</button>
-                </div>
+          </div>
+          <div class="box mt-3 item">
+            <div class="slide-img">
+              <img src="./assets/image 104.png" alt="">
+              <div class="overlay d-flex justify-content-center align-items-center">
+                <button
+                  class="check-review-btn justify-content-center align-items-center fw-bold fs-5 open movie maverick"
+                  data-modal-target="#review">Check
+                  Review</button>
               </div>
             </div>
-          </li>
-          <li class="item-e">
-            <div class="box mt-3">
-              <div class="slide-img">
-                <img src="./assets/image 105.png" alt="">
-                <div class="overlay d-flex justify-content-center align-items-center">
-                  <button
-                    class="check-review-btn justify-content-center align-items-center fw-bold fs-5 open movie doll-3"
-                    data-modal-target="#review">Check
-                    Review</button>
-                </div>
+          </div>
+          <div class="box mt-3 item">
+            <div class="slide-img">
+              <img src="./assets/image 105.png" alt="">
+              <div class="overlay d-flex justify-content-center align-items-center">
+                <button
+                  class="check-review-btn justify-content-center align-items-center fw-bold fs-5 open movie doll-3"
+                  data-modal-target="#review">Check
+                  Review</button>
               </div>
             </div>
-          </li>
-          <li class="item-f">
-            <div class="box mt-3">
-              <div class="slide-img">
-                <img src="./assets/TheRoundUp.png" alt="">
-                <div class="overlay d-flex justify-content-center align-items-center">
-                  <button
-                    class="check-review-btn justify-content-center align-items-center fw-bold fs-5 open movie round-up"
-                    data-modal-target="#review">Check
-                    Review</button>
-                </div>
+          </div>
+          <div class="box mt-3 item">
+            <div class="slide-img">
+              <img src="./assets/TheRoundUp.png" alt="">
+              <div class="overlay d-flex justify-content-center align-items-center">
+                <button
+                  class="check-review-btn justify-content-center align-items-center fw-bold fs-5 open movie round-up"
+                  data-modal-target="#review">Check
+                  Review</button>
               </div>
             </div>
-          </li>
-        </ul>
+          </div>
+        </div>
       </div>
 
       <div class="popular mt-lg-5 cgv all">
@@ -274,138 +259,116 @@
           <img src="./assets/Rectangle 6.png" class="mb-2 me-3">
           <p class="fs-2 fw-bold text-white">CGV CENTRAL PARK</p>
         </div>
-        <ul class="autoWidth cs-hidden">
-          <li class="item-a">
-            <div class="box mt-3">
-              <div class="slide-img">
-                <img src="./assets/image 104.png" alt="">
-                <div class="overlay d-flex justify-content-center align-items-center">
-                  <button
-                    class="check-review-btn justify-content-center align-items-center fw-bold fs-5 open movie maverick"
-                    data-modal-target="#review">Check
-                    Review</button>
-                </div>
+        <div class="owl-carousel owl-theme">
+          <div class="box mt-3 item">
+            <div class="slide-img">
+              <img src="./assets/image 104.png" alt="">
+              <div class="overlay d-flex justify-content-center align-items-center">
+                <button
+                  class="check-review-btn justify-content-center align-items-center fw-bold fs-5 open movie maverick"
+                  data-modal-target="#review">Check
+                  Review</button>
               </div>
             </div>
-          </li>
-          <li class="item-b">
-            <div class="box mt-3">
-              <div class="slide-img">
-                <img src="./assets/image 105.png" alt="">
-                <div class="overlay d-flex justify-content-center align-items-center">
-                  <button
-                    class="check-review-btn justify-content-center align-items-center fw-bold fs-5 open movie doll-3"
-                    data-modal-target="#review">Check
-                    Review</button>
-                </div>
+          </div>
+          <div class="box mt-3 item">
+            <div class="slide-img">
+              <img src="./assets/image 105.png" alt="">
+              <div class="overlay d-flex justify-content-center align-items-center">
+                <button
+                  class="check-review-btn justify-content-center align-items-center fw-bold fs-5 open movie doll-3"
+                  data-modal-target="#review">Check
+                  Review</button>
               </div>
             </div>
-          </li>
-          <li class="item-c">
-            <div class="box mt-3">
-              <div class="slide-img">
-                <img src="./assets/image 103.png" alt="">
-                <div class="overlay d-flex justify-content-center align-items-center">
-                  <button
-                    class="check-review-btn justify-content-center align-items-center fw-bold fs-5 open movie ancestral"
-                    data-modal-target="#review">Check
-                    Review</button>
-                </div>
+          </div>
+          <div class="box mt-3 item">
+            <div class="slide-img">
+              <img src="./assets/image 103.png" alt="">
+              <div class="overlay d-flex justify-content-center align-items-center">
+                <button
+                  class="check-review-btn justify-content-center align-items-center fw-bold fs-5 open movie ancestral"
+                  data-modal-target="#review">Check
+                  Review</button>
               </div>
             </div>
-          </li>
-          <li class="item-d">
-            <div class="box mt-3">
-              <div class="slide-img">
-                <img src="./assets/image 6.png" alt="">
-                <div class="overlay d-flex justify-content-center align-items-center">
-                  <button
-                    class="check-review-btn justify-content-center align-items-center fw-bold fs-5 open movie doctor-strange"
-                    data-modal-target="#review">Check
-                    Review</button>
-                </div>
+          </div>
+          <div class="box mt-3 item">
+            <div class="slide-img">
+              <img src="./assets/image 6.png" alt="">
+              <div class="overlay d-flex justify-content-center align-items-center">
+                <button
+                  class="check-review-btn justify-content-center align-items-center fw-bold fs-5 open movie doctor-strange"
+                  data-modal-target="#review">Check
+                  Review</button>
               </div>
             </div>
-          </li>
-          <li class="item-d">
-            <div class="box mt-3">
-              <div class="slide-img">
-                <img src="./assets/image 20.png" alt="">
-                <div class="overlay d-flex justify-content-center align-items-center">
-                  <button
-                    class="check-review-btn justify-content-center align-items-center fw-bold fs-5 open movie KKN"
-                    data-modal-target="#review">Check
-                    Review</button>
-                </div>
+          </div>
+          <div class="box mt-3 item">
+            <div class="slide-img">
+              <img src="./assets/image 20.png" alt="">
+              <div class="overlay d-flex justify-content-center align-items-center">
+                <button class="check-review-btn justify-content-center align-items-center fw-bold fs-5 open movie KKN"
+                  data-modal-target="#review">Check
+                  Review</button>
               </div>
             </div>
-          </li>
-          <li class="item-a">
-            <div class="box mt-3">
-              <div class="slide-img">
-                <img src="./assets/image 104.png" alt="">
-                <div class="overlay d-flex justify-content-center align-items-center">
-                  <button
-                    class="check-review-btn justify-content-center align-items-center fw-bold fs-5 open movie maverick"
-                    data-modal-target="#review">Check
-                    Review</button>
-                </div>
+          </div>
+          <div class="box mt-3 item">
+            <div class="slide-img">
+              <img src="./assets/image 104.png" alt="">
+              <div class="overlay d-flex justify-content-center align-items-center">
+                <button
+                  class="check-review-btn justify-content-center align-items-center fw-bold fs-5 open movie maverick"
+                  data-modal-target="#review">Check
+                  Review</button>
               </div>
             </div>
-          </li>
-          <li class="item-b">
-            <div class="box mt-3">
-              <div class="slide-img">
-                <img src="./assets/image 105.png" alt="">
-                <div class="overlay d-flex justify-content-center align-items-center">
-                  <button
-                    class="check-review-btn justify-content-center align-items-center fw-bold fs-5 open movie doll-3"
-                    data-modal-target="#review">Check
-                    Review</button>
-                </div>
+          </div>
+          <div class="box mt-3 item">
+            <div class="slide-img">
+              <img src="./assets/image 105.png" alt="">
+              <div class="overlay d-flex justify-content-center align-items-center">
+                <button
+                  class="check-review-btn justify-content-center align-items-center fw-bold fs-5 open movie doll-3"
+                  data-modal-target="#review">Check
+                  Review</button>
               </div>
             </div>
-          </li>
-          <li class="item-c">
-            <div class="box mt-3">
-              <div class="slide-img">
-                <img src="./assets/image 103.png" alt="">
-                <div class="overlay d-flex justify-content-center align-items-center">
-                  <button
-                    class="check-review-btn justify-content-center align-items-center fw-bold fs-5 open movie ancestral"
-                    data-modal-target="#review">Check
-                    Review</button>
-                </div>
+          </div>
+          <div class="box mt-3 item">
+            <div class="slide-img">
+              <img src="./assets/image 103.png" alt="">
+              <div class="overlay d-flex justify-content-center align-items-center">
+                <button
+                  class="check-review-btn justify-content-center align-items-center fw-bold fs-5 open movie ancestral"
+                  data-modal-target="#review">Check
+                  Review</button>
               </div>
             </div>
-          </li>
-          <li class="item-d">
-            <div class="box mt-3">
-              <div class="slide-img">
-                <img src="./assets/image 6.png" alt="">
-                <div class="overlay d-flex justify-content-center align-items-center">
-                  <button
-                    class="check-review-btn justify-content-center align-items-center fw-bold fs-5 open movie doctor-strange"
-                    data-modal-target="#review">Check
-                    Review</button>
-                </div>
+          </div>
+          <div class="box mt-3 item">
+            <div class="slide-img">
+              <img src="./assets/image 6.png" alt="">
+              <div class="overlay d-flex justify-content-center align-items-center">
+                <button
+                  class="check-review-btn justify-content-center align-items-center fw-bold fs-5 open movie doctor-strange"
+                  data-modal-target="#review">Check
+                  Review</button>
               </div>
             </div>
-          </li>
-          <li class="item-d">
-            <div class="box mt-3">
-              <div class="slide-img">
-                <img src="./assets/image 20.png" alt="">
-                <div class="overlay d-flex justify-content-center align-items-center">
-                  <button
-                    class="check-review-btn justify-content-center align-items-center fw-bold fs-5 open movie KKN"
-                    data-modal-target="#review">Check
-                    Review</button>
-                </div>
+          </div>
+          <div class="box mt-3 item">
+            <div class="slide-img">
+              <img src="./assets/image 20.png" alt="">
+              <div class="overlay d-flex justify-content-center align-items-center">
+                <button class="check-review-btn justify-content-center align-items-center fw-bold fs-5 open movie KKN"
+                  data-modal-target="#review">Check
+                  Review</button>
               </div>
             </div>
-          </li>
-        </ul>
+          </div>
+        </div>
       </div>
 
       <div class="marvel mt-lg-5 xxi all">
@@ -413,138 +376,118 @@
           <img src="./assets/Rectangle 6.png" class="mb-2 me-3">
           <p class="fs-2 fw-bold text-white">HOLYWOOD XXI</p>
         </div>
-        <ul class="autoWidth cs-hidden">
-          <li class="item-a">
-            <div class="box mt-3">
-              <div class="slide-img">
-                <img src="./assets/TheRoundUp.png" alt="">
-                <div class="overlay d-flex justify-content-center align-items-center">
-                  <button
-                    class="check-review-btn justify-content-center align-items-center fw-bold fs-5 open movie round-up"
-                    data-modal-target="#review">Check
-                    Review</button>
-                </div>
+        <div class="owl-carousel owl-theme">
+          <div class="box mt-3 item">
+            <div class="slide-img">
+              <img src="./assets/TheRoundUp.png" alt="">
+              <div class="overlay d-flex justify-content-center align-items-center">
+                <button
+                  class="check-review-btn justify-content-center align-items-center fw-bold fs-5 open movie round-up"
+                  data-modal-target="#review">Check
+                  Review</button>
               </div>
             </div>
-          </li>
-          <li class="item-b">
-            <div class="box mt-3">
-              <div class="slide-img">
-                <img src="./assets/image 104.png" alt="">
-                <div class="overlay d-flex justify-content-center align-items-center">
-                  <button
-                    class="check-review-btn justify-content-center align-items-center fw-bold fs-5 open movie maverick"
-                    data-modal-target="#review">Check
-                    Review</button>
-                </div>
+          </div>
+          <div class="box mt-3 item">
+            <div class="slide-img">
+              <img src="./assets/image 104.png" alt="">
+              <div class="overlay d-flex justify-content-center align-items-center">
+                <button
+                  class="check-review-btn justify-content-center align-items-center fw-bold fs-5 open movie maverick"
+                  data-modal-target="#review">Check
+                  Review</button>
               </div>
             </div>
-          </li>
-          <li class="item-c">
-            <div class="box mt-3">
-              <div class="slide-img">
-                <img src="./assets/image 105.png" alt="">
-                <div class="overlay d-flex justify-content-center align-items-center">
-                  <button
-                    class="check-review-btn justify-content-center align-items-center fw-bold fs-5 open movie doll-3"
-                    data-modal-target="#review">Check
-                    Review</button>
-                </div>
+          </div>
+          <div class="box mt-3 item">
+            <div class="slide-img">
+              <img src="./assets/image 105.png" alt="">
+              <div class="overlay d-flex justify-content-center align-items-center">
+                <button
+                  class="check-review-btn justify-content-center align-items-center fw-bold fs-5 open movie doll-3"
+                  data-modal-target="#review">Check
+                  Review</button>
               </div>
             </div>
-          </li>
-          <li class="item-d">
-            <div class="box mt-3">
-              <div class="slide-img">
-                <img src="./assets/image 106.png" alt="">
-                <div class="overlay d-flex justify-content-center align-items-center">
-                  <button
-                    class="check-review-btn justify-content-center align-items-center fw-bold fs-5 open movie srimulat"
-                    data-modal-target="#review">Check
-                    Review</button>
-                </div>
+          </div>
+          <div class="box mt-3 item">
+            <div class="slide-img">
+              <img src="./assets/image 106.png" alt="">
+              <div class="overlay d-flex justify-content-center align-items-center">
+                <button
+                  class="check-review-btn justify-content-center align-items-center fw-bold fs-5 open movie srimulat"
+                  data-modal-target="#review">Check
+                  Review</button>
               </div>
             </div>
-          </li>
-          <li class="item-d">
-            <div class="box mt-3">
-              <div class="slide-img">
-                <img src="./assets/image 6.png" alt="">
-                <div class="overlay d-flex justify-content-center align-items-center">
-                  <button
-                    class="check-review-btn justify-content-center align-items-center fw-bold fs-5 open movie doctor-strange"
-                    data-modal-target="#review">Check
-                    Review</button>
-                </div>
+          </div>
+          <div class="box mt-3 item">
+            <div class="slide-img">
+              <img src="./assets/image 6.png" alt="">
+              <div class="overlay d-flex justify-content-center align-items-center">
+                <button
+                  class="check-review-btn justify-content-center align-items-center fw-bold fs-5 open movie doctor-strange"
+                  data-modal-target="#review">Check
+                  Review</button>
               </div>
             </div>
-          </li>
-          <li class="item-a">
-            <div class="box mt-3">
-              <div class="slide-img">
-                <img src="./assets/TheRoundUp.png" alt="">
-                <div class="overlay d-flex justify-content-center align-items-center">
-                  <button
-                    class="check-review-btn justify-content-center align-items-center fw-bold fs-5 open movie round-up"
-                    data-modal-target="#review">Check
-                    Review</button>
-                </div>
+          </div>
+          <div class="box mt-3 item">
+            <div class="slide-img">
+              <img src="./assets/TheRoundUp.png" alt="">
+              <div class="overlay d-flex justify-content-center align-items-center">
+                <button
+                  class="check-review-btn justify-content-center align-items-center fw-bold fs-5 open movie round-up"
+                  data-modal-target="#review">Check
+                  Review</button>
               </div>
             </div>
-          </li>
-          <li class="item-b">
-            <div class="box mt-3">
-              <div class="slide-img">
-                <img src="./assets/image 104.png" alt="">
-                <div class="overlay d-flex justify-content-center align-items-center">
-                  <button
-                    class="check-review-btn justify-content-center align-items-center fw-bold fs-5 open movie maverick"
-                    data-modal-target="#review">Check
-                    Review</button>
-                </div>
+          </div>
+          <div class="box mt-3 item">
+            <div class="slide-img">
+              <img src="./assets/image 104.png" alt="">
+              <div class="overlay d-flex justify-content-center align-items-center">
+                <button
+                  class="check-review-btn justify-content-center align-items-center fw-bold fs-5 open movie maverick"
+                  data-modal-target="#review">Check
+                  Review</button>
               </div>
             </div>
-          </li>
-          <li class="item-c">
-            <div class="box mt-3">
-              <div class="slide-img">
-                <img src="./assets/image 105.png" alt="">
-                <div class="overlay d-flex justify-content-center align-items-center">
-                  <button
-                    class="check-review-btn justify-content-center align-items-center fw-bold fs-5 open movie doll-3"
-                    data-modal-target="#review">Check
-                    Review</button>
-                </div>
+          </div>
+          <div class="box mt-3 item">
+            <div class="slide-img">
+              <img src="./assets/image 105.png" alt="">
+              <div class="overlay d-flex justify-content-center align-items-center">
+                <button
+                  class="check-review-btn justify-content-center align-items-center fw-bold fs-5 open movie doll-3"
+                  data-modal-target="#review">Check
+                  Review</button>
               </div>
             </div>
-          </li>
-          <li class="item-d">
-            <div class="box mt-3">
-              <div class="slide-img">
-                <img src="./assets/image 106.png" alt="">
-                <div class="overlay d-flex justify-content-center align-items-center">
-                  <button
-                    class="check-review-btn justify-content-center align-items-center fw-bold fs-5 open movie srimulat"
-                    data-modal-target="#review">Check
-                    Review</button>
-                </div>
+          </div>
+          <div class="box mt-3 item">
+            <div class="slide-img">
+              <img src="./assets/image 106.png" alt="">
+              <div class="overlay d-flex justify-content-center align-items-center">
+                <button
+                  class="check-review-btn justify-content-center align-items-center fw-bold fs-5 open movie srimulat"
+                  data-modal-target="#review">Check
+                  Review</button>
               </div>
             </div>
-          </li>
-          <li class="item-d">
-            <div class="box mt-3">
-              <div class="slide-img">
-                <img src="./assets/image 6.png" alt="">
-                <div class="overlay d-flex justify-content-center align-items-center">
-                  <button
-                    class="check-review-btn justify-content-center align-items-center fw-bold fs-5 open movie doctor-strange"
-                    data-modal-target="#review">Check
-                    Review</button>
-                </div>
+          </div>
+          <div class="box mt-3 item">
+            <div class="slide-img">
+              <img src="./assets/image 6.png" alt="">
+              <div class="overlay d-flex justify-content-center align-items-center">
+                <button
+                  class="check-review-btn justify-content-center align-items-center fw-bold fs-5 open movie doctor-strange"
+                  data-modal-target="#review">Check
+                  Review</button>
               </div>
             </div>
-          </li>
-        </ul>
+          </div>
+        </div>
       </div>
 
       <div class="k-drama mt-lg-5 cinepolis all">
@@ -552,138 +495,114 @@
           <img src="./assets/Rectangle 6.png" class="mb-2 me-3">
           <p class="fs-2 fw-bold text-white">CINEPOLIS PLAZA SEMANGGI</p>
         </div>
-        <ul class="autoWidth cs-hidden">
-          <li class="item-a">
-            <div class="box mt-3">
-              <div class="slide-img">
-                <img src="./assets/image 103.png" alt="">
-                <div class="overlay d-flex justify-content-center align-items-center">
-                  <button
-                    class="check-review-btn justify-content-center align-items-center fw-bold fs-5 open movie ancestral"
-                    data-modal-target="#review">Check
-                    Review</button>
-                </div>
+        <div class="owl-carousel owl-theme">
+          <div class="box mt-3 item">
+            <div class="slide-img">
+              <img src="./assets/image 103.png" alt="">
+              <div class="overlay d-flex justify-content-center align-items-center">
+                <button
+                  class="check-review-btn justify-content-center align-items-center fw-bold fs-5 open movie ancestral"
+                  data-modal-target="#review">Check
+                  Review</button>
               </div>
             </div>
-          </li>
-          <li class="item-b">
-            <div class="box mt-3">
-              <div class="slide-img">
-                <img src="./assets/TheRoundUp.png" alt="">
-                <div class="overlay d-flex justify-content-center align-items-center">
-                  <button
-                    class="check-review-btn justify-content-center align-items-center fw-bold fs-5 open movie round-up
-                    data-modal-target="#review">Check
-                    Review</button>
-                </div>
+          </div>
+          <div class="box mt-3 item">
+            <div class="slide-img">
+              <img src="./assets/TheRoundUp.png" alt="">
+              <div class="overlay d-flex justify-content-center align-items-center">
+                <button class="check-review-btn justify-content-center align-items-center fw-bold fs-5 open movie round-up
+                    data-modal-target=" #review">Check
+                  Review</button>
               </div>
             </div>
-          </li>
-          <li class="item-c">
-            <div class="box mt-3">
-              <div class="slide-img">
-                <img src="./assets/image 20.png" alt="">
-                <div class="overlay d-flex justify-content-center align-items-center">
-                  <button
-                    class="check-review-btn justify-content-center align-items-center fw-bold fs-5 open movie KKN"
-                    data-modal-target="#review">Check
-                    Review</button>
-                </div>
+          </div>
+          <div class="box mt-3 item">
+            <div class="slide-img">
+              <img src="./assets/image 20.png" alt="">
+              <div class="overlay d-flex justify-content-center align-items-center">
+                <button class="check-review-btn justify-content-center align-items-center fw-bold fs-5 open movie KKN"
+                  data-modal-target="#review">Check
+                  Review</button>
               </div>
             </div>
-          </li>
-          <li class="item-d">
-            <div class="box mt-3">
-              <div class="slide-img">
-                <img src="./assets/image 104.png" alt="">
-                <div class="overlay d-flex justify-content-center align-items-center">
-                  <button
-                    class="check-review-btn justify-content-center align-items-center fw-bold fs-5 open movie maverick"
-                    data-modal-target="#review">Check
-                    Review</button>
-                </div>
+          </div>
+          <div class="box mt-3 item">
+            <div class="slide-img">
+              <img src="./assets/image 104.png" alt="">
+              <div class="overlay d-flex justify-content-center align-items-center">
+                <button
+                  class="check-review-btn justify-content-center align-items-center fw-bold fs-5 open movie maverick"
+                  data-modal-target="#review">Check
+                  Review</button>
               </div>
             </div>
-          </li>
-          <li class="item-e">
-            <div class="box mt-3">
-              <div class="slide-img">
-                <img src="./assets/image 105.png" alt="">
-                <div class="overlay d-flex justify-content-center align-items-center">
-                  <button
-                    class="check-review-btn justify-content-center align-items-center fw-bold fs-5 open movie doll-3"
-                    data-modal-target="#review">Check
-                    Review</button>
-                </div>
+          </div>
+          <div class="box mt-3 item">
+            <div class="slide-img">
+              <img src="./assets/image 105.png" alt="">
+              <div class="overlay d-flex justify-content-center align-items-center">
+                <button
+                  class="check-review-btn justify-content-center align-items-center fw-bold fs-5 open movie doll-3"
+                  data-modal-target="#review">Check
+                  Review</button>
               </div>
             </div>
-          </li>
-          <li class="item-a">
-            <div class="box mt-3">
-              <div class="slide-img">
-                <img src="./assets/image 103.png" alt="">
-                <div class="overlay d-flex justify-content-center align-items-center">
-                  <button
-                    class="check-review-btn justify-content-center align-items-center fw-bold fs-5 open movie ancestral"
-                    data-modal-target="#review">Check
-                    Review</button>
-                </div>
+          </div>
+          <div class="box mt-3 item">
+            <div class="slide-img">
+              <img src="./assets/image 103.png" alt="">
+              <div class="overlay d-flex justify-content-center align-items-center">
+                <button
+                  class="check-review-btn justify-content-center align-items-center fw-bold fs-5 open movie ancestral"
+                  data-modal-target="#review">Check
+                  Review</button>
               </div>
             </div>
-          </li>
-          <li class="item-b">
-            <div class="box mt-3">
-              <div class="slide-img">
-                <img src="./assets/TheRoundUp.png" alt="">
-                <div class="overlay d-flex justify-content-center align-items-center">
-                  <button
-                    class="check-review-btn justify-content-center align-items-center fw-bold fs-5 open movie round-up
-                    data-modal-target="#review">Check
-                    Review</button>
-                </div>
+          </div>
+          <div class="box mt-3 item">
+            <div class="slide-img">
+              <img src="./assets/TheRoundUp.png" alt="">
+              <div class="overlay d-flex justify-content-center align-items-center">
+                <button class="check-review-btn justify-content-center align-items-center fw-bold fs-5 open movie round-up
+                    data-modal-target=" #review">Check
+                  Review</button>
               </div>
             </div>
-          </li>
-          <li class="item-c">
-            <div class="box mt-3">
-              <div class="slide-img">
-                <img src="./assets/image 20.png" alt="">
-                <div class="overlay d-flex justify-content-center align-items-center">
-                  <button
-                    class="check-review-btn justify-content-center align-items-center fw-bold fs-5 open movie KKN"
-                    data-modal-target="#review">Check
-                    Review</button>
-                </div>
+          </div>
+          <div class="box mt-3 item">
+            <div class="slide-img">
+              <img src="./assets/image 20.png" alt="">
+              <div class="overlay d-flex justify-content-center align-items-center">
+                <button class="check-review-btn justify-content-center align-items-center fw-bold fs-5 open movie KKN"
+                  data-modal-target="#review">Check
+                  Review</button>
               </div>
             </div>
-          </li>
-          <li class="item-d">
-            <div class="box mt-3">
-              <div class="slide-img">
-                <img src="./assets/image 104.png" alt="">
-                <div class="overlay d-flex justify-content-center align-items-center">
-                  <button
-                    class="check-review-btn justify-content-center align-items-center fw-bold fs-5 open movie maverick"
-                    data-modal-target="#review">Check
-                    Review</button>
-                </div>
+          </div>
+          <div class="box mt-3 item">
+            <div class="slide-img">
+              <img src="./assets/image 104.png" alt="">
+              <div class="overlay d-flex justify-content-center align-items-center">
+                <button
+                  class="check-review-btn justify-content-center align-items-center fw-bold fs-5 open movie maverick"
+                  data-modal-target="#review">Check
+                  Review</button>
               </div>
             </div>
-          </li>
-          <li class="item-e">
-            <div class="box mt-3">
-              <div class="slide-img">
-                <img src="./assets/image 105.png" alt="">
-                <div class="overlay d-flex justify-content-center align-items-center">
-                  <button
-                    class="check-review-btn justify-content-center align-items-center fw-bold fs-5 open movie doll-3"
-                    data-modal-target="#review">Check
-                    Review</button>
-                </div>
+          </div>
+          <div class="box mt-3 item">
+            <div class="slide-img">
+              <img src="./assets/image 105.png" alt="">
+              <div class="overlay d-flex justify-content-center align-items-center">
+                <button
+                  class="check-review-btn justify-content-center align-items-center fw-bold fs-5 open movie doll-3"
+                  data-modal-target="#review">Check
+                  Review</button>
               </div>
             </div>
-          </li>
-        </ul>
+          </div>
+        </div>
       </div>
 
       <div class="movie mt-lg-5 pb-5 cgv all">
@@ -691,159 +610,117 @@
           <img src="./assets/Rectangle 6.png" class="mb-2 me-3">
           <p class="fs-2 fw-bold text-white">CGV GRAND INDONESIA</p>
         </div>
-        <ul class="autoWidth cs-hidden">
-          <li class="item-a">
-            <div class="box mt-3">
-              <div class="slide-img">
-                <img src="./assets/image 107.png" alt="">
-                <div class="overlay d-flex justify-content-center align-items-center">
-                  <button
-                    class="check-review-btn justify-content-center align-items-center fw-bold fs-5 open movie doraemon"
-                    data-modal-target="#review">Check
-                    Review</button>
-                </div>
+        <div class="owl-carousel owl-theme">
+          <div class="box mt-3 item">
+            <div class="slide-img">
+              <img src="./assets/image 107.png" alt="">
+              <div class="overlay d-flex justify-content-center align-items-center">
+                <button
+                  class="check-review-btn justify-content-center align-items-center fw-bold fs-5 open movie doraemon"
+                  data-modal-target="#review">Check
+                  Review</button>
               </div>
             </div>
-          </li>
-          <li class="item-b">
-            <div class="box mt-3">
-              <div class="slide-img">
-                <img src="./assets/image 20.png" alt="">
-                <div class="overlay d-flex justify-content-center align-items-center">
-                  <button
-                    class="check-review-btn justify-content-center align-items-center fw-bold fs-5 open movie KKN"
-                    data-modal-target="#review">Check
-                    Review</button>
-                </div>
-              </div>
-            </div>
-          </li>
-          <li class="item-c">
-            <div class="box mt-3">
-              <div class="slide-img">
-                <img src="./assets/image 104.png" alt="">
-                <div class="overlay d-flex justify-content-center align-items-center">
-                  <button
-                    class="check-review-btn justify-content-center align-items-center fw-bold fs-5 open movie maverick"
-                    data-modal-target="#review">Check
-                    Review</button>
-                </div>
-              </div>
-            </div>
-          </li>
-          <li class="item-d">
-            <div class="box mt-3">
-              <div class="slide-img">
-                <img src="./assets/TheRoundUp.png" alt="">
-                <div class="overlay d-flex justify-content-center align-items-center">
-                  <button
-                    class="check-review-btn justify-content-center align-items-center fw-bold fs-5 open movie round-up"
-                    data-modal-target="#review">Check
-                    Review</button>
-                </div>
-              </div>
-            </div>
-          </li>
-          <li class="item-e">
-            <div class="box mt-3">
-              <div class="slide-img">
-                <img src="./assets/image 108.png" alt="">
-                <div class="overlay d-flex justify-content-center align-items-center">
-                  <button
-                    class="check-review-btn justify-content-center align-items-center fw-bold fs-5 open movie Anek"
-                    data-modal-target="#review">Check
-                    Review</button>
-                </div>
-              </div>
-            </div>
-          </li>
-          <li class="item-a">
-            <div class="box mt-3">
-              <div class="slide-img">
-                <img src="./assets/image 107.png" alt="">
-                <div class="overlay d-flex justify-content-center align-items-center">
-                  <button
-                    class="check-review-btn justify-content-center align-items-center fw-bold fs-5 open movie doraemon"
-                    data-modal-target="#review">Check
-                    Review</button>
-                </div>
-              </div>
-            </div>
-          </li>
-          <li class="item-b">
-            <div class="box mt-3">
-              <div class="slide-img">
-                <img src="./assets/image 20.png" alt="">
-                <div class="overlay d-flex justify-content-center align-items-center">
-                  <button
-                    class="check-review-btn justify-content-center align-items-center fw-bold fs-5 open movie KKN"
-                    data-modal-target="#review">Check
-                    Review</button>
-                </div>
-              </div>
-            </div>
-          </li>
-          <li class="item-c">
-            <div class="box mt-3">
-              <div class="slide-img">
-                <img src="./assets/image 104.png" alt="">
-                <div class="overlay d-flex justify-content-center align-items-center">
-                  <button
-                    class="check-review-btn justify-content-center align-items-center fw-bold fs-5 open movie maverick"
-                    data-modal-target="#review">Check
-                    Review</button>
-                </div>
-              </div>
-            </div>
-          </li>
-          <li class="item-d">
-            <div class="box mt-3">
-              <div class="slide-img">
-                <img src="./assets/TheRoundUp.png" alt="">
-                <div class="overlay d-flex justify-content-center align-items-center">
-                  <button
-                    class="check-review-btn justify-content-center align-items-center fw-bold fs-5 open movie round-up"
-                    data-modal-target="#review">Check
-                    Review</button>
-                </div>
-              </div>
-            </div>
-          </li>
-          <li class="item-e">
-            <div class="box mt-3">
-              <div class="slide-img">
-                <img src="./assets/image 108.png" alt="">
-                <div class="overlay d-flex justify-content-center align-items-center">
-                  <button
-                    class="check-review-btn justify-content-center align-items-center fw-bold fs-5 open movie Anek"
-                    data-modal-target="#review">Check
-                    Review</button>
-                </div>
-              </div>
-            </div>
-          </li>
-        </ul>
-      </div>
-    </div>
-    <!-- <div class="pop-up" id="review">
-      <div class="pop-up-content">
-        <div class="container-1"></div>
-        <div class="container-2">
-          <div class="header">
-            <h1></h1>
-            <div class="mid"></div>
-            <div class="rating"></div>
-            <div class="genre-btn"></div>
           </div>
-          <div class="synopsis"></div>
+          <div class="box mt-3 item">
+            <div class="slide-img">
+              <img src="./assets/image 20.png" alt="">
+              <div class="overlay d-flex justify-content-center align-items-center">
+                <button class="check-review-btn justify-content-center align-items-center fw-bold fs-5 open movie KKN"
+                  data-modal-target="#review">Check
+                  Review</button>
+              </div>
+            </div>
+          </div>
+          <div class="box mt-3 item">
+            <div class="slide-img">
+              <img src="./assets/image 104.png" alt="">
+              <div class="overlay d-flex justify-content-center align-items-center">
+                <button
+                  class="check-review-btn justify-content-center align-items-center fw-bold fs-5 open movie maverick"
+                  data-modal-target="#review">Check
+                  Review</button>
+              </div>
+            </div>
+          </div>
+          <div class="box mt-3 item">
+            <div class="slide-img">
+              <img src="./assets/TheRoundUp.png" alt="">
+              <div class="overlay d-flex justify-content-center align-items-center">
+                <button
+                  class="check-review-btn justify-content-center align-items-center fw-bold fs-5 open movie round-up"
+                  data-modal-target="#review">Check
+                  Review</button>
+              </div>
+            </div>
+          </div>
+          <div class="box mt-3 item">
+            <div class="slide-img">
+              <img src="./assets/image 108.png" alt="">
+              <div class="overlay d-flex justify-content-center align-items-center">
+                <button class="check-review-btn justify-content-center align-items-center fw-bold fs-5 open movie Anek"
+                  data-modal-target="#review">Check
+                  Review</button>
+              </div>
+            </div>
+          </div>
+          <div class="box mt-3 item">
+            <div class="slide-img">
+              <img src="./assets/image 107.png" alt="">
+              <div class="overlay d-flex justify-content-center align-items-center">
+                <button
+                  class="check-review-btn justify-content-center align-items-center fw-bold fs-5 open movie doraemon"
+                  data-modal-target="#review">Check
+                  Review</button>
+              </div>
+            </div>
+          </div>
+          <div class="box mt-3 item">
+            <div class="slide-img">
+              <img src="./assets/image 20.png" alt="">
+              <div class="overlay d-flex justify-content-center align-items-center">
+                <button class="check-review-btn justify-content-center align-items-center fw-bold fs-5 open movie KKN"
+                  data-modal-target="#review">Check
+                  Review</button>
+              </div>
+            </div>
+          </div>
+          <div class="box mt-3 item">
+            <div class="slide-img">
+              <img src="./assets/image 104.png" alt="">
+              <div class="overlay d-flex justify-content-center align-items-center">
+                <button
+                  class="check-review-btn justify-content-center align-items-center fw-bold fs-5 open movie maverick"
+                  data-modal-target="#review">Check
+                  Review</button>
+              </div>
+            </div>
+          </div>
+          <div class="box mt-3 item">
+            <div class="slide-img">
+              <img src="./assets/TheRoundUp.png" alt="">
+              <div class="overlay d-flex justify-content-center align-items-center">
+                <button
+                  class="check-review-btn justify-content-center align-items-center fw-bold fs-5 open movie round-up"
+                  data-modal-target="#review">Check
+                  Review</button>
+              </div>
+            </div>
+          </div>
+          <div class="box mt-3 item">
+            <div class="slide-img">
+              <img src="./assets/image 108.png" alt="">
+              <div class="overlay d-flex justify-content-center align-items-center">
+                <button class="check-review-btn justify-content-center align-items-center fw-bold fs-5 open movie Anek"
+                  data-modal-target="#review">Check
+                  Review</button>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-      <div class="nav-btn">
-        <button class="btn book">Book</button>
-        <button class="close-btn"><i class="fa-solid fa-circle-xmark fa-2x"></i></button>
-      </div>
     </div>
-    <div class="" id="overlay"></div> -->
+
     <div class="pop-up main" id="review">
       <div class="pop-up-content">
         <div class="container-1"></div>
@@ -919,7 +796,8 @@
       </div>
       <div class="right d-flex align-items-center me-4">
         <a href="https://www.facebook.com/" target="_blank"><img src="./assets/brandico_facebook-rect.png" alt=""></a>
-        <a href="https://www.instagram.com/" target="_blank"><img src="./assets/brandico_instagram-filled.png" alt=""></a>
+        <a href="https://www.instagram.com/" target="_blank"><img src="./assets/brandico_instagram-filled.png"
+            alt=""></a>
         <a href="https://www.youtube.com/" target="_blank"><img src="./assets/akar-icons_youtube-fill.png" alt=""></a>
         <a href="https://twitter.com/" target="_blank"><img src="./assets/akar-icons_twitter-fill.png" alt=""></a>
         <a href="https://discord.com/" target="_blank"><img src="./assets/akar-icons_discord-fill.png" alt=""></a>
@@ -927,6 +805,13 @@
     </div>
   </footer>
 
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+    integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+    integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
   <script src="js/script.js"></script>
   <script src="js/ongoing.js"></script>
