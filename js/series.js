@@ -15,7 +15,7 @@ const series = [
         licensors: 'None found',
         rating: 'PG-13',
         rate: '0.00',
-        scores: [],
+        scores: [0.00],
         genre: ['Action', 'Comedy', 'Anime'],
         p1: 'Corrupt politicians, frenzied nationalists, and other warmongering forces constantly jeopardize the thin veneer of peace between neighboring countries Ostania and Westalis. In spite of their plots, renowned spy and master of disguise "Twilight" fulfills dangerous missions one after another in the hope that no child will have to experience the horrors of war.',
         p2: 'In the bustling Ostanian city of Berlint, Twilight dons the alias of "Loid Forger," an esteemed psychiatrist. However, his true intention is to gather intelligence on prominent politician Donovan Desmond, who only appears rarely in public at his sons school: the prestigious Eden Academy. Enlisting the help of unmarried city hall clerk Yor Briar to act as his wife and adopting the curious six-year-old orphan Anya as his daughter, Loid enacts his master plan. He will enroll Anya in Eden Academy, where Loid hopes she will excel and give him the opportunity to meet Donovan without arousing suspicion.'
@@ -36,7 +36,7 @@ const series = [
         licensors: 'Funimation',
         rating: 'R-17+',
         rate: '0.00',
-        scores: [],
+        scores: [0.00],
         genre: ['Action', 'Drama', 'Anime'],
         p1: 'Centuries ago, mankind was slaughtered to near extinction by monstrous humanoid creatures called Titans, forcing humans to hide in fear behind enormous concentric walls. What makes these giants truly terrifying is that their taste for human flesh is not born out of hunger but what appears to be out of pleasure. To ensure their survival, the remnants of humanity began living within defensive barriers, resulting in one hundred years without a single titan encounter. However, that fragile calm is soon shattered when a colossal Titan manages to breach the supposedly impregnable outer wall, reigniting the fight for survival against the man-eating abominations.',
         p2: 'After witnessing a horrific personal loss at the hands of the invading creatures, Eren Yeager dedicates his life to their eradication by enlisting into the Survey Corps, an elite military unit that combats the merciless humanoids outside the protection of the walls. Eren, his adopted sister Mikasa Ackerman, and his childhood friend Armin Arlert join the brutal war against the Titans and race to discover a way of defeating them before the last walls are breached.'
@@ -57,7 +57,7 @@ const series = [
         licensors: 'None found',
         rating: 'R-17+',
         rate: '0.00',
-        scores: [],
+        scores: [0.00],
         genre: ['Action', 'Fantasy', 'Anime'],
         p1: 'Idly indulging in baseless paranormal activities with the Occult Club, high schooler Yuuji Itadori spends his days at either the clubroom or the hospital, where he visits his bedridden grandfather. However, this leisurely lifestyle soon takes a turn for the strange when he unknowingly encounters a cursed item. Triggering a chain of supernatural occurrences, Yuuji finds himself suddenly thrust into the world of Curses—dreadful beings formed from human malice and negativity—after swallowing the said item, revealed to be a finger belonging to the demon Sukuna Ryoumen, the "King of Curses."',
         p2: 'Yuuji experiences first-hand the threat these Curses pose to society as he discovers his own newfound powers. Introduced to the Tokyo Metropolitan Jujutsu Technical High School, he begins to walk down a path from which he cannot return—the path of a Jujutsu sorcerer.'
@@ -78,7 +78,7 @@ const series = [
         licensors: 'None found',
         rating: 'R-17+',
         rate: '8.10',
-        scores: [],
+        scores: [8.10],
         genre: ['Action', 'Fantasy', 'Anime'],
         p1: 'My Hero Academia berkisah tentang seorang pemuda bernama Izuku Midoriya atau akrab disapa Deku.  Deku adalah seorang pemuda yang hidup di dunia istimewa karena setiap orang memiliki kekuatan super atau disebut Quirk. Sebagian besar dari mereka juga telah menjadi seorang pahlawan super dengan kekuatan yang dimiliki. Sayangnya, walaupun berasal dan tinggal di tempat yang sama, Deku punya nasib berbeda. Ia terlahir tanpa kekuatan atau Quirk apa pun, membuatnya sulit mencapai mimpi untuk menjadi pahlawan nomor satu. Selain tidak memiliki kekuatan, Deku juga dikenal sebagai pemuda dengan tubuh yang lemah. Kelemahannya ini lantas mengundang teman masa kecilnya, Bakugou, jadi sering menindasnya. Bakugou sendiri adalah pemuda yang memiliki Quirk ledakan.',
         p2: 'Keduanya sama-sama ingin menjadi pahlawan nomor satu dan mengincar salah satu sekolah di sana, U.A.  Demi bisa menggapai impiannya menjadi seorang pahlawan, Deku pun berniat untuk menemui All Might. Sesaat setelah bertemu, All Might melihat bahwa Deku dapat menjadi sosok pahlawan yang baik. Meskipun ia tidak memiliki kekuatan apa pun, Deku memiliki hati untuk menjadi seorang pahlawan.  All Might yang memiliki keyakinan penuh akan Deku lantas memberikan kekuatannya kepada pemuda gigih tersebut. Kini Deku telah memiliki kekuatan super dan dengan penuh antusias ia mulai melatih fisik serta kekuatan barunya sampai ia berhasil masuk ke sekolah sasarannya.'
@@ -99,7 +99,7 @@ const series = [
         licensors: 'None found',
         rating: 'R-17+',
         rate: '8.70',
-        scores: [],
+        scores: [8.70],
         genre: ['Romance'],
         p1: 'Twenty Five Twenty One merupakan drama yang mengisahkan kehidupan anak muda yang terdampak krisis keuangan IMF di Korea Selatan pada 1998. Berikut sinopsis Twenty Five Twenty One yang dibintangi Nam Joo-hyuk dan Kim Tae-ri.Baek Yi-jin (Nam Joo-hyuk) merupakan anak sulung di keluarganya yang harus hidup mandiri setelah keluarganya terpuruk akibat krisis ekonomi. Ia melakukan berbagai pekerjaan paruh waktu, mulai dari mengantarkan koran hingga menjaga toko komik.Lalu, Yi-jin bertemu Na Hee-do (Kim Tae-ri), gadis berusia 18 tahun yang menjadi atlet anggar di sekolahnya. Pertemuan pertama keduanya diwarnai pertengkaran saat Yi-jin mengantar koran ke rumah Hee-do.Sementara itu, krisis ekonomi juga berdampak kepada Hee-do karena tim anggar di sekolahnya terpaksa bubar akibat kekurangan dana operasional.',
         p2: 'Ia meminta ibunya untuk memindahkannya ke sekolah yang tim anggaran tidak dibubarkan. Drama ini kemudian mengikuti perjuangan keduanya bangkit dari krisis dan kisah cinta mereka yang berkembang seiring berjalannya waktu.Dalam membawakan karakter Yi-jin yang berkeinginan menjadi reporter, Nam Joo-hyuk mengungkapkan banyak berkomunikasi dengan jurnalis.Sementara itu, Kim Tae-ri menjalani latihan anggar lima hingga enam bulan demi mendalami karakter Na Hee-do. Kim Tae-ri juga berlatih anggar bersama Bona WJSN yang berperan sebagai Go Yoo-rim, atlet anggar tim nasional dan menjadi saingan Na Hee-do.'
@@ -120,7 +120,7 @@ const series = [
         licensors: 'None found',
         rating: 'R-17+',
         rate: '8.20',
-        scores: [],
+        scores: [8.20],
         genre: ['Romance'],
         p1: 'Itaewon Class menceritakan kehidupan Park Sae-roy (dibintangi Park Seo Joon), seorang pemuda gigih yang tak berkompromi dengan ketidakadilan dan korupsi. Pada hari pertama menghadiri sekolah menengah, Park Sae-Roy meninju teman sekelasnya, Jang Geun-won, yang menindas teman sekelasnya yang lain. Jang Geun-won merupakan putra CEO Jang Dae-Hee (Yoo Jae Myung).Jang Dae-Hee kemudian diketahui menjalankan bisnis restoran Jagga tempat ayah Park Sae-roy bekerja. Dia menuntut Park Sae-roy meminta maaf ke putranya, tapi Park Sae-roy menolak.Penolakan itu membuat Park Sae-roy dalam masalah. Dia dikeluarkan dari sekolah dan ayahnya dipecat dari perusahaan Jang Dae-Hee.Tak lama kemudian, Ayah Park Sae-roy meninggal dalam kecelakaan sepeda motor yang disebabkan oleh mantan teman sekelas Jang Geun-won. Park Sae-roy yang terbakar amarah pun membalaskan dendam kepada Jang Geun-won.',
         p2: 'Lagi-lagi Park Sae-roy merasa diperlakukan tak adil. Dia ditangkap dan menerima hukuman penjara atas serangan kekerasan itu kepada Jang Geun-won.Sejak itu, Park Sae-roy memutuskan untuk menghancurkan perusahaan Jagga dan membalas dendam kepada CEO Jang Dae-hee dan putranya, Jang Geun-won.Setelah dilepaskan dari penjara, ia membuka sebuah restoran di Itaewon, Seoul. Jo Yi-seo (Kim Da-mi) yang populer di media sosial kemudian bergabung dengan restoran Park Sae-roy dan bekerja di sana sebagai manajer.Berpegang teguh pada keyakinan dan amarah atas kejadian yang menimpa sang ayah, Park Sae-roy kemudian berteman dengan pemuda lainnya yang sama-sama keras kepala dan tak kenal takut.Mereka kemudian bersama-sama mengejar mimpi di antara jalan-jalan Itaewon yang sempit.'
@@ -141,7 +141,7 @@ const series = [
         licensors: 'None found',
         rating: 'R-17+',
         rate: '8.10',
-        scores: [],
+        scores: [8.10],
         genre: ['Romance'],
         p1: 'Start Up menceritakan kisah perjalanan orang-orang yang merintis usaha di perusahaan Start Up. Drama Korea ini dibintangi oleh Bae Suzy (Seo Dal Mi), yang bermimpi menjadi Steve Jobs dari Korea. Dia lahir dari keluarga yang sederhana dan tidak kaya, namun mimpinya begitu besar. Pengalaman kerja paruh waktunya membuat dia tumbuh menjadi sosok yang tangguh dan berkarakter. Sambil bekerja ia juga membantu usaha neneknya yang berjualan makanan Korea. Nam Joo Hyuk (Nam Do San) adalah pendiri perusahaan teknologi Samsan Tech. Semasa sekolah ia pernah menjadi kebanggaan keluarganya sebagai juara di olimpiade matematika. Sejak merintis usahanya, namanya redup. Bahkan dalam dua tahun terakhir, perusahaannya tidak pernah menguntungkan hingga dia dan temannya merugi. Sementara Kim Seon Ho (Han Ji Pyeong) telah berhasil menjadi seorang tim di SH Venture Capital. Dia merupakan seorang yatim piatu yang gigih mendirikan usaha demi melunasi hutangnya. Ji Pyeong juga memiliki keterampilan investasi yang menakjubkan dan juga lidahnya yang tajam membuatnya mendapat julukan Gordan Ramsay dari Korea.',
         p2: 'Meskipun karakternya terbilang tegas bagi kebanyakan orang. Akan tetapi dia lebih lembut dari siapa pun kepada satu orang istimewa yang memberinya bantuan besar di masa lalu. Awalnya Dal Mi hidup bahagia bersama ayah, ibu dan kakaknya. Namun orang tua mereka memutuskan untuk bercerai. Hingga membuat Dal Mi dan Won In Jae (Kang Han Na) harus hidup terpisah. Karena ia memilih tinggal bersama ayah dan neneknya. Sementara In Jae memilih hidup bersama ibunya. Meskipun begitu, mereka masih sering bertemu. Suatu hari ibu Dal Mi memutuskan untuk menikah dengan seorang pria kaya raya. Kehidupan mewah In Jae, lambat laut merubah sifatnya. Membuatnya bersikap angkuh dan melupakan Dal Mi sebagai adiknya. Dal Mi pun sedih dan juga membenci kakaknya. Mengetahui Dal Mi terpuruk karena kehilangan sosok kakak membuat neneknya juga ikut sedih. Akhirnya nenek Dal Mi menemukan ide untuk membuat cucunya itu tidak sedih lagi. Neneknya meminta Ji Pyeong yang secara kebetulan saat kecil juga dirawat untuk menjadi sahabat pena Dal Mi. Dari sinilah kisah cinta pertama Dal Mi dimulai.'
@@ -162,7 +162,7 @@ const series = [
         licensors: 'None found',
         rating: 'R-17+',
         rate: '8.10',
-        scores: [],
+        scores: [8.10],
         genre: ['Action'],
         p1: 'Taxi Driver mengisahkan tentang Kim Do Ki (pemain Lee Je Hoon), seorang lulusan akademi Angkatan Laut Korea Selatan yang menjadi anggota militer. Hidupnya berubah setelah ibunya meninggal secara tragis dibunuh pembunuh berantai.Kim Do Ki menjadi seorang pengemudi taksi mewah. Dia bekerja di perusahaan taksi Rainbow Taxi. Perusahaan taksi ini bukan sekadar penyedia jasa transportasi biasa.Rainbow Taxi menyediakan taksi mewah untuk orang-orang yang ingin membalaskan dendamnya pada para penjahat.',
         p2: 'Ketika seorang klien menghubungi mereka, Kim Do Ki dan rekan-rekannya di Rainbow Taxi akan beraksi. Sinopsis Taxi Driver, setiap episodenya drama Korea ini menghadirkan kisah balas dendam yang berbeda-beda. Pada episode awal misalnya menghadirkan kisah balas dendam seorang wanita difabel pekerja pabrik Jeotgal yang disiksa bosnya dan dilecehkan rekan kerjanya.'
@@ -183,7 +183,7 @@ const series = [
         licensors: 'None found',
         rating: 'R-17+',
         rate: '8.60',
-        scores: [],
+        scores: [8.60],
         genre: ['Romance', 'Comedy'],
         p1: 'Dikisahkan seorang jenderal militer dari Dinasti Goryeo yang tak terkalahkan bernama Kim Shin (Gong Yoo), dijebak sebagai pengkhianat dan dibunuh oleh raja muda yang cemburu dengan kehebatannya.Kim Shin kemudian dikutuk oleh dewa untuk menjadi goblin yang hidup abadi selamanya. Ia tidak akan bisa pergi ke alam baka sebelum menemukan cinta sejati. Hanya pengantin Goblin-lah yang dapat mencabut pedang dan mengakhiri keabadiannya.Setelah hidup dalam masa penantian 900 tahun, Kim Shin tak sengaja menyelamatkan seorang wanita hamil yang meninggal karena kecelakaan. Wanita tersebut melahirkan seorang bayi perempuan bernama Ji Eun Tak (Kim Go-Eun).Sinopsis drama Korea Goblin berlanjut saat Eun Tak menginjak SMA. Ia tumbuh menjadi gadis ceria meski kehidupannya merana. Ia juga bisa melihat hantu Hingga suatu saat secara kebetulan ia menyadari kemampuannya memanggil Goblin, dan dari situlah hubungan mereka mulai terjalin.',
         p2: 'Eun Tak yang mendengar desas-desus tentang Goblin meyakinkan Kim Shin bahwa dialah sang pengantin yang dicarinya selama ini. Apalagi Kim Shin selalu muncul di hadapannya setiap kali Eun Tak meniup lilin.Awalnya Eun Tak tak mengetahui bahwa usai mencabut pedang dari dada Goblin, pria yang disukainya itu akan musnah selamanya. Baik Eun Tak maupun Kim Shin harus menghadapi keputusan sulit lantaran keduanya saling jatuh cinta.Kisah cinta tak biasa dengan elemen supranatural yang diusung dalam drama Korea Goblin membuatnya berhasil merebut perhatian penonton.Selain itu, chemistry yang terbangun antara pemain dan kisah romantis yang dibalut dengan nuansa komedi ringan membuat jalan cerita menjadi tak membosankan hingga akhir episode.'
@@ -204,7 +204,7 @@ const series = [
         licensors: 'None found',
         rating: 'R-17+',
         rate: '8.30',
-        scores: [],
+        scores: [8.30],
         genre: ['Romance', 'Action'],
         p1: 'Saat sedang dinas, Kapten Yoo Si-Jin dan Sersan Mayor Seo Dae-young sedang menangkap pencuri. Pencuri tersebut bernama Kim Gi-beom yang sedang mencuri sepeda. Tetapi pencuri itu terjatuh dari motor, dan diantarkan ke rumah sakit Haesung oleh kedua tentara tersebut. Dari kejadian tersebut, Kapten Yoo Si-Jin bertemu dengan Kang Mo-yeon, yang bekerja sebagai dokter di rumah sakit itu.Si-Jin memiliki nama panggil sebagai Big Boos, seperti seorang pimpinan gangster, yang membuat Mo-yeon menjadi curiga dengan pekerjaan Si-Jin selain menjadi tentara. Mo-yeon juga curiga kalau Gi-beom dikeroyok oleh kedua tentara itu.Si-Jin juga sempat dirawat oleh Mo-yeon. Kemudian keduanya menjadi semakin akrab dan membuat janji berkencan untuk menonton bioskop. Seiring berjalannya waktu, Mo-yeon mencurigai Si-Jin karena sering meninggalkannya dan membatalkan janji dengannya.',
         p2: 'Mo-yeon tidak terlalu banyak mengetahui latar belakang Si-Jin. Bahkan Mo-Yeon juga curiga kalau Si-Jin memiliki pekerjaan misterius, dan pekerjaannya sebagai tentara memiliki peluang untuk membunuh orang.Mo-yeon berniat untuk mengakhiri hubungannya dengan Si-Jin. Tetapi pertemuan mereka berdua bagaikan sebuah takdir. Si-Jin ditugaskan untuk menjaga perdamaian di Urk. Mo-yeon juga ditugaskan di Urk, sebagai dokter relawan yang merawat korban bencana gempa bumi, perang, penyakit berbahaya, hingga penculikan.Perjalanan kisah cinta Si-Jin dan Mo-yeon penuh dengan rintangan. Bahkan sempat Si-Jin dikabarkan hilang karena sebuah ledakan. Tetapi drama Korea ini memiliki kisah yang happy ending.'
@@ -225,7 +225,7 @@ const series = [
         licensors: 'None found',
         rating: 'R-17+',
         rate: '8.90',
-        scores: [],
+        scores: [8.90],
         genre: ['Anime', 'Action'],
         p1: 'Anime Demon Slayer: Kimetsu no Yaiba Entertainment District Arc mengisahkan Tanjiro Kamado (diisi suara oleh Natsuki Hanae), Zenitsu Agatsuma (diisi suara oleh Hiro Shimono), dan Inosuke Hashibira (diisi suara oleh Yoshitsugu Matsuoka), dibantu oleh Hashira Suara, Tengen Uzui (diisi suara oleh Katsuyuki Konishi), melakukan perjalanan ke distrik lampu merah Yoshiwara untuk memburu iblis yang telah meneror kota.',
         p2: 'Beberapa wanita misterius berjubah menyaksikan para Pembasmi Iblis mulai bekerja, tetapi berdasarkan senyum jahat seorang wanita, beberapa dari mereka mungkin adalah Iblis. Tanjiro, Zenitsu, Inosuke, dan Nezuko tidak boleh lengah. Terlebih lagi, Tanjiro tidak bisa lagi mengandalkan Kyojuro Rengoku untuk mengawasinya, karena sang Hashira Api menemui akhir yang mengerikan di kisah sebelumnya.'
@@ -246,7 +246,7 @@ const series = [
         licensors: 'None found',
         rating: 'R-17+',
         rate: '8.20',
-        scores: [],
+        scores: [8.20],
         genre: ['Anime', 'Action', 'Comedy'],
         p1: 'Bercerita tentang perjuangan seorang bocah laki-laki yatim piatu bernama Naruto Uzumaki yang bercita-cita menjadi seorang Hokage/ pemimpin tertinggi desa.Sejak kecil dia dibenci oleh seluruh penduduk desa tempatnya tinggal.Lantaran dia memiliki roh siluman rubah ekor 9 di dalam dirinya.16 tahun lalu, roh siluman rubah ekor 9 pernah mengamuk di desa konoha tersebut yang mengakibatkan pemimpin desa pada saat itu, Hokage ke-4, Minato Namikaze terbunuh.',
         p2: 'Namun, dengan semangat pantang menyerahnya, sedikit demi sedikit Naruto mampu membuat warga desa mengakui keberadaannya.Meski harus beberapa kali kehilangan orang-orang yang dicintainya, namun dia terus berlatih dan melangkah maju hingga menjadi pahlawan bagi desa Konoha.Dan kini dia harus kembali menghadapi musuh berbahaya yang mengincar roh siluman rubah ekor 9 di dalam dirinya untuk memusnahkan umat manusia dan dunia shinobi.'
@@ -267,7 +267,7 @@ const series = [
         licensors: 'None found',
         rating: 'R-17+',
         rate: '9.10',
-        scores: [],
+        scores: [9.10],
         genre: ['Anime', 'Action'],
         p1: 'Anime Fullmetal Alchemist: Brotherhood mengisahkan setelah eksperimen alkimia yang mengerikan gagal di keluarga Elric, kakak beradik Edward Elric (diisi suara oleh Romi Park) dan Alphonse Elric (diisi suara oleh Rie Kugimiya) ditinggalkan dalam kenyataan baru yang membawa bencana.Mengabaikan prinsip alkimia yang melarang transmutasi manusia, dua anak-anak lelaki itu berusaha menghidupkan kembali ibu mereka yang baru saja meninggal. Sebaliknya, mereka menderita kerugian pribadi yang brutal: tubuh Alphonse hancur sementara Edward kehilangan satu kaki dan kemudian mengorbankan tangannya untuk menjaga jiwa Alphonse di alam fisik dengan mengikatnya ke baju zirah raksasa.Kakak beradik itu diselamatkan oleh tetangga mereka, Pinako Rockbell (diisi suara oleh Mami Koyama), dan cucunya, Winry Rockbell (diisi suara oleh Megumi Takamoto)',
         p2: 'Dikenal sebagai ahli teknik biomekanik, Winry menciptakan kaki palsu untuk Edward dengan memanfaatkan “automail”, logam tangguh dan serbaguna yang digunakan dalam robot dan baju perang.Setelah bertahun-tahun pelatihan, Elric bersaudara memulai pencarian untuk memulihkan tubuh mereka dengan menemukan Batu Bertuah — permata kuat yang memungkinkan seorang alkemis menentang hukum tradisional Pertukaran Setara. Saat Edward menjadi alkemis terkenal dan mendapat julukan “Fullmetal,” perjalanan kedua anak laki-laki itu melibatkan mereka dalam konspirasi yang berkembang yang mengancam nasib dunia.'
@@ -288,7 +288,7 @@ const series = [
         licensors: 'None found',
         rating: 'R-17+',
         rate: '8.60',
-        scores: [],
+        scores: [8.60],
         genre: ['Action'],
         p1: 'Secara garis besar, My Liberation Notes berfokus pada kehidupan sebuah keluarga di sebuah permukiman di pinggiran Seoul bernama Sanpo. Keluarga ini terdiri dari ibu, ayah dan tiga anak mereka.Yeom Gi-jeong (Lee El) adalah anak tertua dari tiga bersaudara. Dia dikenal sebagai perempuan yang memiliki temperamen tinggi.Sebagai anak sulung, Gi-jeong sangat fokus pada pekerjaannya yang berada di Seoul. Ia sering mengeluh tentang pekerjaannya dan berharap bisa menemukan cinta.Yeom Chang-hee (Lee Min-ki) adalah anak tengah dari tiga bersaudara. Sebagai satu-satunya anak laki-laki dari keluarga tersebut, Chang-hee ingin melarikan diri dari rumahnya di Desa Sanpo. Ia pun bekerja di Seoul dan dikenal sebagai karyawan yang rajin.',
         p2: 'Namun, dia tidak memiliki tujuan dan hanya menghabiskan hidupnya tanpa arti. Dia pun dipandang rendah oleh anggota keluarganya.Yeom Mi-jeong (Kim Ji-won) adalah anak bungsu dari tiga bersaudara. Dia ingin dibebaskan dari kehidupan anak kampung yang membosankan dengan bekerja di Seoul.Namun, dia tertutup dan pemalu di antara rekan kerja yang lain. Dia juga selalu merasa kesepian dan kekurangan dalam menjalani kehidupannya.Kisah tiga bersaudara itu semakin rumit dengan kehadiran Tuan Gu (Son Seok-koo), seorang pria yang tiba-tiba muncul di Desa Sanpo. Ia selalu mabuk dan membuat ketiga kakak beradik itu penasaran dengan sosoknya yang misterius.'
@@ -309,7 +309,7 @@ const series = [
         licensors: 'None found',
         rating: 'R-17+',
         rate: '8.60',
-        scores: [],
+        scores: [8.60],
         genre: ['Action', 'Anime', 'Comedy', 'Fantasy'],
         p1: 'Monkey D. Luffy merupakan seorang pemuda yang terinspirasi oleh idola masa kecilnya dan bajak laut kuat bernama Red Haired. Lalu Luffy mencoba melakukan perjalanan dari Laut Biru Timur untuk menemukan harta karun tituler dan menyatakan bahwa dirinya sebagai Raja Dunia.Dalam upaya menemukan krunya sendiri untuk Bajak Laut Topi Jerami, Luffy menyelamatkan dan berteman dengan seorang pendekar pedang bernama Roronoa Zoro dan mereka pergi untuk mencari One Piece.',
         p2: 'Mereka bergabung dalam perjalanan bajak laut sampai suatu saat mereka menemukan sebuah kapal bernama Going Merry dan terlibat dalam konfrontasi dengan bajak laut terkenal.Di sinilah petualang mereka benar-benar dimulai, Kapal lautnya Merry juga mengalami kerusakan berat. Sehingga Luffy terus berjuang dengan para krunya untuk mengejar impian mereka.'
@@ -330,7 +330,7 @@ const series = [
         licensors: 'None found',
         rating: 'R-17+',
         rate: '8.40',
-        scores: [],
+        scores: [8.40],
         genre: ['Action'],
         p1: 'Mengisahkan sosok Vincenzo Cassano si mafia asal Italia. Sosok Vincenzo Cassano meneruskan keinginan ayahnya sebagai mafia. Vincenzo sendiri adalah anak yang diadopsi keluarga Cassano di usianya yang ke 8 tahun.Ia menjadi seorang pengacara untuk mafia Italia. Sebelum kembali ke Korea, Vincenzo menyelesaikan sengketa tanah milik keluarga Cassano.kala itu pihak musuh tidak ingin melepaskannya untuk keluarga Cassano.Tentu saja, ini memancing amarah Vincenzo dan secara halus ia membakar seluruh lahan perkebunan dan rumah musuh.Usai mengurusi urusannya, Vincenzo bergegas pergi ke rumah keluarga Cassano untuk melakukan penghormatan terakhir kepada Fabio ayah angkat Vincenzo.Sepertinya kematian ayahnya, membuat Vincenzo dan Paolo saling menikam.',
         p2: 'Paolo sosok kakak yang ingin menjadi bos untuk VIncenzo. Tentu, Vincenzo tidak mau karena baginya Paolo memiliki permainan yang licik. Tanpa ragu Vincenzo menampar Paolo dengan omongan pedasnya.Namun, Paolo tak terima dengan perlakuan Vincenzo, hingga pada malam hari Paolo menyuruh para anak buahnya untuk membunuh Vincenzo.Kecerdasan Vincenzo membuat nasib Paolo semakin terancam.Hingga akhirnya Vincenzo memutuskan untuk pergi ke Korea Selatan menjalani misi lainnya.'
@@ -351,7 +351,7 @@ const series = [
         licensors: 'None found',
         rating: 'R-17+',
         rate: '7.10',
-        scores: [],
+        scores: [7.10],
         genre: ['Romance'],
         p1: 'Drama Korea Young Lady and Gentleman ini bercerita tentang Lee Young Guk (diperankan oleh Ji Hyun Woo) yang merupakan seorang ayah tunggal dengan tiga anak. Lee Young Guk masih belum bisa melupakan kematian istrinya. Nah, untuk merawat ketiga anaknya, dia memutuskan untuk mempekerjakan Park Dan Dan (diperankan oleh Lee Se Hee) sebagai guru privat untuk ketiga anaknya. Park Dan Dan bersikap manis, hangat, dan sangat ceria saat menghadapi anak-anak. Park Dan Dan memiliki kepribadian yang cerah dan positif meskipun dia berada dalam situasi yang sulit.Seiring berjalannya waktu, Lee Young Guk pun tertarik kepada Park Dan Dan.',
         p2: 'Chemistry yang dibangun oleh Ji Hyun Woo dan Lee Se Hee akan membuat para penonton baper dengan kedekatan mereka. Terlebih dengan posisi Lee Young Guk (Ji Hyun Woo) sebagai duda anak tiga sementara Park Dan Dan (Lee Se Hee) sebagai wanita muda yang sangat ceria.Young Lady and Gentleman ini menggabungkan kisah romansa dengan kisah keluarga yang begitu hangat dan masih relatable dengan kehidupan nyata. Alur cerita dengan konflik ringan juga akan menghibur para penonton.Lantas, seperti apa kelanjutan kisah mereka?'
@@ -372,7 +372,7 @@ const series = [
         licensors: 'None found',
         rating: 'R-17+',
         rate: '8.40',
-        scores: [],
+        scores: [8.40],
         genre: ['Anime', 'Comedy'],
         p1: 'Anime Haikyuu!! Season 1 mengisahkan Shouyou Hinata (diisi suara oleh Ayumu Murase) yang bertubuh kecil menghidupkan kembali klub bola voli di sekolah menengahnya karena terinspirasi setelah menonton pemain bola voli yang dijuluki “Raksasa Kecil” beraksi. Tim yang baru terbentuk bahkan berhasil mencapai turnamen; namun, pertandingan pertama mereka ternyata menjadi yang terakhir ketika mereka secara brutal dihancurkan oleh “Raja Pengadilan”, Tobio Kageyama (diisi suara oleh Kaito Ishikawa).Hinata bersumpah untuk melampaui Kageyama, dan setelah lulus dari sekolah menengah, ia bergabung dengan tim voli SMA Karasuno—hanya untuk menemukan bahwa saingannya, Kageyama, sekarang menjadi rekan satu timnya.',
         p2: 'Berkat tinggi badannya yang pendek, Hinata berjuang untuk menemukan perannya dalam tim, bahkan dengan kekuatan lompatannya yang superior. Anehnya, Kageyama memiliki masalahnya sendiri yang hanya bisa dibantu oleh Hinata, dan belajar bekerja sama tampaknya menjadi satu-satunya cara agar tim bisa sukses.Berdasarkan manga shounen populer Haruichi Furudate dengan nama yang sama, Haikyuu!! adalah komedi olahraga yang menggembirakan dan emosional mengikuti dua atlet yang gigih ketika mereka berusaha untuk menoreh persaingan yang memanas untuk menjadikan tim voli SMA mereka yang terbaik di Jepang.'
@@ -393,7 +393,7 @@ const series = [
         licensors: 'None found',
         rating: 'R-17+',
         rate: '8.70',
-        scores: [],
+        scores: [8.70],
         genre: ['Action', 'Horror'],
         p1: 'Sinopsis Kisah dalam Stranger Things menggambarkan situasi pasca pertempuran Star Court yang telah memporak porandakan Hawkins. Monster dari The Upside Down itu telah menghancurkan kota dan masyarakat harus menata ulang situasi dan menyembuhkan trauma.Geng Hawkin juga sedang berusaha untuk memulihkan keadaan. Mereka kini hidup terpisah dan menghadapi permasalahan sendiri-sendiri di sekolah menengah. Eleven pindah ke California bersama dengan keluarga Byers, termasuk Will (Noah Schnapp). Jim Hopper (David Harbour) memang selamat dari pertempuran Star Court, tapi dia berhasil ditangkap oleh tentara Rusia.Mike Wheelers (Finn Wolfhard), Dustin (Gaten Matarazzo) dan Lucas (Caleb mclaughlin) masih tinggal di Hawkins bersama dengan Mac Mayfield (Sadie Sink).',
         p2: 'Di masa-masa sulit ini mereka harus memikirkan cara untuk mengatasi serangan monster ganas yang masih terus berusaha menguasai kota. Selain itu, misteri dari The Upside Down pun masih belum terpecahkan. Ini berarti PR mereka masih belum tuntas.Perjuangan mereka semakin berat sebab Eleven kini kehilangan kekuatan telekinetiknya, kekuatan yang selama ini menjadi andalan dalam menghadapi monster dari dimensi The Upside Down. Ancaman bagi penduduk Hawkins semakin besar sebab tentara Rusia masih bersikukuh untuk membuka pintu dimensi menuju The Upside Down.'
