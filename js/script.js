@@ -1,6 +1,6 @@
 $(document).ready(function () {
   $('.owl-carousel').owlCarousel({
-    loop: ( $('.owl-carousel .items').length > 5 ),
+    loop: false,
     margin: 10,
     rewind: true,
     nav: true,
