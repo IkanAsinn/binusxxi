@@ -319,12 +319,12 @@ footer {
 
 .pop-up.active, .pop-up.show {
   transform: translate(-50%, -50%) scale(1);
-  z-index: 104;
+  z-index: 106;
   margin-top: 3%;
 }
 
 .pop-up.overlap {
-  z-index: 106;
+  z-index: 110;
 }
 
 .pop-up-content {
@@ -553,7 +553,7 @@ table tr td.first {
   opacity: 1;
 }
 .overlay2.overlap {
-  z-index: 103;
+  z-index: 107;
 }
 #score {
   padding: 30px;
