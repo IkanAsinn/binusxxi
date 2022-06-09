@@ -1,9 +1,11 @@
 $(document).ready(function () {
   $('.owl-carousel').owlCarousel({
-    loop: true,
+    loop: ( $('.owl-carousel .items').length > 5 ),
     margin: 10,
+    rewind: true,
     nav: true,
     dots: false,
+    // slideBy: 5,
     responsive: {
       0: {
         items: 1
