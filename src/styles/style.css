@@ -100,8 +100,8 @@ html {
 
 .pp-dropdown i {
   color: #F24E1E;
-  font-size: 2.5rem;
-  transform: translateX(-35%);
+  font-size: 3rem;
+  transform: translate(-39%, 2%);
 }
 
 .dropdown-menu[data-bs-popper] {
