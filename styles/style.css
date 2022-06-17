@@ -114,15 +114,14 @@ html {
   margin-right: 5%;
 }
 
-
 .pp-dropdown {
   border-radius: 50px;
   height: 40px;
-  width: 200px;
   position: relative;
   display: flex;
   background-color: #D9D9D9;
   letter-spacing: 1px;
+  width: max-content;
 }
 
 #profile-dropdown-menu {
@@ -135,14 +134,14 @@ html {
 
 .pp-dropdown i {
   color: #F24E1E;
-  font-size: 45px;
-  /* margin-right: 5%; */
-  position: absolute;
-  left: -4px;
-  top: -3px;
-  /* transform: translate(-50%, -50%); */
+  font-size: 3rem;
+  transform: translate(-39%, 2%);
 }
 
+.dropdown-menu[data-bs-popper] {
+  left: unset !important;
+  right: 0;
+}
 
 .btn-close-yellow {
   border: none;
