@@ -12,14 +12,13 @@ let LoggedAccount;
 
 login.addEventListener('submit', function(e){
     e.preventDefault()
-    console.log('in');
     if(dataEmail.find(data => data === usr_email.value)){
-        console.log('1');
         if(!dataPassword.find(data => data === pass.value)){
             errorMessage.innerHTML = 'Wrong Password';
         }
         else{
-            if(dataPassword.findIndex(data => data === pass.value) === dataEmail.findIndex(data => data === usr_email.value)){
+            const accIndex = dataEmail.findIndex(data => data === usr_email.value);
+            if(dataPassword[accIndex] === pass.value){
                 location.replace("/binusxxi");
                 loggedAccount = dataEmail.find(data => data === usr_email.value);
                 localStorage.setItem('current-user', loggedAccount);
@@ -28,12 +27,12 @@ login.addEventListener('submit', function(e){
         }
     }
     else if(dataUsername.find(data => data === usr_email.value)){
-        console.log('2');
         if(!dataPassword.find(data => data === pass.value)){
             errorMessage.innerHTML = 'Wrong Password';
         }
         else{
-            if(dataPassword.findIndex(data => data === pass.value) === dataUsername.findIndex(data => data === usr_email.value)){
+            const accIndex = dataUsername.findIndex(data => data === usr_email.value);
+            if(dataPassword[accIndex] === pass.value){
                 location.replace("/binusxxi");
                 loggedAccount = dataUsername.find(data => data === usr_email.value);
                 localStorage.setItem('current-user', loggedAccount);
